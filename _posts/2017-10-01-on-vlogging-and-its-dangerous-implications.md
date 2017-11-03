@@ -1,6 +1,6 @@
 ---
 layout: post
-title: on blogging and its dangerous applications
+title: on vlogging and its dangerous applications
 description: whats up jake paulers
 date: 2017-10-01
 ---
