@@ -3,7 +3,7 @@ layout: content
 title: About
 permalink: /about/
 ---
-Hi, I'm Kahvi. Thanks for visiting my site.
+Hi, I'm Kahvi.
 
 I study software engineering at the University of Victoria.
 

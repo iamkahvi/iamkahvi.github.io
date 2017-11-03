@@ -1,17 +1,7 @@
 ---
 layout: content
-title: Projects
+title: Portfolio
 permalink: /projects/
 ---
 
-Show off your projects here!
-- [Awesome Project]()
-- [Cool Project]()
-- [New Project]()
-- [Old Project]()
-- [Hard Project]()
-- [School Project]()
-- [Project's Project]()
-
-# Talks
-- How to blog ????
+- [i think its super cool](http://kahvipatel.com/portfolio.html)
