@@ -1,0 +1,25 @@
+# Site settings
+title: "kahvi's blog"
+description: >
+  I create here sometimes. And rarely captalize.
+
+author: kahvi patel
+email: iamkahvi@gmail.com
+twitter_username: iamkahvi
+github_username: iamkahvi
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+google_analytics_id: UA-1111111111-1
+disqus_id:
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
+
+sass:
+    style: compressed
+
+exclude: [vendor]

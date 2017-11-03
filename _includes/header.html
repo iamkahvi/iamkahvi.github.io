@@ -1,0 +1,13 @@
+<header class="c-page__header">
+  <p>
+      <a href="{{ "/" | prepend: site.baseurl }}">Home</a><span
+        class="u-separate"></span> <a href="{{ "/projects/" | prepend:
+        site.baseurl }}">Projects</a><span class="u-separate"></span> <a href="{{ "/about/" | prepend: site.baseurl }}">About</a>
+  </p>
+    <h1>{{ site.title}}</h1>
+
+    {% if page.title == 'Home' %}
+        <h2>{{ site.description }}</h2>
+    {% endif %}
+
+</header>
