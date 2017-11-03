@@ -22,10 +22,13 @@ Human don’t make good decisions.
 3. Personal Finance
 	- Save more money
 
-The Nudge Unit in the UK government.
+Example: 
+- The Nudge Unit in the UK government.
 
 <iframe width="800" height="400" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQbhGJ1vWhHEqiSP5GWtoDDi-hoBd5OhuGNu7grNfqrNTimkB7VsohD0Ucckkvu2fyW0MrlLvQJhdBu/pubhtml?gid=1770440070&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
-Danny Kahneman and Amos Tversky
-Richard Thaler
-Nassim Taleb
+Leading People:
+- Danny Kahneman
+- Amos Tversky
+- Richard Thaler
+- Nassim Taleb
