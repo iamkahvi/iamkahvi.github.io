@@ -1,10 +1,12 @@
 ---
 layout: post
 title: "interesting"
-description: "behavioural economics/pshycology"
+description: "behavioural economics/psychology"
 date: 2017-11-03
 comments: true
 ---
+
+***this post is incomplete***
 
 ### P: People repeatedly make decisions that undermine their own long term well being.
 

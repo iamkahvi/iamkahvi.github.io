@@ -6,13 +6,15 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 03 Nov 2017 15:07:00 -0700</pubDate>
-    <lastBuildDate>Fri, 03 Nov 2017 15:07:00 -0700</lastBuildDate>
+    <pubDate>Fri, 03 Nov 2017 16:26:29 -0700</pubDate>
+    <lastBuildDate>Fri, 03 Nov 2017 16:26:29 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>interesting</title>
-        <description>&lt;h3 id=&quot;p-people-repeatedly-make-decisions-that-undermine-their-own-long-term-well-being&quot;&gt;P: People repeatedly make decisions that undermine their own long term well being.&lt;/h3&gt;
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;p-people-repeatedly-make-decisions-that-undermine-their-own-long-term-well-being&quot;&gt;P: People repeatedly make decisions that undermine their own long term well being.&lt;/h3&gt;
 
 &lt;h3 id=&quot;s-give-people-the-satisfaction-they-need-in-the-short-term-and-the-outcomes-that-want-in-the-long-term&quot;&gt;S: Give people the satisfaction they need in the short term &lt;em&gt;and&lt;/em&gt; the outcomes that want in the long term.&lt;/h3&gt;
 
@@ -63,7 +65,9 @@
     
       <item>
         <title>why keep talking?</title>
-        <description>&lt;p&gt;Two questions that I don’t know the answer to:&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Two questions that I don’t know the answer to:&lt;/p&gt;
 &lt;ol&gt;
   &lt;li&gt;Why do we keep theorizing about why the 2016 election turned out the way it did?&lt;/li&gt;
   &lt;li&gt;Why am I so much more involved in the US political system than my own?&lt;/li&gt;
@@ -112,420 +116,345 @@
       </item>
     
       <item>
-        <title>Quick Start Guide</title>
-        <description>&lt;script async=&quot;&quot; defer=&quot;&quot; src=&quot;https://buttons.github.io/buttons.js&quot;&gt;&lt;/script&gt;
-
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;https://deadbeef.me/paper-jekyll-theme/assets/paper-cover-photo.png&quot; /&gt;
-  &lt;p align=&quot;center&quot;&gt;
-     A minimalistic Jekyll Theme
-     &lt;br /&gt;
-     &lt;br /&gt;
-     &lt;a class=&quot;no-hov&quot; href=&quot;https://travis-ci.org/mkchoi212/paper-jekyll-theme&quot;&gt;&lt;img src=&quot;https://travis-ci.org/mkchoi212/paper-jekyll-theme.svg?branch=master&quot; /&gt;&lt;/a&gt;
-     &lt;a class=&quot;no-hov&quot; href=&quot;https://raw.githubusercontent.com/mkchoi212/paper-jekyll-theme/master/LICENSE&quot;&gt;&lt;img src=&quot;https://img.shields.io/badge/license-MIT-blue.svg&quot; /&gt;&lt;/a&gt;
-     &lt;br /&gt;&lt;br /&gt;
-     &lt;a class=&quot;github-button&quot; href=&quot;https://github.com/mkchoi212/paper-jekyll-theme&quot; data-size=&quot;large&quot; data-show-count=&quot;true&quot; aria-label=&quot;Star mkchoi212/paper-jekyll-theme on GitHub&quot;&gt;Stars&lt;/a&gt;
-  &lt;/p&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Paper is a minimal Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. The styling is purposely minimalistic so that you can add your own flare to the website.&lt;/p&gt;
-
-&lt;p&gt;I’m currently using this theme on my &lt;a href=&quot;https://www.deadbeef.me&quot;&gt;personal blog&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;features&quot;&gt;Features&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Compatible with Jekyll 3.x and Github Pages&lt;/li&gt;
-  &lt;li&gt;Live local reloading for faster development&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Responsive layout&lt;/strong&gt; built-in&lt;/li&gt;
-  &lt;li&gt;Supports Jekyll’s built-in Sass/SCSS preprocessor&lt;/li&gt;
-  &lt;li&gt;Supports &lt;strong&gt;Google Analytics&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;Supports &lt;strong&gt;Disqus&lt;/strong&gt; for commenting&lt;/li&gt;
-  &lt;li&gt;Minimum Dependencies&lt;/li&gt;
-  &lt;li&gt;Rakefile for automation
-    &lt;ul&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rake check&lt;/code&gt;    - Check links/html files of the generated site&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rake clean&lt;/code&gt;    - Clean up generated site&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rake post&lt;/code&gt;     - Begin a new post in &lt;code class=&quot;highlighter-rouge&quot;&gt;./_posts&lt;/code&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rake preview&lt;/code&gt;  - Preview with livereload on local machine&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;usage&quot;&gt;Usage&lt;/h2&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone https://github.com/mkchoi212/paper-jekyll-theme.git
-bundle install
-rake preview
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Then, go to your favorite brower and type in the address &lt;code class=&quot;highlighter-rouge&quot;&gt;http://127.0.0.1:YOUR_PORT_NUM_HERE&lt;/code&gt; to preview your website.&lt;/p&gt;
-
-&lt;h3 id=&quot;customization&quot;&gt;Customization&lt;/h3&gt;
-&lt;p&gt;To customize various details - title/description of the website, your SNS accout names, etc - edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file.&lt;/p&gt;
-
-&lt;h3 id=&quot;adding-posts&quot;&gt;Adding posts&lt;/h3&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rake post title=&quot;A Title&quot; [date=&quot;2012-02-09&quot;] [tags=[tag1,tag2]] [category=&quot;category&quot;]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;This will create a markdown file in the default folder where all posts are stored in Jekyll; &lt;code class=&quot;highlighter-rouge&quot;&gt;_post&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you wish to &lt;strong&gt;change the directory where posts are saved&lt;/strong&gt;, go to the &lt;code class=&quot;highlighter-rouge&quot;&gt;Rakefile&lt;/code&gt; and edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;CONFIG = { 'posts': CUSTOM_PATH_HERE }&lt;/code&gt;. This will allow &lt;code class=&quot;highlighter-rouge&quot;&gt;rake post&lt;/code&gt; to know where to save the new posts to.&lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;drafts&lt;/strong&gt; you are working on can be saved in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_drafts&lt;/code&gt; directory. When you push your code to the server, files in this directory will NOT be included to the list o posts.&lt;/p&gt;
-
-&lt;h1 id=&quot;licnese&quot;&gt;Licnese&lt;/h1&gt;
-&lt;p&gt;The MIT License (MIT)&lt;/p&gt;
-
-&lt;p&gt;Copyright (c) 2017 Mike JS. Choi&lt;/p&gt;
-
-&lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
-
-&lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
-
-&lt;p&gt;THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
+        <title>on the timelessness of skateboarding</title>
+        <description>&lt;p&gt;this is just here to remind me to write about this&lt;/p&gt;
 </description>
-        <pubDate>Fri, 21 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/07/quick-start</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/quick-start</guid>
-        
-        <category>jekyll</category>
+        <pubDate>Fri, 13 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</guid>
         
         
       </item>
     
       <item>
-        <title>Syntax Highlighting Post</title>
-        <description>&lt;p&gt;Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+        <title>on blogging and its dangerous applications</title>
+        <description>&lt;p&gt;sorry, this is just here to remind me to write about this&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/on-vlogging-and-its-dangerous-implications</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/on-vlogging-and-its-dangerous-implications</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>internet dialogues</title>
+        <description>&lt;p&gt;Don’t try to argue with someone on the internet.&lt;/p&gt;
 
-&lt;h3 id=&quot;highlighted-code-blocks&quot;&gt;Highlighted Code Blocks&lt;/h3&gt;
+&lt;p&gt;sorry im gonna finish this someday&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/09/internet-dialogues</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/internet-dialogues</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>halifax</title>
+        <description>&lt;p&gt;I’ve tried to start this a few times.&lt;/p&gt;
+&lt;p&gt;I'm going to Victoria in the fall.&lt;/p&gt;
+&lt;p&gt;Please forgive the forthcoming John-Green-teenage-romance-movie language.&lt;/p&gt;
+&lt;p&gt;I don’t know how else to say this: You are my closest group of friends.&lt;/p&gt;
 
-&lt;p&gt;To modify styling and highlight colors edit &lt;code class=&quot;highlighter-rouge&quot;&gt;/_sass/_highlighter.scss&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I can’t pretend like I’m certain about the decision I’m making. There’s so much uncertainty in my life right now and nothing really seems absolute about my future. I just know that the program in Victoria is better for me, and I feel like I'll do well there.
+&lt;p&gt;For me, this past year was the most defining period of my life and I am so thankful to you for that. &lt;/p&gt;
+&lt;p&gt;This past year was so much more about people than it was about school, and I’m only realizing that now.&lt;/p&gt;
+&lt;p&gt;I miss you guys and I will continue to miss you.&lt;/p&gt;
+&lt;p&gt;I know that you all will get somewhere great in life.&lt;/p&gt;
+&lt;p&gt;You all deserve so much. You are all so kind. Please realize that you can help sarcastic, boring pricks like me and open them up to things beyond what they can learn on their own.&lt;/p&gt;
+&lt;p&gt;You guys changed me and I owe you for that.&lt;/p&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
 
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;Sidenote: Also I'm getting a tattoo and I need your input. It's to remember Halifax. I'm thinking like just the letters &quot;UKC&quot; in like handwriting or like the geographical coordinates of Alex Hall or maybe like an anchor?? idk but plz text me before I make a bad decision&lt;/p&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/08/halifax</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/08/halifax</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>stock market</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;nav&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;pagination&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navigation&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    {% if page.previous %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.previous.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.previous.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Previous article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    {% endif %}
-    {% if page.next %}
-        &lt;span class=&quot;nt&quot;&gt;&amp;lt;a&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;href=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ site.url }}{{ page.next.url }}&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;title=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;{{ page.next.title }}&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Next article&lt;span class=&quot;nt&quot;&gt;&amp;lt;/a&amp;gt;&lt;/span&gt;
-    {% endif %}
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/nav&amp;gt;&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;&amp;lt;!-- /.pagination --&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+After spending 18 years of my life idolizing rich investement bankers on Wall Street, I have come to a brutal realization:&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;module&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;Jekyll&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;TagIndex&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Page&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;initialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@site&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@base&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@dir&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;dir&lt;/span&gt;
-      &lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'index.html'&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;vi&quot;&gt;@name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;read_yaml&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;File&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;join&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;base&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'_layouts'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'tag_index.html'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_prefix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Tagged: '&lt;/span&gt;
-      &lt;span class=&quot;n&quot;&gt;tag_title_suffix&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;site&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;config&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'tag_title_suffix'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&amp;amp;#8211;'&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'title'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag_title_prefix&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-      &lt;span class=&quot;nb&quot;&gt;self&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'description'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;An archive of posts tagged &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;tag&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;.&quot;&lt;/span&gt;
-    &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Most investing is gambling.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;h3 id=&quot;standard-code-block&quot;&gt;Standard Code Block&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;I realized this after reading Nassim Taleb’s book, Fooled by Randomness. To summarize, Taleb proves that behaviours like hindsight bias and pattern-seeking are widely prevalent in today’s society, especially in the investment banking sector. Often, bankers are victim to completely random occurences in the market, yet attribute them to “skill” and “foresight”. I wrote a bit about this:
+  &lt;br /&gt;&lt;br /&gt;
+        &lt;ul&gt;
+          &lt;li&gt;A striking example of this behavior is the justification for the start of World War 1. Clearly, the assassination of Franz Ferdinand and the escalating tension and militarization in various countries might predict international conflict. The ensuing World War seems to have been inevitable - after the events have transpired. This is an example of hindsight bias. As Niall Ferguson, a professor of history at Harvard, makes clear in his paper &lt;em&gt;The international bond market between the 1848 revolution and the outbreak of the First World War&lt;/em&gt;, war bond prices were steady. The world had not noticed these so-called significant events. &lt;b&gt;If these hints towards the upcoming conflict were as clear as we now make them out to be, why did the price of war bonds not rise?&lt;/b&gt; Was there a sudden, universal lack of desire to make profit? or were the events we speak of today not obvious at all. Clearly, the latter is more in line with human nature. We feel the need to justify events after the fact in order to reassure ourselves that we will see it coming next time.
+    &lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;matthew counts as more evidence for this point
+  &lt;img src=&quot;http://kahvipatel.com/Media/nobody2.gif&quot; alt=&quot;Small example image&quot; title=&quot;nobody2&quot; /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;You can never win against a computer.&lt;/strong&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;nav class=&quot;pagination&quot; role=&quot;navigation&quot;&amp;gt;
-    {% if page.previous %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.previous.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.previous.title }}&quot;&amp;gt;Previous article&amp;lt;/a&amp;gt;
-    {% endif %}
-    {% if page.next %}
-        &amp;lt;a href=&quot;{{ site.url }}{{ page.next.url }}&quot; class=&quot;btn&quot; title=&quot;{{ page.next.title }}&quot;&amp;gt;Next article&amp;lt;/a&amp;gt;
-    {% endif %}
-&amp;lt;/nav&amp;gt;&amp;lt;!-- /.pagination --&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;It take a human about 300-400 milliseconds to blink. Currently, it takes &lt;a href=&quot;http://www.investopedia.com/articles/investing/091615/world-high-frequency-algorithmic-trading.asp&quot;&gt;High Frequency Trading Firms&lt;/a&gt; (basically computers that trade stocks) &lt;a href=&quot;https://www.technologyreview.com/s/602135/high-frequency-trading-is-nearing-the-ultimate-speed-limit/&quot;&gt;85 nanoseconds&lt;/a&gt; to execute a trade. To put that into perspective, in the time it take you to blink your eye, &lt;em&gt;one&lt;/em&gt; HFT computer could execute 3.5 million trades. Basically, computers are just alot faster that you are.&lt;/li&gt;
+    &lt;/ul&gt;
 
-&lt;h3 id=&quot;github-gist-embed&quot;&gt;GitHub Gist Embed&lt;/h3&gt;
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Unpredictable in the short term, predictable in the long term: The only certain way to make money in the stock market is over time.&lt;/strong&gt;&lt;br /&gt;
+&lt;br /&gt;
+&lt;img src=&quot;http://awealthofcommonsense.com/wp-content/uploads/2015/11/SPX-Time-Frames.png&quot; alt=&quot;Small example image&quot; title=&quot;investing chart&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;An example of a Gist embed below.&lt;/p&gt;
+    &lt;p&gt;&lt;br /&gt;
+^if you invest in an S&amp;amp;P 500 ETF, you can basically flip a coin to see whether you will make money tommorow. In a decade though, you have a much higher chance of profit.&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;
+okay, here’s a research paper
+&lt;br /&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
 
-&lt;script src=&quot;https://gist.github.com/mmistakes/43a355923921d22cd993.js&quot;&gt;&lt;/script&gt;
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Kahvi Patel&lt;/span&gt;&lt;/p&gt;
 
-&lt;div class=&quot;footnotes&quot;&gt;
-  &lt;ol&gt;
-    &lt;li id=&quot;fn:1&quot;&gt;
-      &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Syntax_highlighting&quot;&gt;http://en.wikipedia.org/wiki/Syntax_highlighting&lt;/a&gt;&amp;nbsp;&lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
-    &lt;/li&gt;
-  &lt;/ol&gt;
-&lt;/div&gt;
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Research Paper&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Tutorial 9&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;April 17&lt;sup&gt;th&lt;/sup&gt;, 2017&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Tutor: S. Boos&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;In the early 20&lt;sup&gt;th&lt;/sup&gt; century, the separation between scientific and non-scientific theories was vague. The most practical way to distinguish a theory as scientific was to determine whether it was known a posteriori; relied on an empirical method. This meant that astrology, given its vast amounts of observed information, qualified as a scientific theory. In 1919, Karl Popper sought to contrive an alternative separation. Falsifiability was the philosophical term he coined. With this theory, Popper set the groundwork for the modern scientific method and, simultaneously, addressed the problem of induction that had troubled Hume and many other philosophers before him. Popper’s theory of Falsification, however, not only has its roots in philosophy, but in human nature. As has been the case throughout history, human nature is more prone towards what Popper distinguished as “pseudo-scientific” theories rather than “scientific” ones. Our inherent desires are what make Popper’s theory of Falsification especially relevant; Demarcation is a tool to fight against our own misleading natural instincts. In order to repress this widespread malpractice, we must employ tactics of doubt exemplified by philosophers like Descartes and Socrates in order to enforce a more logical, and therefore more productive, general consciousness. As Popper originally described in his theory, falsification, rather than confirmation, must be what we seek in order to prove our own theories.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;For Popper, the reason for distinguishing between theories was not for lack of truth; “it was not my doubting the truth of those other…theories which bothered me, but something else” (Popper 32). Neither was it because of the different nature of some theories or the variability in accuracy they provided. In fact, what bothered Popper were the incessant “confirming instances” relating to the “pseudo-scientific theories” in question. Freud’s theory of psychoanalysis, for example, was supported repeatedly by whatever the psychologist theorized. In other words, every event confirmed the theory. This practice has a flaw.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;I may illustrate this by two very different examples of human behavior: that of a man who pushes a child into the water with the intention of drowning it; and that of a man who sacrifices his life in an attempt to save the child. Each of these two cases can be explained with equal ease in Freudian and in Adlerian terms. According to Freud the first man suffered from repression (say, of some component of his Oedipus complex), while the second man had achieved sublimation. According to Adler the first man suffered fro feelings of inferiority (producing perhaps the need to prove to himself that he dared to commit some crime), and so did the second man (whose need was to prove to himself that he dared to rescue the child). (Popper 35)&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;This situation demonstrates the ambiguity of Freud’s (and Adler’s) theory. The result, no matter how unexpected or crazy, can always be justified. This method was in direct contrast to another Popper had witnessed; Einstein’s theory of gravitation. Whereas Freud’s theory relied on explanation, Einstein’s relied on prediction. More specifically, one sought confirmation, the other sought falsification. Alarmingly though, both relied on empirical evidence and the method of induction, thus classifying them both, for now, as scientific theories. Importantly, Popper did not attempt to discredit the validity of Freud’s theory, although he may have done so unconsciously. His intention was merely to distinguish it. The significance of this separation cannot be understated. As history progressed, a scientific method was developed around Popper’s falsifiability and a distinguishable separation began to emerge between science and others things.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;More than just a method for distinction between theories, Falsification has significance in human behavior. In general, humans are programmed to ignore events that do not agree with their beliefs and pay attentions to ones that do. This behavior is called confirmation bias. Unfortunately, it has been proven to exist throughout many studies, the most famous of which is the Wason Selection Task.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;He presented subjects with the three-number sequence 2, 4, 6, and asked them to try to guess the rule generating it. Their method of guessing was to produce other three-number sequences, to which the experimenter would respond “yes” or “no” depending on whether the new sequences were consistent with the rule. Once confident with their answers, the subjects would formulate the rule. The correct rule was “numbers in ascending order,” nothing more. Very few subjects discovered it because in order to do so they had to offer a series in descending order (that the experimenter would say “no” to). (Taleb 123)&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;This experiment demonstrates our inherent instinct to always seek confirmation for our own hypothesis, or theories, instead or trying to discredit them. Once the subjects had formulated a rule, their only intention became trying to find a pattern that fit it instead of trying to supply a series that was inconsistent with their hypothesis. Our natural human behavior compels us to seek confirmation. The parallels here are widespread. Today, most people gather their information (and biases) from the news. And there is more news today than ever before. The constant news cycle compounds biases. People have access to countless sources of evidence, or “number series”, which they use to confirm their own opinions. It becomes much more difficult to attempt to disprove your own opinion.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;A most poignant example of this behavior of confirmation bias is the political polarization that currently exists in the United States: both sides seek confirmation for their own theories, never falsification. Popper’s Demarcation seems to work against human instinct. For instance, Freud’s theory of psychoanalysis is more easily understandable than Einstein’s theory of gravity and thus more attractive. This inherent preference leads to many human patterns of behavior, such as illusion of control and hindsight bias. When a need to explain something arises, we are predisposed to justify our theory by seeking confirmation instead of testing it. &lt;b&gt;A striking example of this behavior is the justification for the start of World War 1. Clearly, the assassination of Franz Ferdinand and the escalating tension and militarization in various countries might predict international conflict. The ensuing World War seems to have been inevitable - after the events have transpired. This is an example of hindsight bias which generates pseudo-scientific theories. As Niall Ferguson, a professor of history at Harvard, makes clear in his paper &lt;em&gt;The international bond market between the 1848 revolution and the outbreak of the First World War&lt;/em&gt;, the world had not noticed these so-called significant events, as evidenced by the flat lining of war bond prices. If these hints towards the upcoming conflict were as clear as we now make them out to be, why did the price of war bonds not rise? Was there a sudden, universal lack of desire to make profit? or were the events we speak of today not obvious at all. Clearly, the latter is more in line with human nature. The pseudo-scientific theory suggests that the war started because of an episode of tension and militarization. This is an example of seeking confirmation and hindsight bias. We feel the need to justify events after the fact in order to reassure ourselves that we will see it coming next time.&lt;/b&gt; More often than not, however, our theories for the cause of past events are vulnerable to falsification. Until those theories in question can withstand falsification, this practice of explanation is useless.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Our constant desire to fabricate an illusion of control leads us to justify theories in unreliable ways. When theories are not tested with falsification, they can lead us to misleading conclusions or a false sense of security. In 470 BC, Socrates exposed society’s wrongful act of gathering, spreading and reciting knowledge that had illogical grounds. In what we now call “Socratic Dialogue”, Socrates reduced his subject’s opinions to a single thesis which was often illogical. Through this, he proved the Delphi’s prophecy true: he was, in fact, “the wisest of men”. This title, however, did not originate from vast education or far-reaching experience.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;I am wiser than this man; it is likely that neither of us knows anything worthwhile, but he thinks he knows something when he does not, whereas when I do not know, neither do I think I know; so I am likely to be wiser than he to this small extent, that I do not think I know what I do not know. (Plato 3)&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Socrates was merely the only man who knew the extent of his own ignorance. Today, we encounter a similar situation. Many of our generally accepted theories and personal opinions are illogical and/or justified by a flawed method. More importantly though, the vast majority of society &lt;em&gt;does not realize&lt;/em&gt; this. Descartes provides another apt exemplar. His doubt, though undoubtedly extreme, was important to build a foundation of truth upon which the rest of his beliefs were founded.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;&lt;a style=&quot;color: #000000;&quot; name=&quot;GoBack&quot;&gt;
+&lt;/a&gt;It is as though they [my beliefs] had a right to a place in my belief-system as a result of long occupation and the law of custom. These habitual opinions of mine are indeed highly probable; although they are in a sense doubtful, as I have shown, it is more reasonable to believe than to deny them. But if I go on viewing them in that light I shall never get out of the habit of confidently assenting to them. To conquer that habit, therefore, I had better switch right around and pretend (for a while) that these former opinions of mine are utterly false and imaginary. I shall do this until I have something to counter-balance the weight of old opinion, and the distorting influence of habit no longer prevents me from judging correctly. (Descartes 2)&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;The important parallel here is doubt. To doubt one’s own belief is the most basic and true form of falsification. We must draw from influences of the past to create a better future. We must take advice from Socrates and Descartes and question our own theories and opinions in order to arrive at the roots of our beliefs. We must acknowledge our own ignorance in order to take the next step towards progress.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Popper’s philosophy was originally meant to distinguish scientific theories. His philosophy of Demarcation, however, went beyond science, and addressed two methods of thinking. Unfortunately for humanity, we are prone to the less reliable mode of thinking: one that seeks confirmation. This behavior has led to a worrying trend in human history. By analyzing the past and present, we may understand how hindsight bias and the illusion of control reveal themselves in society and how they are the result of instinctual human behavior. With the problem assessed and recognized, we may understand it and endeavor to solve it. Turning to philosophers of the past, such as Descartes and Socrates, helps us recognize the underlying theme of doubt in their work and leads us to an apt solution. Doubt is perhaps the truest form of falsification and should be practiced by individuals today in order to help justify beliefs. The practice of seeking to falsify one’s own beliefs takes courage and determination but is ultimately the path towards a more reliable future. Unless we begin challenging our beliefs, instead of seeking confirmation of them, moral progress will slow. If we begin using Popper’s method in our lives, diversity of opinion and success will be the result.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Works Cited&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Popper, Karl. &lt;em&gt;Conjectures and Refutations&lt;/em&gt;. Basic Books, 1962.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Nicholas Taleb, Nassim. &lt;em&gt;The Black Swan: The Impact of the Highly Improbable.&lt;/em&gt; Random House, 2007.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Ferguson, Niall. “Political risk and the international bond market between the 1848 revolution and the outbreak of the First World War.” &lt;em&gt;Economic History Review&lt;/em&gt;, Vol 29, no. 1, February 2006.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Plato. &lt;em&gt;Apology&lt;/em&gt;. translated by G.M.A. Grube, Hackett Publishing Company, 2000.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;span style=&quot;color: #000000;&quot;&gt;Descartes, Renee. &lt;em&gt;Meditations on First Philosophy&lt;/em&gt;. translated by Jonathan F. Bennett, Cambridge University Press, 1996.&lt;/span&gt;&lt;/p&gt;
+
+    &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br /&gt;
+inspired by Nassim Nicholas Taleb and &lt;a href=&quot;http://jamesclear.com/book-summaries/fooled-by-randomness&quot;&gt;Fooled by Randomness&lt;/a&gt; (great read)&lt;/p&gt;
 </description>
         <pubDate>Thu, 20 Jul 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/07/code-highlighting</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/07/code-highlighting</guid>
-        
-        <category>sample</category>
-        
-        <category>post,</category>
-        
-        <category>code,</category>
-        
-        <category>highlighting</category>
+        <link>http://localhost:4000/2017/07/stock-market</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/07/stock-market</guid>
         
         
       </item>
     
       <item>
-        <title>Testing Readability with a Bunch of Text</title>
-        <description>&lt;p&gt;Portland in shoreditch Vice, labore typewriter pariatur hoodie fap sartorial Austin. Pinterest literally occupy Schlitz forage. Odio ad blue bottle vinyl, 90’s narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney’s. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.&lt;/p&gt;
-
-&lt;p&gt;Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. Ea fashion axe Marfa cillum aliquip. Retro Bushwick keytar cliche. Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.&lt;/p&gt;
-
-&lt;h2 id=&quot;cupidatat-90s-lo-fi-authentic-try-hard&quot;&gt;Cupidatat 90’s lo-fi authentic try-hard&lt;/h2&gt;
-
-&lt;p&gt;In pug Portland incididunt mlkshk put a bird on it vinyl quinoa. Terry Richardson shabby chic +1, scenester Tonx excepteur tempor fugiat voluptate fingerstache aliquip nisi next level. Farm-to-table hashtag Truffaut, Odd Future ex meggings gentrify single-origin coffee try-hard 90’s.&lt;/p&gt;
-
+        <title>the hair question</title>
+        <description>&lt;p&gt;Current State: Long hair&lt;/p&gt;
 &lt;ul&gt;
-  &lt;li&gt;Sartorial hoodie&lt;/li&gt;
-  &lt;li&gt;Labore viral forage&lt;/li&gt;
-  &lt;li&gt;Tote bag selvage&lt;/li&gt;
-  &lt;li&gt;DIY exercitation et id ugh tumblr church-key&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Incididunt umami sriracha, ethical fugiat VHS ex assumenda yr irure direct trade. Marfa Truffaut bicycle rights, kitsch placeat Etsy kogi asymmetrical.&lt;/p&gt;
-
-&lt;p&gt;Beard locavore.&lt;/p&gt;
-
-&lt;p&gt;Flexitarian, kitsch photo booth hoodie plaid ethical readymade leggings yr.&lt;/p&gt;
-
-&lt;p&gt;Aesthetic odio dolore, meggings disrupt qui readymade stumptown brunch Terry Richardson pour-over gluten-free. Banksy american apparel in selfies, biodiesel flexitarian organic meh wolf quinoa gentrify banjo kogi. Readymade tofu ex, scenester dolor umami fingerstache occaecat fashion axe Carles jean shorts minim. Keffiyeh fashion axe nisi Godard mlkshk dolore. Lomo you probably haven’t heard of them eu non, Odd Future Truffaut pug keytar meggings McSweeney’s Pinterest cred. Etsy literally aute esse, eu bicycle rights qui meggings fanny pack. Gentrify leggings pug flannel duis.&lt;/p&gt;
-
-&lt;h2 id=&quot;forage-occaecat-cardigan-qui&quot;&gt;Forage occaecat cardigan qui&lt;/h2&gt;
-
-&lt;p&gt;Fashion axe hella gastropub lo-fi kogi 90’s aliquip +1 veniam delectus tousled. Cred sriracha locavore gastropub kale chips, iPhone mollit sartorial. Anim dolore 8-bit, pork belly dolor photo booth aute flannel small batch. Dolor disrupt ennui, tattooed whatever salvia Banksy sartorial roof party selfies raw denim sint meh pour-over. Ennui eu cardigan sint, gentrify iPhone cornhole.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Whatever velit occaecat quis deserunt gastropub, leggings elit tousled roof party 3 wolf moon kogi pug blue bottle ea. Fashion axe shabby chic Austin quinoa pickled laborum bitters next level, disrupt deep v accusamus non fingerstache.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Tote bag asymmetrical elit sunt. Occaecat authentic Marfa, hella McSweeney’s next level irure veniam master cleanse. Sed hoodie letterpress artisan wolf leggings, 3 wolf moon commodo ullamco. Anim occupy ea labore Terry Richardson. Tofu ex master cleanse in whatever pitchfork banh mi, occupy fugiat fanny pack Austin authentic. Magna fugiat 3 wolf moon, labore McSweeney’s sustainable vero consectetur. Gluten-free disrupt enim, aesthetic fugiat jean shorts trust fund keffiyeh magna try-hard.&lt;/p&gt;
-
-&lt;h2 id=&quot;hoodie-duis&quot;&gt;Hoodie Duis&lt;/h2&gt;
-
-&lt;p&gt;Actually salvia consectetur, hoodie duis lomo YOLO sunt sriracha. Aute pop-up brunch farm-to-table odio, salvia irure occaecat. Sriracha small batch literally skateboard. Echo Park nihil hoodie, aliquip forage artisan laboris. Trust fund reprehenderit nulla locavore. Stumptown raw denim kitsch, keffiyeh nulla twee dreamcatcher fanny pack ullamco 90’s pop-up est culpa farm-to-table. Selfies 8-bit do pug odio.&lt;/p&gt;
-
-&lt;h3 id=&quot;thundercats-ho&quot;&gt;Thundercats Ho!&lt;/h3&gt;
-
-&lt;p&gt;Fingerstache thundercats Williamsburg, deep v scenester Banksy ennui vinyl selfies mollit biodiesel duis odio pop-up. Banksy 3 wolf moon try-hard, sapiente enim stumptown deep v ad letterpress. Squid beard brunch, exercitation raw denim yr sint direct trade. Raw denim narwhal id, flannel DIY McSweeney’s seitan. Letterpress artisan bespoke accusamus, meggings laboris consequat Truffaut qui in seitan. Sustainable cornhole Schlitz, twee Cosby sweater banh mi deep v forage letterpress flannel whatever keffiyeh. Sartorial cred irure, semiotics ethical sed blue bottle nihil letterpress.&lt;/p&gt;
-
-&lt;p&gt;Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard yr kogi. Ugh small batch swag four loko. Fap post-ironic qui tote bag farm-to-table american apparel scenester keffiyeh vero, swag non pour-over gentrify authentic pitchfork. Schlitz scenester lo-fi voluptate, tote bag irony bicycle rights pariatur vero Vice freegan wayfarers exercitation nisi shoreditch. Chambray tofu vero sed. Street art swag literally leggings, Cosby sweater mixtape PBR lomo Banksy non in pitchfork ennui McSweeney’s selfies. Odd Future Banksy non authentic.&lt;/p&gt;
-
-&lt;p&gt;Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Jan 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2017/01/readability</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/01/readability</guid>
-        
-        <category>sample</category>
-        
-        <category>post,</category>
-        
-        <category>readability,</category>
-        
-        <category>test,</category>
-        
-        <category>intro</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>to VENT</title>
-        <description>&lt;p&gt;I think the gravity of what happened tonight has just sunk in. Has never held political office in his life. NEVER. To replace this colossal lack of qualification, there is an argument of how being a successful business man will translate to being a successful president. Two claims are made in that statement. First, that his success was based on his own skill and talent. Second, that he is successful. To address the former claim, it is very useful to come to the realization that his entire business consists of licensing his name to various properties. The other part of his business is real state which was initially developed by his father and was consistently his main source of income. Further, what most people don’t realize is the fragility of his wealth. The vast majority of his assets are based on his name and brand; if people forget about or stop liking his name, he is not a billionaire anymore. Perhaps the most damning fact, however, is that if he had simply sat around, let his father’s real state develop and put his inheritance in an index fund, he would have more money than he does today. MORE. Second, skill in business is very easily overestimated when one starts with a loan of 1 million dollars and has the safety net of growing real estate company to fall back on. One would think that with all these advantages, hard work and skill cannot be the only factors involved: if everyone started out with the assets that he did, we would not consider him successful.&lt;/p&gt;
-
-&lt;p&gt;Yet all of this is pointless. The war on facts perpetrated by the media has very quickly lead to factual arguments being a thing of the past. When there is no longer a baseline of fact, logic cannot apply and all discussion is pointless.&lt;/p&gt;
-
-&lt;p&gt;When I really think about it, I think this is what led us to this point. Not the fact that Hillary was a woman, or the Democrats weren’t progressive enough, or that Bernie wasn’t nominated, or that James Comey is Republican, or that voter turnout hit a 7 year low, or that Trump appealed to the silent majority, or that America is still racist, or that Islamic terrorism is overstated, or that fear mongering swayed opinions, or that corporate interests were being refuted, or that Super Pacs were being proved wrong, or that electing Obama gave America a reason to be more conservative…&lt;/p&gt;
-
-&lt;p&gt;IT WAS THE FUCKING MEDIA.&lt;/p&gt;
-
-&lt;p&gt;Non-facts are being treated like facts. Misinformation is becoming a reality as viable everything else.&lt;/p&gt;
-
-&lt;h2 id=&quot;the-fact-of-it-is-that-the-media-or-how-we-react-to-the-media-has-to-change-although-its-a-long-shot-a-very-clear-line-must-be-drawn-between-beliefs-facts-and-non-facts&quot;&gt;The fact of it is that the media, or how we react to the media, has to change. Although it’s a long shot, a very clear line must be drawn between beliefs, facts and non-facts.&lt;/h2&gt;
-</description>
-        <pubDate>Sat, 26 Nov 2016 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2016/11/to-VENT</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/11/to-VENT</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>A Full and Comprehensive Style Test</title>
-        <description>&lt;p&gt;Below is just about everything you’ll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;1-header&quot;&gt;1. Header&lt;/h2&gt;
-
-&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;/h1&gt;
-
-&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;/h2&gt;
-
-&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;/h3&gt;
-
-&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;/h4&gt;
-
-&lt;h5 id=&quot;header-5&quot;&gt;Header 5&lt;/h5&gt;
-
-&lt;h6 id=&quot;header-6&quot;&gt;Header 6&lt;/h6&gt;
-
-&lt;h3 id=&quot;1-1-header-alignment&quot;&gt;1-1. Header Alignment&lt;/h3&gt;
-
-&lt;h5 id=&quot;leftdefault&quot;&gt;Left(Default)&lt;/h5&gt;
-
-&lt;h5 class=&quot;center&quot; id=&quot;center&quot;&gt;Center&lt;/h5&gt;
-
-&lt;h5 class=&quot;right&quot; id=&quot;right&quot;&gt;Right&lt;/h5&gt;
-
-&lt;h2 id=&quot;2-body-text&quot;&gt;2. Body Text&lt;/h2&gt;
-
-&lt;p&gt;Lorem ipsum dolor sit amet, &lt;a href=&quot;https://www.google.com&quot;&gt;test link&lt;/a&gt; adipiscing elit. &lt;strong&gt;This is strong.&lt;/strong&gt; Nullam dignissim convallis est. Quisque aliquam. &lt;em&gt;This is emphasized.&lt;/em&gt; Donec faucibus. Nunc iaculis suscipit dui. 5&lt;sup&gt;3&lt;/sup&gt; = 125. Water is H&lt;sub&gt;2&lt;/sub&gt;O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. &lt;u&gt;Underline&lt;/u&gt;. Maecenas ornare tortor. Donec sed tellus eget &lt;code class=&quot;highlighter-rouge&quot;&gt;COPY filename&lt;/code&gt; sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, &lt;del&gt;Dinner’s at 5:00.&lt;/del&gt; commodo vitae, feugiat in, nunc. Morbi imperdiet augue &lt;mark&gt;mark element&lt;/mark&gt; quis tellus.&lt;/p&gt;
-
-&lt;h2 id=&quot;3-images&quot;&gt;3. Images&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://placehold.it/800x400&quot; alt=&quot;Large example image&quot; title=&quot;Large example image&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://placehold.it/400x200&quot; alt=&quot;Medium example image&quot; title=&quot;Medium example image&quot; /&gt;
-&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;Small example image&quot; title=&quot;Small example image&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;3-1-image-alignment&quot;&gt;3-1. Image Alignment&lt;/h3&gt;
-
-&lt;p class=&quot;center&quot;&gt;&lt;img src=&quot;http://placehold.it/200x200&quot; alt=&quot;Center example image&quot; title=&quot;Center&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;4-blockquotes&quot;&gt;4. Blockquotes&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Lorem ipsum dolor sit amet, test link adipiscing elit. Nullam dignissim convallis est. Quisque aliquam.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;5-list-types&quot;&gt;5. List Types&lt;/h2&gt;
-
-&lt;h3 id=&quot;unordered-list&quot;&gt;Unordered List&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/li&gt;
-  &lt;li&gt;Nam ultrices nunc in nisi pellentesque ultricies. Cras scelerisque ipsum in ante laoreet viverra. Pellentesque eget quam et augue molestie tincidunt ac ut ex. Sed quis velit vulputate, rutrum nisl sit amet, molestie neque. Vivamus sed augue at turpis suscipit fringilla.&lt;/li&gt;
-  &lt;li&gt;Integer pretium nisl vitae justo aliquam, at varius nisi blandit.
-    &lt;ol&gt;
-      &lt;li&gt;Nunc vehicula nulla ac odio gravida vestibulum sed nec mauris.&lt;/li&gt;
-      &lt;li&gt;Duis at diam eget arcu dapibus consequat.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Etiam vel elit in purus iaculis pretium.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;ordered-list&quot;&gt;Ordered List&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Quisque ullamcorper leo non ex pretium, in fermentum libero imperdiet.&lt;/li&gt;
-  &lt;li&gt;Donec eu nulla euismod, rhoncus ipsum nec, faucibus elit.&lt;/li&gt;
-  &lt;li&gt;Nam blandit purus gravida, accumsan sem in, lacinia orci.
+  &lt;li&gt;Pros:
     &lt;ul&gt;
-      &lt;li&gt;Duis congue dui nec nisi posuere, at luctus velit semper.&lt;/li&gt;
-      &lt;li&gt;Suspendisse in lorem id lacus elementum pretium nec vel nibh.&lt;/li&gt;
+      &lt;li&gt;Looks better than short hair IMO&lt;/li&gt;
+      &lt;li&gt;Takes less time to prepare (Effort to Look ratio is great)&lt;/li&gt;
+      &lt;li&gt;Less money spent on haircuts (more efficient for financials)&lt;/li&gt;
+      &lt;li&gt;Looks slightly better with hats&lt;/li&gt;
+      &lt;li&gt;Compliments facial hair&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Aliquam eget ipsum laoreet, maximus risus vitae, iaculis leo.&lt;/li&gt;
-&lt;/ol&gt;
+  &lt;li&gt;Cons:
+    &lt;ul&gt;
+      &lt;li&gt;When let down, it is impossible to manage&lt;/li&gt;
+      &lt;li&gt;Gets greasy quite quickly (Discourages working out)&lt;/li&gt;
+      &lt;li&gt;Is sometimes uncomfortable when in bad bun&lt;/li&gt;
+      &lt;li&gt;Takes a long time to dry (Discourages working out)&lt;/li&gt;
+      &lt;li&gt;Extra weight?&lt;/li&gt;
+      &lt;li&gt;Cumbersome with hoods&lt;/li&gt;
+      &lt;li&gt;Discourages lying down&lt;/li&gt;
+      &lt;li&gt;Looks less professional/trustworthy&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&quot;definition-lists&quot;&gt;Definition Lists&lt;/h3&gt;
+&lt;p&gt;Alternative: Short hair&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Pros:
+    &lt;ul&gt;
+      &lt;li&gt;Easier to manage&lt;/li&gt;
+      &lt;li&gt;Would be more comfortable and usable&lt;/li&gt;
+      &lt;li&gt;Less weight?&lt;/li&gt;
+      &lt;li&gt;Less time to dry (encourages working out)&lt;/li&gt;
+      &lt;li&gt;Looks more professional/trustworthy&lt;/li&gt;
+      &lt;li&gt;Could add height&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cons:
+    &lt;ul&gt;
+      &lt;li&gt;Doesn’t look as good IMO&lt;/li&gt;
+      &lt;li&gt;Requires more haircuts&lt;/li&gt;
+      &lt;li&gt;More time to prepare in the morning&lt;/li&gt;
+      &lt;li&gt;Doesn’t really compliment the facial hair&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;dl&gt;
-  &lt;dt&gt;kramdown&lt;/dt&gt;
-  &lt;dd&gt;A Markdown-superset converter&lt;/dd&gt;
-  &lt;dt&gt;Maruku&lt;/dt&gt;
-  &lt;dd&gt;Another Markdown-superset converter&lt;/dd&gt;
-&lt;/dl&gt;
-
-&lt;h2 id=&quot;6-tables&quot;&gt;6. Tables&lt;/h2&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;Header1&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;Header2&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;Header3&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell3&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;cell4&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;cell5&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;cell6&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-  &lt;tfoot&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Foot1&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;Foot2&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;Foot3&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tfoot&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;7-code-snippets&quot;&gt;7. Code Snippets&lt;/h2&gt;
-
-&lt;h3 id=&quot;highlighted-code-blocks&quot;&gt;Highlighted Code Blocks&lt;/h3&gt;
-
-&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nf&quot;&gt;#container&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;float&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;left&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;-240px&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;standard-code-block&quot;&gt;Standard code block&lt;/h3&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;div id=&quot;awesome&quot;&amp;gt;
-  &amp;lt;p&amp;gt;This is great isn't it?&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;p&gt;oct 2017 update: I have short hair now.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 15 Aug 2016 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2016/08/style-test</link>
-        <guid isPermaLink="true">http://localhost:4000/2016/08/style-test</guid>
+        <pubDate>Wed, 10 May 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/05/the-hair-question</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/05/the-hair-question</guid>
         
-        <category>test,</category>
         
-        <category>style</category>
+      </item>
+    
+      <item>
+        <title>drafts</title>
+        <description>&lt;p&gt;take two deep breaths before reading or else youll probably faint &lt;/p&gt;
+
+&lt;p&gt;tinder bios&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’ll fuck you harder than trump is fucking middle america&lt;/li&gt;
+  &lt;li&gt;When I’m high I turn into Jaden Smiths twitter account&lt;/li&gt;
+  &lt;li&gt;I’ll pay more attention to you than dj khaled does to his garden&lt;/li&gt;
+  &lt;li&gt;The day Trump got elected I laughed so hard my left lung came out.&lt;/li&gt;
+  &lt;li&gt;I lift often. Lift people out of poverty that is. I volunteer bi weekly at an local community center.&lt;/li&gt;
+  &lt;li&gt;If you’re ever beside me on a plane, i’ll give you the armrest&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;tweets&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Appointing Rick perry to head the EPA is like appointing ryan lochte to teach calculus&lt;/li&gt;
+  &lt;li&gt;Why are the blinkers on cars always off tempo like fuck just sync up&lt;/li&gt;
+  &lt;li&gt;Yes sir it is completely fine that you are reclining your seat this early into the flight please carry on&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;gets cramp walking away from the cafeteria&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;I wish i could talk with one percent of the confidence that migos have when they rap gibberish&lt;/li&gt;
+  &lt;li&gt;Sometimes you have great professors and sometimes you have a textbook that managed to learn how to speak&lt;/li&gt;
+  &lt;li&gt;Trusting Putin is like trusting that Jimmy Fallons laugh is actually real&lt;/li&gt;
+  &lt;li&gt;if is takes me three weeks to learn how to recline the chairs in Killam then yeah I’m probably gonna fail this exam&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 03 Feb 2017 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2017/02/drafts</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/02/drafts</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>career pt.2</title>
+        <description>&lt;h3 id=&quot;disclaimer-this-was-transcribed-and-lightly-edited-from-a-voice-recording&quot;&gt;Disclaimer: This was transcribed and lightly edited from a voice recording.&lt;/h3&gt;
+
+&lt;p&gt;So I’m thinking about my career choice, what I want to do in life, how my trajectory came to be and I think I’ve noticed a pattern.&lt;/p&gt;
+
+&lt;p&gt;At first I was really into graphic design. I really latched onto that as a career path. I remember quite vividly telling my parents that it was my passion and what I wanted to do for the rest of my life.&lt;/p&gt;
+
+&lt;p&gt;That passion resulted in some pretty substantial things. I ended up running a business based mostly off of my graphic design. The purpose behind that business was never profit, it was just about gaining experience.&lt;/p&gt;
+
+&lt;p&gt;So anyway, I’ve sort of noticed a pattern about my attitude towards a career.&lt;/p&gt;
+
+&lt;p&gt;First though, this dialogue is not meant to say that graphic design is what I really should be doing because I don’t think I’ll ever know what I really should be doing; this is not meant as an argument in favour of graphic design.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I started out with graphic design. I was very passionate about that. But eventually, I said to myself that it wasn’t good enough. So I went to architecture.&lt;/p&gt;
+
+&lt;p&gt;There’s another way to look at this too. Graphic design is wholly creative, there isn’t math or physics or any kind of science involved generally. Then architecture is a pretty practical blend of creativity and the sciences.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I chose to pursue architecture and that was at about the time when I was applying to universities.&lt;/p&gt;
+
+&lt;p&gt;The reason I just jumped from graphic design to architecture, if I’m honest with myself, is that architecture looked cooler and was harder. I am quite certain that it had nothing to do with my passion to design buildings because, although I find it interesting , I do not have that passion. That said, I do have a passion to solve problems, whether it be with math or science or architecture. To sum up though, I know that the main reason why I jumped from graphic design to architecture is because it was more challenging. So I started focusing on that.&lt;/p&gt;
+
+&lt;p&gt;The grass is always greener on the other side. I began to idolize and really focus on achieving a successful career in architecture.&lt;/p&gt;
+
+&lt;p&gt;So I applied to a good architecture program and got in.&lt;/p&gt;
+
+&lt;p&gt;It’s at that point that I came crashing back down.&lt;/p&gt;
+
+&lt;p&gt;There are many reasons why I didn’t feel as motivated about architecture after I got the offer of admissions versus before. At first, my drive was mainly to overcome an obstacle. I really wanted to achieve admission to that program.&lt;/p&gt;
+
+&lt;p&gt;So, once I receive the offer, the other side became quite clear and defined. It scared me to think about a career path in architecture. That said though, from an outside perspective, it seemed obvious that architecture was my desired career path. In my head, however, I realized that I wasn’t sure about architecture and that the reasons for my attraction towards it were unfounded.&lt;/p&gt;
+
+&lt;p&gt;So I decided to take year at King’s college in Halifax, where I am now, and my plan was to do architecture after.&lt;/p&gt;
+
+&lt;p&gt;But over the winter break the pattern remerged. I wanted to do something more difficult. I wanted to make it harder for myself and so I panicked. I became really uncomfortable with the idea of going to Waterloo next year and there were a couple of reasons for that.&lt;/p&gt;
+
+&lt;p&gt;First, the fact that I am not passionate about architecture. Also important is the isolated campus and vast dissimilarity to Halifax. I wouldn’t have access to a campus or electives. I would see the same people everyday. That freaked me out.&lt;/p&gt;
+
+&lt;p&gt;So I gravitated towards engineering. I became quite obsessed, and still am, about getting into a good engineering program. To justify the switch to myself, I made up a lot of reasons that I’m still not sure are true or not. Reasons like: I need a masters in architecture to get certified as an architect; the job market didn’t look great; the program in Waterloo was very specialized, etc.&lt;/p&gt;
+
+&lt;p&gt;To elaborate on my worries about the program: It felt as though once I got into that program there wasn’t anywhere to branch off to. The program lead to one place and that was a career architecture. Had I been passionate and really interested in architecture maybe I would’ve liked that idea. I know now that carer paths are unpredictable and most often never end up where you expect them to, but that imgined certainty was a really intimidating thing.&lt;/p&gt;
+
+&lt;p&gt;That kind of certainty about your future is a big thing with me, and maybe too prominent in my mind, because ultimately I know someone graduating from an architecture program has the choice not become an architect. On the other hand though, it is easier for them to become an architect. Buuut, it’s almost certain that if you really didn’t like architecture you would gravitate towards another profession, right?&lt;/p&gt;
+
+&lt;p&gt;But with all that said, then, and even now, I have this weird mindset where whatever your undergraduate degree is, that is what you will be doing for the rest of your life. Of course that isn’t true, but the Waterloo architecture program made it seem like that.
+Anyway, I got cold feet about the program and decided that I would to go into engineering. My logic behind that choice is I would be exposed to a lot of more subjects like computer science, physics, mechanics, etc. Just a bunch of things that I think are important to know.&lt;/p&gt;
+
+&lt;p&gt;This all relates to the pattern I was talking about before.&lt;/p&gt;
+
+&lt;p&gt;I started with graphic design and wanted something harder so I went to architecture and wanted something harder so I went to engineering.&lt;/p&gt;
+
+&lt;p&gt;If I have these skills; if I had the ability to do these things, and why shouldn’t I capitalize on them and get the degree that will make me successful and well-payed and stuff.&lt;/p&gt;
+
+&lt;p&gt;I’m certain that had I not been good at math or physics, I would have passionately pursued graphic design. I think I would’ve truly enjoyed that career path.
+But with the knowledge that I can do all these things, it makes the pursuit of graphic design all the more pointless seeming.&lt;/p&gt;
+
+&lt;p&gt;It would just seem like a waste.&lt;/p&gt;
+
+&lt;p&gt;Why should Kahvi give up math and physics and engineering and do graphic design, when Joe over here who’s shit at math and physics but good at graphic design could just do Kahvi’s job?&lt;/p&gt;
+
+&lt;p&gt;And thats where I’m at right now. I think this chat has kind of cleared up some things for me. It’s a really weird thing to think about.&lt;/p&gt;
+
+&lt;p&gt;I don’t know.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Jan 2017 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2017/01/career-pt.2</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/01/career-pt.2</guid>
         
         
       </item>

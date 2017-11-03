@@ -1,8 +1,12 @@
 ---
 layout: post
 title: "why keep talking?"
+description: some recent thoughts
 date: 2017-11-02
 ---
+
+***this post is incomplete***
+
 Two questions that I don't know the answer to:
 1. Why do we keep theorizing about why the 2016 election turned out the way it did?
 2. Why am I so much more involved in the US political system than my own?
