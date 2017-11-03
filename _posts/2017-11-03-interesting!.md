@@ -6,7 +6,7 @@ date: 2017-11-03
 comments: true
 ---
 
-### P: People repeatedly make decision that undermine their own long term well being.
+### P: People repeatedly make decisions that undermine their own long term well being.
 
 ### S: Give people the satisfaction they need in the short term *and* the outcomes that want in the long term.
 
