@@ -6,9 +6,81 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 09 Nov 2017 14:26:07 -0800</pubDate>
-    <lastBuildDate>Thu, 09 Nov 2017 14:26:07 -0800</lastBuildDate>
+    <pubDate>Tue, 05 Dec 2017 16:06:45 -0800</pubDate>
+    <lastBuildDate>Tue, 05 Dec 2017 16:06:45 -0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>flights</title>
+        <description>&lt;p&gt;Boarding a flight is kinda weird.&lt;/p&gt;
+
+&lt;p&gt;Walking from the tunnel from the terminal to the plane I pass by a separate door used only by business class passengers. The first in a series of disappointments begins.
+I enter the plane and recall Dante’s three circles of the after life; Inferno, Purgatory and Heaven. Not in that order though.&lt;/p&gt;
+
+&lt;p&gt;I walk past Heaven first. What I assume to be aggressively rich people are already seated in business class and endure the somewhat aggressive stares of all the lower class plebs walking past.&lt;/p&gt;
+
+&lt;p&gt;Then premium economy, which I suppose is purgatory. The seats look less like rooms but are nicely padded with ample leg room.&lt;/p&gt;
+
+&lt;p&gt;Next are the “preferred seats” which only serve to dishearten me as as I realize how low I’ve stooped to get on this plane.&lt;/p&gt;
+
+&lt;p&gt;That worry last only 5 seconds, or thirty depending on how efficient the people ahead of you are at packing the overhead compartment, until I arrive at the sea of regular economy seats.&lt;/p&gt;
+
+&lt;p&gt;I glance over the faces of the passengers and can’t help but project an expression of jealousy and longing on them: “Aren’t I special enough to be in the front?”, “Don’t I deserve it?”&lt;/p&gt;
+
+&lt;p&gt;A plane is a unique situation where middle to high-income people are reduced to taking common transport, like a bus. Of course, being on a plane is nothing like being on a bus except of that everyone is reduced to the same level, rid of class separation for the most part.&lt;/p&gt;
+
+&lt;p&gt;The plane demonstrates how much these people are worth, or at least how much they value comfort.&lt;/p&gt;
+
+&lt;p&gt;If I had witnessed one person who somehow seemed to be enjoying the process of seating themselves in economy on this obnoxiously huge flight, it would be hard to assume their net worth because they don’t seem to value comfort like the rest of us.&lt;/p&gt;
+
+&lt;p&gt;The act of sharing space with a stranger is so uncomfortable to me that I would assume most people within their means would pay to be rid of that experience. That seems to be the problem. Our society nowadays seems hell-bent on not caring about anything and remaining distant from everyone.&lt;/p&gt;
+
+&lt;p&gt;That’s why it seems weird, to me at least, that all these people have agreed to exist in these circumstances for five hours. Those two things don’t make sense together. 
+I guess I’ve found the exact amount of value people place on their personal comfort.&lt;/p&gt;
+
+&lt;p&gt;All that said, the actually economy class seat isn’t all that bad. I’m 5’9” and 150 lbs and can sit somewhat comfortably.&lt;/p&gt;
+
+&lt;p&gt;More than your physical dimensions though, I think mastering the politics around seat manipulation are the key to a comfortable flight. Notably, armrest control and seat back position. I like to overemphasize these two points, but my answers for both are simple.&lt;/p&gt;
+
+&lt;p&gt;In terms of the seat back. You have every right to lean your seat back as much as you like.&lt;/p&gt;
+
+&lt;p&gt;In some circumstances a full seat recline would be strange, as is exemplified by the passenger in front of me who is taking a nap at 45 degrees as the flight crew is walking by with lunch, but never unacceptable. The button is there for a reason and it’s stupid not to use it. There is not doubt it causes discomfort your behind neighbour, as I am experiencing now, but that can always be somewhat alleviated with them reclining their own seat.&lt;/p&gt;
+
+&lt;p&gt;Armrests are slightly more difficult. As in most situations, I notice that older people assume the right to them immediately. Ageism. The key here is persistence. Find a purchase on the armrest and stay there. That is assuming the middle, and most valuable position is not taken yet.&lt;/p&gt;
+
+&lt;p&gt;AC105 has an absurd amount of people onboard. 
+I wonder if the rising property value of a city can be associated with how many people commute there. It is definitely the case on this flight. The line to board was the longest I’ve ever seen and paying rent in Vancouver makes me want to cry.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 15 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2017/11/flights</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/flights</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>aboriginal</title>
+        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;facts&quot;&gt;Facts&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reserves want government funding, but no government oversight&lt;/li&gt;
+  &lt;li&gt;No regulations exist for the elections of aboriginal leaders&lt;/li&gt;
+  &lt;li&gt;Infrastructure construction requires a detailed 5-year plan&lt;/li&gt;
+  &lt;li&gt;INAC (Indigenous and Northern Affairs Canada) is severely understaffed&lt;/li&gt;
+  &lt;li&gt;“Trust Rating” odes not change with leadership changes&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Tue, 14 Nov 2017 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2017/11/indigeous</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/indigeous</guid>
+        
+        
+      </item>
     
       <item>
         <title>intro</title>
@@ -392,97 +464,6 @@ inspired by Nassim Nicholas Taleb and &lt;a href=&quot;http://jamesclear.com/boo
         <pubDate>Thu, 20 Jul 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/07/stock-market</link>
         <guid isPermaLink="true">http://localhost:4000/2017/07/stock-market</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>the hair question</title>
-        <description>&lt;p&gt;Current State: Long hair&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Pros:
-    &lt;ul&gt;
-      &lt;li&gt;Looks better than short hair IMO&lt;/li&gt;
-      &lt;li&gt;Takes less time to prepare (Effort to Look ratio is great)&lt;/li&gt;
-      &lt;li&gt;Less money spent on haircuts (more efficient for financials)&lt;/li&gt;
-      &lt;li&gt;Looks slightly better with hats&lt;/li&gt;
-      &lt;li&gt;Compliments facial hair&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Cons:
-    &lt;ul&gt;
-      &lt;li&gt;When let down, it is impossible to manage&lt;/li&gt;
-      &lt;li&gt;Gets greasy quite quickly (Discourages working out)&lt;/li&gt;
-      &lt;li&gt;Is sometimes uncomfortable when in bad bun&lt;/li&gt;
-      &lt;li&gt;Takes a long time to dry (Discourages working out)&lt;/li&gt;
-      &lt;li&gt;Extra weight?&lt;/li&gt;
-      &lt;li&gt;Cumbersome with hoods&lt;/li&gt;
-      &lt;li&gt;Discourages lying down&lt;/li&gt;
-      &lt;li&gt;Looks less professional/trustworthy&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Alternative: Short hair&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Pros:
-    &lt;ul&gt;
-      &lt;li&gt;Easier to manage&lt;/li&gt;
-      &lt;li&gt;Would be more comfortable and usable&lt;/li&gt;
-      &lt;li&gt;Less weight?&lt;/li&gt;
-      &lt;li&gt;Less time to dry (encourages working out)&lt;/li&gt;
-      &lt;li&gt;Looks more professional/trustworthy&lt;/li&gt;
-      &lt;li&gt;Could add height&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Cons:
-    &lt;ul&gt;
-      &lt;li&gt;Doesn’t look as good IMO&lt;/li&gt;
-      &lt;li&gt;Requires more haircuts&lt;/li&gt;
-      &lt;li&gt;More time to prepare in the morning&lt;/li&gt;
-      &lt;li&gt;Doesn’t really compliment the facial hair&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;oct 2017 update: I have short hair now.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 10 May 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/05/the-hair-question</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/05/the-hair-question</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>drafts</title>
-        <description>&lt;p&gt;take two deep breaths before reading or else youll probably faint &lt;/p&gt;
-
-&lt;p&gt;tinder bios&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;I’ll fuck you harder than trump is fucking middle america&lt;/li&gt;
-  &lt;li&gt;When I’m high I turn into Jaden Smiths twitter account&lt;/li&gt;
-  &lt;li&gt;I’ll pay more attention to you than dj khaled does to his garden&lt;/li&gt;
-  &lt;li&gt;The day Trump got elected I laughed so hard my left lung came out.&lt;/li&gt;
-  &lt;li&gt;I lift often. Lift people out of poverty that is. I volunteer bi weekly at an local community center.&lt;/li&gt;
-  &lt;li&gt;If you’re ever beside me on a plane, i’ll give you the armrest&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;tweets&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Appointing Rick perry to head the EPA is like appointing ryan lochte to teach calculus&lt;/li&gt;
-  &lt;li&gt;Why are the blinkers on cars always off tempo like fuck just sync up&lt;/li&gt;
-  &lt;li&gt;Yes sir it is completely fine that you are reclining your seat this early into the flight please carry on&lt;/li&gt;
-  &lt;li&gt;&lt;em&gt;gets cramp walking away from the cafeteria&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;I wish i could talk with one percent of the confidence that migos have when they rap gibberish&lt;/li&gt;
-  &lt;li&gt;Sometimes you have great professors and sometimes you have a textbook that managed to learn how to speak&lt;/li&gt;
-  &lt;li&gt;Trusting Putin is like trusting that Jimmy Fallons laugh is actually real&lt;/li&gt;
-  &lt;li&gt;if is takes me three weeks to learn how to recline the chairs in Killam then yeah I’m probably gonna fail this exam&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 03 Feb 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2017/02/drafts</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/02/drafts</guid>
         
         
       </item>
