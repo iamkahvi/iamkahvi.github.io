@@ -5,10 +5,5 @@ permalink: /about/
 ---
 Hi, I'm Kahvi.
 
-I study software engineering at the University of Victoria.
-
-----
-
-## other
-
-- [Instagram](https://www.instagram.com/iamkahvi)
+I study software engineering at the University of Victoria.  
+I'm also on [Instagram](https://www.instagram.com/iamkahvi) and [Youtube](https://www.youtube.com/watch?v=LCjauGb6ouc)?
