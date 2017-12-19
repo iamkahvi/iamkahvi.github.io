@@ -5,4 +5,14 @@ description: i can’t ollie yet but I’m trying
 date: 2017-10-13
 ---
 
+*this post is incomplete*
+
+A culture tied to an object so completely, they become impossible to separate. Examples:
+
+- Skateboard
+- Soccer ball?
+- iPhone
+- Breakdancing
+- Graffiti
+
 this is just here to remind me to write about this
