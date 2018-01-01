@@ -5,6 +5,8 @@ description: reflections on audrey hepburn
 date: 2017-12-27
 ---
 
+***this post is incomplete***
+
 other than the blatant racism and subtle sexism, breakfast at tiffany’s is a film that spoke to me. 
 
 i haven’t had much experience with relationships, but I’ve often come across women who have an almost identical nature as audrey hepburn’s character did in the movie. free-spirited, wild, not normal. the moment things got regular, they force change. 

@@ -5,11 +5,13 @@ description: Age of Ambition by Evan Osnos
 date: 2017-12-12
 ---
 
-<b>*Age of Ambition: Chasing Fortune, Truth, and Faith in the New China*</b> by Evan Osnos <br>^ is a book I’ve recently read.
+***this post is incomplete***
+
+<b>*Age of Ambition: Chasing Fortune, Truth, and Faith in the New China*</b> by Evan Osnos. 
 
 Most books I read don’t stay with me for long. This one is no different.
 
-This time though, I read on a Kindle and highlighted things so that I might remember the entire book in more detail. This post is my attempt at summarizing the book using those highlighted quotations.
+To combat my failing memory, I read this book on a Kindle and highlighted things so that I might remember the entire book in more detail. This post is my attempt at summarizing the book using those highlighted quotations.
 
 China has always been a mystery to me. The variety of culture found in the United States is so broad that I find trouble believing the one-dimensional image I have in my head of China. A country with arguably the most important economy yet I have not idea how it’s run, it’s history, the source of its growth, etc.
 
@@ -25,6 +27,7 @@ It just seems like the trade off wasn’t worth it. Sure your country is arguabl
 
 >*Let your public self be like rice in a dinner: bland and inconspicuous, taking on the flavors of its surroundings while giving off no flavor of its own.*
 
+Here are my favourite highlights from the book, none of which are properly cited:
 
 >She was also moved by the way he cared for his widowed father. On their second date, he proposed marriage to her on the subway.
 
