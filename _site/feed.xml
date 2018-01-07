@@ -2,13 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>kahvi's blog</title>
-    <description>I create here sometimes. And rarely captalize. Read the &quot;intro&quot; post to learn more about the blog.
+    <description>I create here sometimes. And rarely captalize.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jan 2018 13:54:25 -0500</pubDate>
-    <lastBuildDate>Mon, 01 Jan 2018 13:54:25 -0500</lastBuildDate>
+    <pubDate>Sat, 06 Jan 2018 22:21:05 -0800</pubDate>
+    <lastBuildDate>Sat, 06 Jan 2018 22:21:05 -0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>new year</title>
+        <description>&lt;p&gt;I don’t really know what to think about 2017.&lt;/p&gt;
+
+&lt;p&gt;These are a bunch of thoughts that have nothing to do with the new year.&lt;/p&gt;
+
+&lt;p&gt;I’ve been thinking about education and what the value of a degree is, and the following seems relevant.&lt;/p&gt;
+
+&lt;h3 id=&quot;from-david-foster-wallaces-kenyon-college-commencement-speech&quot;&gt;&lt;u&gt;From David Foster Wallace’s Kenyon College Commencement Speech&lt;/u&gt;&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Here is the real, no bullshit value of your liberal arts education is supposed to be about: how to keep from going through your comfortable, prosperous, respectable adult life dead, unconscious, a slave to your head and to your natural default setting of being uniquely, completely, imperially alone day in and day out.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you worship money and things, if they are where you tap real meaning in life, then you will never have enough, never feel you have enough. It’s the truth. Worship your body and beauty and sexual allure and you will always feel ugly. And when time and age start showing, you will die a million deaths before they finally grieve you. On one level, we all know this stuff already. It’s been codified as myths, proverbs, clichés, epigrams, parables; the skeleton of every great story. The whole trick is keeping the truth up front in daily consciousness. Worship power, you will end up feeling weak and afraid, and you will need ever more power over others to numb you to your own fear. Worship your intellect, being seen as smart, you will end up feeling stupid, a fraud, always on the verge of being found out. But the insidious thing about these forms of worship is not that they’re evil or sinful, it’s that they’re unconscious. They are default settings.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Maybe that relates to my next point.&lt;/p&gt;
+
+&lt;h3 id=&quot;are-you-day-trading-from-seth-godins-blog&quot;&gt;&lt;u&gt;Are you day trading? (From Seth Godin’s Blog)&lt;/u&gt;&lt;/h3&gt;
+
+&lt;p&gt;The volatility of bitcoin turns the people who own it into addicts. At any given moment, it’s up $100 or down a thousand.&lt;br /&gt;
+When it’s up, you think you’re brilliant, that you somehow had something to do with it.
+And when it’s down, the world is about to implode.&lt;br /&gt;
+Most people don’t day trade bitcoin, but all of us day trade something. We’re hooked into something volatile, easily measured and emotional. We overdo our response to news, good or bad, and let it distract us from the long-term job of living a useful life.&lt;br /&gt;
+Your SEO results, your Facebook likes, the look on your boss’s face when she gets back from a meeting–all of these things are rife with opportunities for day trading.&lt;br /&gt;
+It’ll be volatile with or without your help. Better to set it aside and get back to the real work of making a difference instead. &lt;/p&gt;
+
+&lt;p&gt;Finally,&lt;/p&gt;
+
+&lt;h3 id=&quot;creative-people-have-a-weird-job&quot;&gt;&lt;u&gt;Creative people have a weird job&lt;/u&gt;&lt;/h3&gt;
+
+&lt;p&gt;Do you create things that &lt;em&gt;you&lt;/em&gt; think are cool, or do you create things that you think &lt;em&gt;other people&lt;/em&gt; will like. In more abstract terms, it’s the difference between staying true to yourself and selling out, right? But how do you define the line between your audience’s taste and your own. Presumably, a great creator would accumulate such a unique audience that there would be no difference between their two tastes.&lt;/p&gt;
+
+&lt;p&gt;Maybe it’s a matter of having a constant conversation with your audience. Each party challenging the other the create new and better things. The difference between that and losing your own say in the things you create is a blurry one.&lt;/p&gt;
+
+&lt;p&gt;I assume the only absolute solution is to create as if your audience is irrelevant.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018/01/new-year</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/new-year</guid>
+        
+        
+      </item>
     
       <item>
         <title>breakfast at tiffany’s</title>
@@ -46,7 +93,7 @@
 
 &lt;p&gt;the other side i am not so sure.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 27 Dec 2017 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 27 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/12/breakfast-at-tiffany's</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/breakfast-at-tiffany's</guid>
         
@@ -309,7 +356,7 @@
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Tue, 12 Dec 2017 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 12 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/12/A-book-review</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/A-book-review</guid>
         
@@ -358,7 +405,7 @@ I guess I’ve found the exact amount of value people place on their personal co
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 15 Nov 2017 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 15 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/11/flights</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/flights</guid>
         
@@ -380,7 +427,7 @@ I guess I’ve found the exact amount of value people place on their personal co
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Tue, 14 Nov 2017 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 14 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/11/indigeous</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/indigeous</guid>
         
@@ -400,7 +447,7 @@ I guess I’ve found the exact amount of value people place on their personal co
 &lt;p&gt;To be clear: On issues other than how to graduate from high school and hair care, my opinions shouldn’t be taken that seriously.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 09 Nov 2017 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 09 Nov 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/11/intro</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/intro</guid>
         
@@ -453,7 +500,7 @@ I guess I’ve found the exact amount of value people place on their personal co
   &lt;li&gt;Nassim Taleb&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 03 Nov 2017 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 03 Nov 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/11/interesting!</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/interesting!</guid>
         
@@ -588,7 +635,7 @@ That is not to say that US politics are not relevant to me &lt;em&gt;at all&lt;/
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Thu, 02 Nov 2017 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 02 Nov 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/11/why-keep-talking</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/why-keep-talking</guid>
         
@@ -611,7 +658,7 @@ That is not to say that US politics are not relevant to me &lt;em&gt;at all&lt;/
 
 &lt;p&gt;this is just here to remind me to write about this&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 Oct 2017 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 13 Oct 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</guid>
         
@@ -622,22 +669,9 @@ That is not to say that US politics are not relevant to me &lt;em&gt;at all&lt;/
         <title>on vlogging and its dangerous applications</title>
         <description>&lt;p&gt;The combining of your personal and professional life would probably suck right?&lt;/p&gt;
 </description>
-        <pubDate>Sun, 01 Oct 2017 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 01 Oct 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/10/on-vlogging-and-its-dangerous-implications</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/on-vlogging-and-its-dangerous-implications</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>internet dialogues</title>
-        <description>&lt;p&gt;Don’t try to argue with someone on the internet.&lt;/p&gt;
-
-&lt;p&gt;sorry im gonna finish this someday&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Sep 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/09/internet-dialogues</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/internet-dialogues</guid>
         
         
       </item>
