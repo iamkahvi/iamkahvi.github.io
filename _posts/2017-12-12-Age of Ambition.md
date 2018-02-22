@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A book review?
-description: Age of Ambition by Evan Osnos
+title: Age of Ambition
+description: a book recap
 date: 2017-12-12
 ---
 
@@ -25,7 +25,7 @@ It boils down to the fact that I am not jealous of anyone in China. The feeling 
 
 It just seems like the trade off wasn’t worth it. Sure your country is arguably the largest economic superpower in the world but where is your ~culture~? It just seems bland. Relevant quote from the book:
 
->*Let your public self be like rice in a dinner: bland and inconspicuous, taking on the flavors of its surroundings while giving off no flavor of its own.*
+>**Let your public self be like rice in a dinner: bland and inconspicuous, taking on the flavors of its surroundings while giving off no flavor of its own.**
 
 Here are my favourite highlights from the book, none of which are properly cited:
 
@@ -38,10 +38,7 @@ Here are my favourite highlights from the book, none of which are properly cited
 >I’d rather cry in a BMW than smile on a bicycle.
 
 
->the more violent the body contact of the sports you watch, the lower the class.
-
-
->Cheung Yan,
+>**the more violent the body contact of the sports you watch, the lower the class.**
 
 
 >the quantity of money passing through Macau would exceed that of Las Vegas six times over.
@@ -56,10 +53,10 @@ Here are my favourite highlights from the book, none of which are properly cited
 >The Department had a breadth of authority over the realm of ideas in China that Anne-Marie Brady, a scholar who studied it, compared to the “Vatican’s influence over the Catholic world.”
 
 
->[The Department] encompassed, by one estimate, a propaganda officer for every one hundred Chinese citizens.
+>**[The Department] encompassed, by one estimate, a propaganda officer for every one hundred Chinese citizens.**
 
 
->It was more important than ever, Party scholars pointed out, to “make their thinking conform with the dominant ideology, thereby standardizing people’s behavior.”
+>It was more important than ever, Party scholars pointed out, to “make their thinking conform with the dominant ideology, thereby standardizing people’s behaviour.”
 
 
 >Hu Shuli had a singular profile. She was an incurable muckraker, but had cultivated first-name familiarity with some of China’s most powerful Party leaders.
@@ -98,7 +95,7 @@ Here are my favourite highlights from the book, none of which are properly cited
 >How much of the drama was light and how much was dark? How much was about opportunity and how much was about repression?
 
 
->*Why the most famous image from China in the past thirty years was not of its economic rise but of the man standing in front of the tank near Tiananmen Square.*
+>**Why the most famous image from China in the past thirty years was not of its economic rise but of the man standing in front of the tank near Tiananmen Square.**
 
 
 >A study found that 70 percent of Chinese social media users relied on social media as their main source of news; in America, that number was 9 percent.
@@ -121,7 +118,7 @@ The ugly side of China’s growth is perhaps most clearly illustrated by the tra
 >In weak democracies, people paid their way into office by buying votes; in a state where there were no votes to buy, you paid the people who doled out the jobs.
 
 Corruption bruuh
->By 2012 the richest seventy members of China’s national legislature had a net worth of almost ninety billion dollars—more than ten times the combined net worth of the entire U.S. Congress.
+>**By 2012 the richest seventy members of China’s national legislature had a net worth of almost ninety billion dollars—more than ten times the combined net worth of the entire U.S. Congress.**
 
 
 >Bo Xilai looked like a movie star.
@@ -169,7 +166,7 @@ In relation to FOXCON and the suicide nets, etc:
 >Instantly, the story of the seventeen passersby began to spread across China, and it provoked a surge of self-recrimination. The writer Zhang Lijia asked, “How can we possibly win respect and play the role of a world leader if this is a nation with 1.4 billion
 
 
->In the years of the boom, people had picked up more reasons to fear the law than to trust it.
+>In the years of the boom, people had picked up **more reasons to fear the law than to trust it.**
 
 
 >How could China ever hope to invent the next big thing, the next Facebook, if it didn’t dare to let its people use this one?
