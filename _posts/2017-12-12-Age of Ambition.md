@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Age of Ambition
-description: a book recap
+description: book summary 1
 date: 2017-12-12
 ---
 
-***this post is incomplete***
+*Age of Ambition: Chasing Fortune, Truth, and Faith in the New China*<br>
+by Evan Osnos
 
-<b>*Age of Ambition: Chasing Fortune, Truth, and Faith in the New China*</b> by Evan Osnos. 
+### <u> Summary: </u>
 
 Most books I read don’t stay with me for long. This one is no different.
 
@@ -190,7 +191,3 @@ Racism:
 
 >conducted a “Chinese Dream” survey, asking whether people supported one-party rule and believed in socialism, 80 percent of the three thousand respondents replied “no” to both questions,
 
-
-
-
-***this post is incomplete***

@@ -1,9 +1,13 @@
 ---
 layout: post
 title: A Gentleman In Moscow
-description: another book review
+description: book summary 2
 date: 2018-01-22
 ---
+
+*A Gentleman in Moscow*<br>
+by Amor Towles
+
 
 ### <u> Summary: </u>
 
@@ -32,32 +36,3 @@ Many life lessons are delivered. This is one of the easier to quote ones:
 
 >“ The first was that if one did not master one’s circumstances, one was bound to be mastered by them; and the second was Montaigne’s maxim that the surest sign of wisdom is constant cheerfulness. ”
 
-<br> This is a rant :<br>
-
-## Results
-
-The goal of a business is to make a profit. 
-
-A business employs people because they do work and make the business profitable.
-
-You work towards a University degree because you will do work better and will be more attractive to businesses. 
-
-At the end of the day, all that matters is <i>results</i>. 
-
-That’s the point. Instead of proving your value through getting a degree, prove your value by getting results. 
-
-Get page views, get purchase orders, show your understanding of how consumers think and how to take advantage of it.
-
-There are very few people who teach at Universities who have attained results. They have been taught about results, they talk about results, they think about results. 
-
-But they never get results. 
-
-At the end of the day, the only way to absolutely prove you get results, is to get results.
-
-That is why I am so unsure of this University thing. No one can prove they know how to get results by teaching. Only by doing. 
-
-Summary: Success in University does not directly translate to success in the real world.
-
-The best precursor to success is University, but it is not a guarantee 
-
-***this post is incomplete***

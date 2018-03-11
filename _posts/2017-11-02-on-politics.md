@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "why keep talking?"
-description: some recent thoughts
+title: on politics
+description: some recent thoughts about 2016
 date: 2017-11-02
 ---
 
@@ -11,7 +11,7 @@ Two questions that I don't know the answer to:
 1. Why do we keep theorizing about why the 2016 election turned out the way it did?
 2. Why am I so much more involved in the US political system than my own?
 
-# 1.
+# 1. 2016 Election
 
 Never has something been so publicized. This orange buffoon was somehow always on a TV. Obviously I never thought he would be elected. In fact, I would’ve bet a lot of money on him losing the primary.
 
@@ -41,7 +41,7 @@ Main point:
 Why keep talking?
 
 
-# 2.
+# 2. 
 
 I pay more attention to US politics than I do Canadian politics. 
 

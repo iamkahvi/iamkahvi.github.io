@@ -1,6 +1,6 @@
 ---
 layout: post
-title: flights
+title: on flights
 description: toronto to vancouver
 date: 2017-11-15
 ---
@@ -13,7 +13,7 @@ I wonder if the rising property value of a city can be associated with how many 
 While walking from the terminal to the plane in that tunnel thing, I pass by a separate door used only by business class passengers. This is the first in a series of disappointments.
 As I enter the plane and recall Dante’s Divine Comedy; Inferno, Purgatory and Paradise. Though not in that order.
 
-I walk past Paradise first. What I assume to be aggressively rich people are already seated and have to endure the somewhat aggressive stares of all the lower class plebs walking past them. It this their punishment for paying such an absurd amount of money for a plane ticket? Wouldn’t they rather board after everyone else so as to avoid the awkward stares? I would.
+I walk past Paradise first. What I assume to be aggressively rich people are already seated and have to endure the somewhat hostile stares of all the lower class plebs walking past them. It this their punishment for paying such an absurd amount of money for a plane ticket? Wouldn’t they rather board after everyone else so as to avoid the awkward stares? I would.
 
 Premium economy is after, which I suppose is Purgatory. The seats evolve from thrones to generous car seats.
 

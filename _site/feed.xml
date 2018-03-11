@@ -6,26 +6,46 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Feb 2018 17:56:03 -0800</pubDate>
-    <lastBuildDate>Sun, 25 Feb 2018 17:56:03 -0800</lastBuildDate>
+    <pubDate>Sat, 10 Mar 2018 22:45:43 -0800</pubDate>
+    <lastBuildDate>Sat, 10 Mar 2018 22:45:43 -0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>Books</title>
-        <description>&lt;h2 id=&quot;-this-year-&quot;&gt;&lt;u&gt; this year &lt;/u&gt;&lt;/h2&gt;
+        <title>my book list</title>
+        <description>&lt;p&gt;Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below.&lt;/p&gt;
+
+&lt;h2 id=&quot;-this-year-&quot;&gt;&lt;u&gt; this year &lt;/u&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;A Brave New World &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;p&gt;Annihilation &lt;br /&gt;
+Unnerving and disturbing. This book is a fictional story that reads like a non-fiction account of reality. Like a black mirror episode in a novel. It’s a quick read too.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Pachinko &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;p&gt;Red Sparrow &lt;br /&gt;
+A thriller that delves into Russian culture but mostly keeps you reading it at all costs. A combination of James Patterson and John Le Carré. More Patterson than Le Carré though.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;A Gentleman in Moscow &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;p&gt;A Brave New World &lt;br /&gt;
+A terrifying view on our dystopian future. Even more striking when considered with technologies like CRISPR and stem cells. Asks many questions about human nature.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Age of Ambition: Chasing Fortune, Truth, and Faith in the New China &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;p&gt;Pachinko &lt;br /&gt;
+A book that navigates through three generations of Korean immigrants in Japan during the Second World War. The story struck a chord with me since I come from a family of immigrants. Vividly illustrates the sacrifices that the older generation makes. Really liked this one.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Gentleman in Moscow &lt;br /&gt;
+Set in the Soviet Union in Moscow in a famous hotel. A former Count lives from middle to old-age and must raise a adopted child within the walls of the hotel. He makes the best of his experience and we see him deal with the existing and developing culture of Russia. A happy ending.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Age of Ambition: Chasing Fortune, Truth, and Faith in the New China (A) &lt;br /&gt;
+A useful and striking introduction to modern day China. Illustrates the speed at which China is growing and the costs of that growth. It is long.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
@@ -33,13 +53,28 @@
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Fooled by Randomness &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;p&gt;Fooled by Randomness &lt;br /&gt;
+This book was the catalyst for my obsession with Behavioural Economics. Nassim Nicholas Taleb effectively eliminated my trust in the global stock market and everyone who works for it. I do not, however, align with his political beliefs. Taleb lays out how we all operate under frightening amounts of randomness. Highly recommend.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Thanks, Obama &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;p&gt;Thanks, Obama &lt;br /&gt;
+Being deeply immersed in US political news has made working in the White House have a magical allure. This book grounded some of my dreams in reality, but also elevated many more. Being surrounded by capable, hopeful idealists who shape the future of the world everyday will never get old.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;The Rosie Project &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+    &lt;p&gt;The Rosie Project &lt;br /&gt;
+I started this book because Bill Gates recommended it. The whole book doesn’t seem grounded in reality, but that doesn’t make it less interesting. It speaks to how people meet each other and what influences us to start or end relationships.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;I will to finish these summaries&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Three-Body Problem 
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;A Visit from the Goon Squad &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
@@ -123,7 +158,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&quot;all-the-highlights-from-those-books-&quot;&gt;&lt;u&gt;All the highlights from those books &lt;/u&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;all-the-highlights-from-those-books-this-is-a-very-long-list-&quot;&gt;&lt;u&gt;All the highlights from those books (this is a very long list) &lt;/u&gt;&lt;/h2&gt;
 
 &lt;h3 id=&quot;a-gentleman-in-moscow-amor-towles&quot;&gt;A Gentleman in Moscow, Amor Towles&lt;/h3&gt;
 
@@ -7394,15 +7429,18 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Wed, 21 Feb 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018/02/Books</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/02/Books</guid>
+        <link>http://localhost:4000/2018/02/my-Book-List</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/02/my-Book-List</guid>
         
         
       </item>
     
       <item>
         <title>A Gentleman In Moscow</title>
-        <description>&lt;h3 id=&quot;-summary-&quot;&gt;&lt;u&gt; Summary: &lt;/u&gt;&lt;/h3&gt;
+        <description>&lt;p&gt;&lt;em&gt;A Gentleman in Moscow&lt;/em&gt;&lt;br /&gt;
+by Amor Towles&lt;/p&gt;
+
+&lt;h3 id=&quot;-summary-&quot;&gt;&lt;u&gt; Summary: &lt;/u&gt;&lt;/h3&gt;
 
 &lt;p&gt;A Gentleman In Moscow revolves around the romantic idea of a perfect gentleman and a splendid hotel. &lt;br /&gt;&lt;/p&gt;
 
@@ -7431,45 +7469,16 @@ The book ends with the Count escaping the hotel after saying goodbye to all his 
   &lt;p&gt;“ The first was that if one did not master one’s circumstances, one was bound to be mastered by them; and the second was Montaigne’s maxim that the surest sign of wisdom is constant cheerfulness. ”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;br /&gt; This is a rant :&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;p&gt;The goal of a business is to make a profit.&lt;/p&gt;
-
-&lt;p&gt;A business employs people because they do work and make the business profitable.&lt;/p&gt;
-
-&lt;p&gt;You work towards a University degree because you will do work better and will be more attractive to businesses.&lt;/p&gt;
-
-&lt;p&gt;At the end of the day, all that matters is &lt;i&gt;results&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p&gt;That’s the point. Instead of proving your value through getting a degree, prove your value by getting results.&lt;/p&gt;
-
-&lt;p&gt;Get page views, get purchase orders, show your understanding of how consumers think and how to take advantage of it.&lt;/p&gt;
-
-&lt;p&gt;There are very few people who teach at Universities who have attained results. They have been taught about results, they talk about results, they think about results.&lt;/p&gt;
-
-&lt;p&gt;But they never get results.&lt;/p&gt;
-
-&lt;p&gt;At the end of the day, the only way to absolutely prove you get results, is to get results.&lt;/p&gt;
-
-&lt;p&gt;That is why I am so unsure of this University thing. No one can prove they know how to get results by teaching. Only by doing.&lt;/p&gt;
-
-&lt;p&gt;Summary: Success in University does not directly translate to success in the real world.&lt;/p&gt;
-
-&lt;p&gt;The best precursor to success is University, but it is not a guarantee&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018/01/A-Gentleman-In-Moscow</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/A-Gentleman-In-Moscow</guid>
+        <link>http://localhost:4000/2018/01/a-Gentleman-In-Moscow</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/a-Gentleman-In-Moscow</guid>
         
         
       </item>
     
       <item>
-        <title>new year</title>
+        <title>thoughts on 2017</title>
         <description>&lt;p&gt;I don’t really know what to think about 2017.&lt;/p&gt;
 
 &lt;p&gt;These are a bunch of thoughts that have nothing to do with the new year.&lt;/p&gt;
@@ -7497,6 +7506,34 @@ Most people don’t day trade bitcoin, but all of us day trade something. We’r
 Your SEO results, your Facebook likes, the look on your boss’s face when she gets back from a meeting–all of these things are rife with opportunities for day trading.&lt;br /&gt;
 It’ll be volatile with or without your help. Better to set it aside and get back to the real work of making a difference instead. &lt;/p&gt;
 
+&lt;p&gt;&lt;br /&gt; This is a rant :&lt;br /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+
+&lt;p&gt;The goal of a business is to make a profit.&lt;/p&gt;
+
+&lt;p&gt;A business employs people because they do work and make the business profitable.&lt;/p&gt;
+
+&lt;p&gt;You work towards a University degree because you will do work better and will be more attractive to businesses.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, all that matters is &lt;i&gt;results&lt;/i&gt;.&lt;/p&gt;
+
+&lt;p&gt;That’s the point. Instead of proving your value through getting a degree, prove your value by getting results.&lt;/p&gt;
+
+&lt;p&gt;Get page views, get purchase orders, show your understanding of how consumers think and how to take advantage of it.&lt;/p&gt;
+
+&lt;p&gt;There are very few people who teach at Universities who have attained results. They have been taught about results, they talk about results, they think about results.&lt;/p&gt;
+
+&lt;p&gt;But they never get results.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, the only way to absolutely prove you get results, is to get results.&lt;/p&gt;
+
+&lt;p&gt;That is why I am so unsure of this University thing. No one can prove they know how to get results by teaching. Only by doing.&lt;/p&gt;
+
+&lt;p&gt;Summary: Success in University does not directly translate to success in the real world.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;p&gt;Finally,&lt;/p&gt;
 
 &lt;h3 id=&quot;creative-people-have-a-weird-job&quot;&gt;&lt;u&gt;Creative people have a weird job&lt;/u&gt;&lt;/h3&gt;
@@ -7509,14 +7546,14 @@ It’ll be volatile with or without your help. Better to set it aside and get b
 
 </description>
         <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018/01/new-year</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/new-year</guid>
+        <link>http://localhost:4000/2018/01/thoughts-on-2017</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/thoughts-on-2017</guid>
         
         
       </item>
     
       <item>
-        <title>breakfast at tiffany’s</title>
+        <title>Breakfast at Tiffany’s</title>
         <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;other than the blatant racism and subtle sexism, breakfast at tiffany’s is a film that spoke to me.&lt;/p&gt;
@@ -7560,9 +7597,10 @@ It’ll be volatile with or without your help. Better to set it aside and get b
     
       <item>
         <title>Age of Ambition</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;em&gt;Age of Ambition: Chasing Fortune, Truth, and Faith in the New China&lt;/em&gt;&lt;br /&gt;
+by Evan Osnos&lt;/p&gt;
 
-&lt;p&gt;&lt;b&gt;&lt;em&gt;Age of Ambition: Chasing Fortune, Truth, and Faith in the New China&lt;/em&gt;&lt;/b&gt; by Evan Osnos.&lt;/p&gt;
+&lt;h3 id=&quot;-summary-&quot;&gt;&lt;u&gt; Summary: &lt;/u&gt;&lt;/h3&gt;
 
 &lt;p&gt;Most books I read don’t stay with me for long. This one is no different.&lt;/p&gt;
 
@@ -7808,7 +7846,6 @@ It’ll be volatile with or without your help. Better to set it aside and get b
   &lt;p&gt;conducted a “Chinese Dream” survey, asking whether people supported one-party rule and believed in socialism, 80 percent of the three thousand respondents replied “no” to both questions,&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/12/Age-of-Ambition</link>
@@ -7818,7 +7855,7 @@ It’ll be volatile with or without your help. Better to set it aside and get b
       </item>
     
       <item>
-        <title>flights</title>
+        <title>on flights</title>
         <description>&lt;p&gt;Boarding a flight is kinda weird.&lt;/p&gt;
 
 &lt;p&gt;First, the AC105 has an absurd amount of people onboard. 
@@ -7827,7 +7864,7 @@ I wonder if the rising property value of a city can be associated with how many 
 &lt;p&gt;While walking from the terminal to the plane in that tunnel thing, I pass by a separate door used only by business class passengers. This is the first in a series of disappointments.
 As I enter the plane and recall Dante’s Divine Comedy; Inferno, Purgatory and Paradise. Though not in that order.&lt;/p&gt;
 
-&lt;p&gt;I walk past Paradise first. What I assume to be aggressively rich people are already seated and have to endure the somewhat aggressive stares of all the lower class plebs walking past them. It this their punishment for paying such an absurd amount of money for a plane ticket? Wouldn’t they rather board after everyone else so as to avoid the awkward stares? I would.&lt;/p&gt;
+&lt;p&gt;I walk past Paradise first. What I assume to be aggressively rich people are already seated and have to endure the somewhat hostile stares of all the lower class plebs walking past them. It this their punishment for paying such an absurd amount of money for a plane ticket? Wouldn’t they rather board after everyone else so as to avoid the awkward stares? I would.&lt;/p&gt;
 
 &lt;p&gt;Premium economy is after, which I suppose is Purgatory. The seats evolve from thrones to generous car seats.&lt;/p&gt;
 
@@ -7860,61 +7897,19 @@ I guess I’ve found the exact amount of value people place on their personal co
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 15 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2017/11/flights</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/flights</guid>
+        <link>http://localhost:4000/2017/11/on-flights</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/on-flights</guid>
         
         
       </item>
     
       <item>
-        <title>aboriginal</title>
+        <title>on behavioural economics</title>
         <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;facts&quot;&gt;Facts&lt;/h2&gt;
+&lt;h3 id=&quot;problem-people-repeatedly-make-decisions-that-undermine-their-own-long-term-well-being&quot;&gt;Problem: People repeatedly make decisions that undermine their own long term well being.&lt;/h3&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;Reserves want government funding, but no government oversight&lt;/li&gt;
-  &lt;li&gt;No regulations exist for the elections of aboriginal leaders&lt;/li&gt;
-  &lt;li&gt;Infrastructure construction requires a detailed 5-year plan&lt;/li&gt;
-  &lt;li&gt;INAC (Indigenous and Northern Affairs Canada) is severely understaffed&lt;/li&gt;
-  &lt;li&gt;“Trust Rating” odes not change with leadership changes&lt;/li&gt;
-&lt;/ul&gt;
-
-</description>
-        <pubDate>Tue, 14 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2017/11/indigeous</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/indigeous</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>intro</title>
-        <description>&lt;p&gt;I’ve come to realize that I am not educated enough about most subjects for anyone to take my opinion seriously.&lt;/p&gt;
-
-&lt;p&gt;All I can offer is my perspective.&lt;/p&gt;
-
-&lt;p&gt;This blog is not to educate or to persuade. Only to share.&lt;/p&gt;
-
-&lt;p&gt;If the &lt;em&gt;facts&lt;/em&gt; presented in any of these post are inaccurate, please send me an email.&lt;/p&gt;
-
-&lt;p&gt;To be clear: On issues other than how to graduate from high school and hair care, my opinions shouldn’t be taken that seriously.&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 09 Nov 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2017/11/intro</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/intro</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>interesting</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;p-people-repeatedly-make-decisions-that-undermine-their-own-long-term-well-being&quot;&gt;P: People repeatedly make decisions that undermine their own long term well being.&lt;/h3&gt;
-
-&lt;h3 id=&quot;s-give-people-the-satisfaction-they-need-in-the-short-term-and-the-outcomes-that-want-in-the-long-term&quot;&gt;S: Give people the satisfaction they need in the short term &lt;em&gt;and&lt;/em&gt; the outcomes that want in the long term.&lt;/h3&gt;
+&lt;h3 id=&quot;solution-give-people-the-satisfaction-they-need-in-the-short-term-and-the-outcomes-that-want-in-the-long-term&quot;&gt;Solution: Give people the satisfaction they need in the short term &lt;em&gt;and&lt;/em&gt; the outcomes that want in the long term.&lt;/h3&gt;
 
 &lt;p&gt;Human don’t make good decisions.&lt;/p&gt;
 
@@ -7944,8 +7939,6 @@ I guess I’ve found the exact amount of value people place on their personal co
   &lt;li&gt;The Nudge Unit in the UK government.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;iframe width=&quot;800&quot; height=&quot;400&quot; src=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vQbhGJ1vWhHEqiSP5GWtoDDi-hoBd5OhuGNu7grNfqrNTimkB7VsohD0Ucckkvu2fyW0MrlLvQJhdBu/pubhtml?gid=1770440070&amp;amp;single=true&amp;amp;widget=true&amp;amp;headers=false&quot;&gt;&lt;/iframe&gt;
-
 &lt;p&gt;Leading People:&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Danny Kahneman&lt;/li&gt;
@@ -7955,14 +7948,14 @@ I guess I’ve found the exact amount of value people place on their personal co
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 03 Nov 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/11/interesting!</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/interesting!</guid>
+        <link>http://localhost:4000/2017/11/on-behavioural-economics</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/on-behavioural-economics</guid>
         
         
       </item>
     
       <item>
-        <title>why keep talking?</title>
+        <title>on politics</title>
         <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Two questions that I don’t know the answer to:&lt;/p&gt;
@@ -7971,7 +7964,7 @@ I guess I’ve found the exact amount of value people place on their personal co
   &lt;li&gt;Why am I so much more involved in the US political system than my own?&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h1 id=&quot;1&quot;&gt;1.&lt;/h1&gt;
+&lt;h1 id=&quot;1-2016-election&quot;&gt;1. 2016 Election&lt;/h1&gt;
 
 &lt;p&gt;Never has something been so publicized. This orange buffoon was somehow always on a TV. Obviously I never thought he would be elected. In fact, I would’ve bet a lot of money on him losing the primary.&lt;/p&gt;
 
@@ -8090,8 +8083,43 @@ That is not to say that US politics are not relevant to me &lt;em&gt;at all&lt;/
 &lt;hr /&gt;
 </description>
         <pubDate>Thu, 02 Nov 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/11/why-keep-talking</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/why-keep-talking</guid>
+        <link>http://localhost:4000/2017/11/on-politics</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/11/on-politics</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>on the timelessness of skateboarding</title>
+        <description>&lt;p&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A culture tied to an object so completely, they become impossible to separate. Examples:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A skateboard and skating culture&lt;/li&gt;
+  &lt;li&gt;Soccer ball?&lt;/li&gt;
+  &lt;li&gt;iPhone and rich white kids&lt;/li&gt;
+  &lt;li&gt;Breakdancing and hip hop and graffiti&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;this is just here to remind me to write about this&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Oct 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>on internet dialogues</title>
+        <description>&lt;p&gt;Don’t try to argue with someone on the internet.&lt;/p&gt;
+
+&lt;p&gt;sorry im gonna finish this someday&lt;/p&gt;
+</description>
+        <pubDate>Sun, 03 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2017/09/on-internet-dialogues</link>
+        <guid isPermaLink="true">http://localhost:4000/2017/09/on-internet-dialogues</guid>
         
         
       </item>

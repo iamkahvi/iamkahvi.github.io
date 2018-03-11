@@ -9,10 +9,9 @@ date: 2017-10-13
 
 A culture tied to an object so completely, they become impossible to separate. Examples:
 
-- Skateboard
+- A skateboard and skating culture
 - Soccer ball?
-- iPhone
-- Breakdancing
-- Graffiti
+- iPhone and rich white kids
+- Breakdancing and hip hop and graffiti
 
 this is just here to remind me to write about this

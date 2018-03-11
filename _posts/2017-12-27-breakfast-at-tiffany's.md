@@ -1,7 +1,7 @@
 ---
 layout: post
-title: breakfast at tiffany’s
-description: reflections on audrey hepburn
+title: Breakfast at Tiffany’s
+description: reflections on audrey hepburn’s character
 date: 2017-12-27
 ---
 

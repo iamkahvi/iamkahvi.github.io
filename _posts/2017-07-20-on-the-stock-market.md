@@ -1,6 +1,6 @@
 ---
 layout: post
-title: stock market
+title: on the stock market
 description: some recent revelations
 date: 2017-07-20
 ---
@@ -8,7 +8,7 @@ date: 2017-07-20
 **_this post is incomplete_**
 
 <br>
-After spending 18 years of my life idolizing rich investement bankers on Wall Street, I have come to a brutal realization:<br>
+After spending 18 years of my life idolizing rich investment bankers on Wall Street, I have come to a brutal realization:<br>
 <br>
 
 - **Most investing is gambling.**<br><br>

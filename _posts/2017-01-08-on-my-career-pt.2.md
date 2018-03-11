@@ -1,6 +1,6 @@
 ---
 layout: post
-title: career pt.2
+title: on my career pt.2
 description: some more thoughts on my future
 date: 2017-01-08
 ---
