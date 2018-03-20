@@ -6,161 +6,13 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 10 Mar 2018 22:45:43 -0800</pubDate>
-    <lastBuildDate>Sat, 10 Mar 2018 22:45:43 -0800</lastBuildDate>
+    <pubDate>Tue, 20 Mar 2018 12:02:48 -0700</pubDate>
+    <lastBuildDate>Tue, 20 Mar 2018 12:02:48 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
-        <title>my book list</title>
-        <description>&lt;p&gt;Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below.&lt;/p&gt;
-
-&lt;h2 id=&quot;-this-year-&quot;&gt;&lt;u&gt; this year &lt;/u&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Annihilation &lt;br /&gt;
-Unnerving and disturbing. This book is a fictional story that reads like a non-fiction account of reality. Like a black mirror episode in a novel. It’s a quick read too.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Red Sparrow &lt;br /&gt;
-A thriller that delves into Russian culture but mostly keeps you reading it at all costs. A combination of James Patterson and John Le Carré. More Patterson than Le Carré though.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A Brave New World &lt;br /&gt;
-A terrifying view on our dystopian future. Even more striking when considered with technologies like CRISPR and stem cells. Asks many questions about human nature.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Pachinko &lt;br /&gt;
-A book that navigates through three generations of Korean immigrants in Japan during the Second World War. The story struck a chord with me since I come from a family of immigrants. Vividly illustrates the sacrifices that the older generation makes. Really liked this one.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A Gentleman in Moscow &lt;br /&gt;
-Set in the Soviet Union in Moscow in a famous hotel. A former Count lives from middle to old-age and must raise a adopted child within the walls of the hotel. He makes the best of his experience and we see him deal with the existing and developing culture of Russia. A happy ending.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Age of Ambition: Chasing Fortune, Truth, and Faith in the New China (A) &lt;br /&gt;
-A useful and striking introduction to modern day China. Illustrates the speed at which China is growing and the costs of that growth. It is long.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-last-year-&quot;&gt;&lt;u&gt; last year &lt;/u&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Fooled by Randomness &lt;br /&gt;
-This book was the catalyst for my obsession with Behavioural Economics. Nassim Nicholas Taleb effectively eliminated my trust in the global stock market and everyone who works for it. I do not, however, align with his political beliefs. Taleb lays out how we all operate under frightening amounts of randomness. Highly recommend.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Thanks, Obama &lt;br /&gt;
-Being deeply immersed in US political news has made working in the White House have a magical allure. This book grounded some of my dreams in reality, but also elevated many more. Being surrounded by capable, hopeful idealists who shape the future of the world everyday will never get old.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Rosie Project &lt;br /&gt;
-I started this book because Bill Gates recommended it. The whole book doesn’t seem grounded in reality, but that doesn’t make it less interesting. It speaks to how people meet each other and what influences us to start or end relationships.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;I will to finish these summaries&lt;/em&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Three-Body Problem 
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A Visit from the Goon Squad &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;A Horse Walks Into a Bar &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Undoing Project &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;American Kingpin &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Seveneves (almost) &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;So You’ve Been Publicly Shamed &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Swordspoint &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Sisters Brothers &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Psychopath Test&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;-probably-before-2017-&quot;&gt;&lt;u&gt; probably before 2017 &lt;/u&gt;&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Goldfinch &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Revenant &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Secret History &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Three-Body Problem &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Buried Giant &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;All The Light We Cannot See &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Big Short &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Flash Boys &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Boomerang &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Luminaries &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Martian &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Gone Girl &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Consider the Lobster &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In the Skin of a Lion &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Bad Monkey &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Cat’s Table &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;all-the-highlights-from-those-books-this-is-a-very-long-list-&quot;&gt;&lt;u&gt;All the highlights from those books (this is a very long list) &lt;/u&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;a-gentleman-in-moscow-amor-towles&quot;&gt;A Gentleman in Moscow, Amor Towles&lt;/h3&gt;
+        <title>my book highlights</title>
+        <description>&lt;h3 id=&quot;a-gentleman-in-moscow-amor-towles&quot;&gt;A Gentleman in Moscow, Amor Towles&lt;/h3&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;And Anna Urbanova, having put her napkin on her plate and pushed back her chair, came round the table, took the Count by the collar, and kissed him on the mouth.&lt;/p&gt;
@@ -7428,6 +7280,167 @@ I started this book because Bill Gates recommended it. The whole book doesn’t 
   &lt;p&gt;Daft Punk Homework (Discovery is also great, but he’s a bigger fan of Homework) Any Kraftwerk album&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
+        <pubDate>Tue, 20 Mar 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/03/Book-Highlights</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/03/Book-Highlights</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>my book list</title>
+        <description>&lt;p&gt;Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;These are all the &lt;a href=&quot;/2018/03/Book-Highlights&quot;&gt;highlights&lt;/a&gt; from all the books I’ve read on the Kindle.&lt;/p&gt;
+
+&lt;h2 id=&quot;-this-year-&quot;&gt;&lt;u&gt; this year &lt;/u&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Annihilation &lt;br /&gt;
+Unnerving and disturbing. This book is a fictional story that reads like a non-fiction account of reality. Like a black mirror episode in a novel. It’s a quick read too.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Red Sparrow &lt;br /&gt;
+A thriller that delves into Russian culture but mostly keeps you reading it at all costs. A combination of James Patterson and John Le Carré. More Patterson than Le Carré though.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Brave New World &lt;br /&gt;
+A terrifying view on our dystopian future. Even more striking when considered with technologies like CRISPR and stem cells. Asks many questions about human nature.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Pachinko &lt;br /&gt;
+A book that navigates through three generations of Korean immigrants in Japan during the Second World War. The story struck a chord with me since I come from a family of immigrants. Vividly illustrates the sacrifices that the older generation makes. Really liked this one.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Gentleman in Moscow &lt;br /&gt;
+Set in the Soviet Union in Moscow in a famous hotel. A former Count lives from middle to old-age and must raise a adopted child within the walls of the hotel. He makes the best of his experience and we see him deal with the existing and developing culture of Russia. A happy ending.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Age of Ambition: Chasing Fortune, Truth, and Faith in the New China (A) &lt;br /&gt;
+A useful and striking introduction to modern day China. Illustrates the speed at which China is growing and the costs of that growth. It is long.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-last-year-&quot;&gt;&lt;u&gt; last year &lt;/u&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fooled by Randomness &lt;br /&gt;
+This book was the catalyst for my obsession with Behavioural Economics. Nassim Nicholas Taleb effectively eliminated my trust in the global stock market and everyone who works for it. I do not, however, align with his political beliefs. Taleb lays out how we all operate under frightening amounts of randomness. Highly recommend.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Thanks, Obama &lt;br /&gt;
+Being deeply immersed in US political news has made working in the White House have a magical allure. This book grounded some of my dreams in reality, but also elevated many more. Being surrounded by capable, hopeful idealists who shape the future of the world everyday will never get old.&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Rosie Project &lt;br /&gt;
+I started this book because Bill Gates recommended it. The whole book doesn’t seem grounded in reality, but that doesn’t make it less interesting. It speaks to how people meet each other and what influences us to start or end relationships.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;I will to finish these summaries&lt;/em&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Three-Body Problem 
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Visit from the Goon Squad &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;A Horse Walks Into a Bar &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Undoing Project &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;American Kingpin &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Seveneves (almost) &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;So You’ve Been Publicly Shamed &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Swordspoint &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Sisters Brothers &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Psychopath Test&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;-probably-before-2017-&quot;&gt;&lt;u&gt; probably before 2017 &lt;/u&gt;&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Goldfinch &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Revenant &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Secret History &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Three-Body Problem &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Buried Giant &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;All The Light We Cannot See &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Big Short &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Flash Boys &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Boomerang &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Luminaries &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Martian &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Gone Girl &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Consider the Lobster &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In the Skin of a Lion &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Bad Monkey &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Cat’s Table &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Steve Jobs &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
         <pubDate>Wed, 21 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2018/02/my-Book-List</link>
         <guid isPermaLink="true">http://localhost:4000/2018/02/my-Book-List</guid>
@@ -8107,19 +8120,6 @@ That is not to say that US politics are not relevant to me &lt;em&gt;at all&lt;/
         <pubDate>Fri, 13 Oct 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>on internet dialogues</title>
-        <description>&lt;p&gt;Don’t try to argue with someone on the internet.&lt;/p&gt;
-
-&lt;p&gt;sorry im gonna finish this someday&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/09/on-internet-dialogues</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/on-internet-dialogues</guid>
         
         
       </item>
