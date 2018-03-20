@@ -7,7 +7,7 @@ date: 2018-02-21
 
 Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. <br>
 
-These are all the [highlights](/2018/03/Book-Highlights) from all the books I’ve read on the Kindle.
+These are all the [highlights](/bookhighlights.html) from all the books I’ve read on the Kindle.
 
 ## <u> this year </u>
 

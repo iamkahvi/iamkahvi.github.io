@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: content
 title: my book highlights
-date: 2018-03-20
+permalink: bookhighlights.html
 ---
 
 ### A Gentleman in Moscow, Amor Towles
