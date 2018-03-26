@@ -99,18 +99,16 @@ Another Jon Ronson book (SYBPS). I’ve always been fascinated by psychopaths an
 This might be my *favourite book*. I fell in love with every single character. About a boy and his journey through life.
 <br><br>
 
-*I will to finish these summaries*
-<br><br>
-
-- The Revenant <br>
-
-<br><br>
-
-- The Secret History <br><br>
-
 - The Buried Giant <br>
 This book stayed with me. Read sort of like a children’s book with bigger consequences. 
 <br><br>
+
+*I will finish these summaries*
+<br><br>
+
+- The Revenant <br><br>
+
+- The Secret History <br><br>
 
 - All The Light We Cannot See <br><br>
 
