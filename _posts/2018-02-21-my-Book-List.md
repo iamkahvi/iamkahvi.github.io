@@ -5,7 +5,7 @@ description: the books i’ve read over the past 3 years
 date: 2018-02-21
 ---
 
-Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. <br>
+Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. <br><br>
 This list will be updated continuously.
 
 These are the [highlights](/bookhighlights.html) from all the books I’ve read on the Kindle.
@@ -53,9 +53,6 @@ Being deeply immersed in US political news has made working in the White House h
 I started this book because Bill Gates recommended it. The whole book doesn’t seem grounded in reality, but that doesn’t make it less interesting. It speaks to how people meet each other and what influences us to start or end relationships.
 <br><br>
 
-*I will to finish these summaries*
-<br><br>
-
 - The Three-Body Problem <br>
 See above. 
 <br><br>
@@ -100,6 +97,9 @@ Another Jon Ronson book (SYBPS). I’ve always been fascinated by psychopaths an
 
 - The Goldfinch <br>
 This might be my *favourite book*. I fell in love with every single character. About a boy and his journey through life.
+<br><br>
+
+*I will to finish these summaries*
 <br><br>
 
 - The Revenant <br>
