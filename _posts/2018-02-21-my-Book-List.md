@@ -46,9 +46,6 @@ Being deeply immersed in US political news has made working in the White House h
 I started this book because Bill Gates recommended it. The whole book doesn’t seem grounded in reality, but that doesn’t make it less interesting. It speaks to how people meet each other and what influences us to start or end relationships.
 <br><br>
 
-*I will to finish these summaries*
-<br><br>
-
 - The Three-Body Problem 
 <br><br>
 
