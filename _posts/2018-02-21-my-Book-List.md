@@ -7,16 +7,20 @@ date: 2018-02-21
 
 Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. <br>
 
-These are all the [highlights](/bookhighlights.html) from all the books I’ve read on the Kindle.
+These are the [highlights](/bookhighlights.html) from all the books I’ve read on the Kindle.
 
 ## <u> this year </u>
+
+- The Three-Body Problem (re-read) <br>
+My favourite science-fiction novel. Involves the Chinese Cultural Revolution, chaotic motion, aliens and a funny cop. Mostly, it keeps engaging you with an overarching mystery. The novel gives you a jarring view of what contact with extra-terrestrial intelligence would feel like.
+<br><br>
 
 - Annihilation <br>
 Unnerving and disturbing. This book is a fictional story that reads like a non-fiction account of reality. Like a black mirror episode in a novel. It’s a quick read too.
 <br><br>
 
 - Red Sparrow <br>
-A thriller that delves into Russian culture but mostly keeps you reading it at all costs. A combination of James Patterson and John Le Carré. More Patterson than Le Carré though.
+A thriller that delves into Russian culture but mostly keeps you reading it at all costs. A combination of James Patterson and John Le Carré. More Patterson than Le Carré though. Also, recipes are provided at the end of every chapter.
 <br><br>
 
 - A Brave New World <br>
@@ -51,38 +55,61 @@ I started this book because Bill Gates recommended it. The whole book doesn’t 
 *I will to finish these summaries*
 <br><br>
 
-- The Three-Body Problem 
+- The Three-Body Problem <br>
+See above. 
 <br><br>
 
-- A Visit from the Goon Squad <br><br>
+- A Visit from the Goon Squad (twice)<br>
+I love this book. Describes the intertwining lives of Bennie and Sasha. The story feels melancholy the whole way through, but there are enough happy moments to pull you through.
+<br><br>
 
-- A Horse Walks Into a Bar <br><br>
+- A Horse Walks Into a Bar <br>
+A dark comedy? Takes place during one evening at a comedy club. I feel like I learned something about performance by reading this book. Also hilarious at times.
+<br><br>
 
-- The Undoing Project <br><br>
+- The Undoing Project<br>
+A *dense* book. About the inception of Behavioural Economics. Follows the relationship of two academics.
+ <br><br>
 
-- American Kingpin <br><br>
+- American Kingpin <br>
+About the founder of the dark web. Draws some pretty blurry moral lines about why the main character is guilty. Recommended by Casey Neistat.
+<br><br>
 
-- Seveneves (almost) <br><br>
+- Seveneves (almost) <br>
+Bill Gates said he loved this book so I decided to read it. I was about three-quarters of the way through before the whole plot started getting predicable and too disheartening to follow. Interesting concept though.
+<br><br>
 
-- So You’ve Been Publicly Shamed <br><br>
+- So You’ve Been Publicly Shamed <br>
+This book is SOOO relevant today. Describes what it feels like to be on the other side of internet outrage. How a mob mentality can lead to terrible consequences. 
+<br><br>
 
-- Swordspoint <br><br>
+- Swordspoint <br>
+As I’ve gotten older, my focus has turned away from fantasy and towards science-fiction. This book is an exception. 
+<br><br>
 
-- The Sisters Brothers <br><br>
+- The Sisters Brothers <br>
+Really good book. A Western with real cowboys and guns. Has a good moral at the end.
+<br><br>
 
-- The Psychopath Test
+- The Psychopath Test<br>
+Another Jon Ronson book (SYBPS). I’ve always been fascinated by psychopaths and this book centres around what defines them as such. Do they run the world’s largest corporations? Does their existence always result in a lot of dead people?
+<br><br>
 
 ## <u> probably before 2017 </u>
 
-- The Goldfinch <br><br>
+- The Goldfinch <br>
+This might be my *favourite book*. I fell in love with every single character. About a boy and his journey through life.
+<br><br>
 
-- The Revenant <br><br>
+- The Revenant <br>
+
+<br><br>
 
 - The Secret History <br><br>
 
-- The Three-Body Problem <br><br>
-
-- The Buried Giant <br><br>
+- The Buried Giant <br>
+This book stayed with me. Read sort of like a children’s book with bigger consequences. 
+<br><br>
 
 - All The Light We Cannot See <br><br>
 
@@ -101,6 +128,8 @@ I started this book because Bill Gates recommended it. The whole book doesn’t 
 - Consider the Lobster <br><br>
 
 - In the Skin of a Lion <br><br>
+
+- Game of Thrones<br><br>
 
 - Bad Monkey <br><br>
 
