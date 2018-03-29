@@ -100,15 +100,20 @@ This might be my *favourite book*. I fell in love with every single character. A
 <br><br>
 
 - The Buried Giant <br>
-This book stayed with me. Read sort of like a children’s book with bigger consequences. 
+This book stayed with me. One of the most mature fantasy novels I’ve read. The authors tone is never crowded or too detailed, yet the characters are so easy to empathize with.
 <br><br>
+
+- The Revenant <br>
+Brutal, cunning and savage. Leo Dicaprio and bears. If you liked the movie, you’ll love the book because it’s three times as long. 
+<br><br>
+
+- The Secret History <br>
+By the same author who wrote *the Goldfinch* (my favourite book). “The story is an inverted detective story, not a whodunit but a *whydunit*”. <— from Wikipedia
+<br><br>
+
 
 *I will finish these summaries*
 <br><br>
-
-- The Revenant <br><br>
-
-- The Secret History <br><br>
 
 - All The Light We Cannot See <br><br>
 

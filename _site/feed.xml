@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Mar 2018 18:18:53 -0700</pubDate>
-    <lastBuildDate>Sun, 25 Mar 2018 18:18:53 -0700</lastBuildDate>
+    <pubDate>Wed, 28 Mar 2018 14:21:00 -0700</pubDate>
+    <lastBuildDate>Wed, 28 Mar 2018 14:21:00 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -136,7 +136,17 @@ This might be my &lt;em&gt;favourite book&lt;/em&gt;. I fell in love with every 
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The Buried Giant &lt;br /&gt;
-This book stayed with me. Read sort of like a children’s book with bigger consequences. 
+This book stayed with me. One of the most mature fantasy novels I’ve read. The authors tone is never crowded or too detailed, yet the characters are so easy to empathize with.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Revenant &lt;br /&gt;
+Brutal, cunning and savage. Leo Dicaprio and bears. If you liked the movie, you’ll love the book because it’s three times as long. 
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Secret History &lt;br /&gt;
+By the same author who wrote &lt;em&gt;the Goldfinch&lt;/em&gt; (my favourite book). “The story is an inverted detective story, not a whodunit but a &lt;em&gt;whydunit&lt;/em&gt;”. &amp;lt;— from Wikipedia
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -145,12 +155,6 @@ This book stayed with me. Read sort of like a children’s book with bigger cons
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Revenant &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;The Secret History &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;All The Light We Cannot See &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
