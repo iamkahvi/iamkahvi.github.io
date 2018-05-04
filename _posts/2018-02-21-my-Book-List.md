@@ -12,8 +12,29 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 
 ## <u> this year </u>
 
+- Naked Statistics <br>
+Until reading this book, I never had a rough grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
+<br><br>
+
+- The Obelisk Gate <br>
+The second book in the Broken Earth series. Just as engaging as the first. Sped through this book in two days?
+<br><br>
+
+- The Fifth Season <br>
+I devoured this book. The first in the Broken Earth series. Starts out rough, but keeps you trapped till the end after that. The first time in a while I’ve actually been enthralled with fantasy.
+<br><br>
+
+- Death’s End <br>
+A fitting end to an amazing trilogy. This book dives even deeper into fantasy and I believe it completely every step of the way. Contains most realistic view of our (humanity’s) future, I think.
+<br><br>
+
+- The Dark Forest <br>
+The book is better than the first (The Three-Body Problem) in the trilogy. Takes a while to get started, but it’s an amazing ride once it does. If you are at all interested in alien life or astrophysics please read this book.<br>
+The ideas of a “dark forest” is so overarching and terrifying that it my changed my perception of space.  
+<br>
+
 - The Three-Body Problem (re-read) <br>
-My favourite science-fiction novel. Involves the Chinese Cultural Revolution, chaotic motion, aliens and a funny cop. Mostly, it keeps engaging you with an overarching mystery. The novel gives you a jarring view of what contact with extra-terrestrial intelligence would feel like.
+My second favourite science-fiction novel. Involves the Chinese Cultural Revolution, chaotic motion, aliens and a funny cop. Mostly, it keeps engaging you with an overarching mystery. The novel gives you a jarring view of what contact with extra-terrestrial intelligence would feel like.
 <br><br>
 
 - Annihilation <br>
