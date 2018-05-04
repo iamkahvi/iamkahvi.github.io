@@ -11,16 +11,18 @@ by Evan Osnos
 ### <u> Summary: </u>
 
 Most books I read don’t stay with me for long. This one is no different.
-
+<br><br>
 To combat my failing memory, I read this book on a Kindle and highlighted things so that I might remember the entire book in more detail. This post is my attempt at summarizing the book using those highlighted quotations.
-
+<br><br>
 China has always been a mystery to me. The variety of culture found in the United States is so broad that I find trouble believing the one-dimensional image I have in my head of China. A country with arguably the most important economy yet I have not idea how it’s run, it’s history, the source of its growth, etc.
-
+<br><br>
 Also, the idea that they’re a communist country? Doesn’t the West hate Commies? Why are we okay with this?
-
+<br><br>
 This book was easy to read for a couple reasons. First, it is an interesting introduction to a country I know nothing about. It follows personal journeys of people instead of talking about numbers and economics and boring.
-
-Second, it is somewhat reassuring. Here’s a fact that has consistently stuck in my mind: There are more MBA’s graduating every year in China than there are undergrads graduating in the US. That’s ridiculous. Especially when there is this pessimistic outlook on the job market. China is a terrifying competitor, compounded by the fact that the US President is practically handing them the role of international leadership. That is the interesting part of this book though. You are presented with their insane economic success but also China’s flaws and the negative aspect of their ridiculous growth. Notably how there entire society is more “controlled”. It often seems like a Black Mirror episode. China spends more money on domestic security than national defence. Bus routes get rerouted so citizens won’t pass the courthouse when contested cases are in session. Creepy stuff. My optimism comes from the fact that the West has freedom and China doesn’t. That inevitably changes culture and behaviour of people and that is clearly illustrated in the book.
+<br><br>
+Second, it is somewhat reassuring. Here’s a fact that has consistently stuck in my mind: There are more MBAs graduating every year in China than there are undergrads graduating in the US. That’s ridiculous. Especially when there is this pessimistic outlook on the job market. China is a terrifying competitor, compounded by the fact that the US President is practically handing them the role of international leadership. 
+<br><br>
+That is the interesting part of this book. You are presented with their insane economic success but also China’s flaws and the negative aspect of their ridiculous growth. Notably how there entire society is more “controlled”. It often seems like a Black Mirror episode. **China spends more money on domestic security than national defence**. Bus routes get rerouted so citizens won’t pass the courthouse when contested cases are in session. Creepy stuff. My optimism comes from the fact that the West has freedom and China doesn’t. That inevitably changes the culture and behaviour of people and that is clearly illustrated in the book.
 
 It boils down to the fact that I am not jealous of anyone in China. The feeling of powerlessness against the ruling party is something I am terrified of and hope to never experience. The Politburo seems to have a much lower threshold than America for throwing a hood over someones head and locking them up forever. 
 
