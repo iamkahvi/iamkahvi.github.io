@@ -11,7 +11,7 @@ other than the blatant racism and subtle sexism, breakfast at tiffany’s is a f
 
 i haven’t had much experience with relationships, but I’ve often come across women who have an almost identical nature as audrey hepburn’s character did in the movie. free-spirited, wild, not normal. the moment things got regular, they force change. 
 
-i admire that quality. at this point in my life, i loathe routine even though i live by it for the most part. as often as i can, i try to break patterns and try new things, although it is usually motivated by interest and to force change for the sake of change.
+i admire that quality. at this point in my life, i loathe routine even though i live by it for the most part. as often as i can, i try to break patterns and try new things, although it is usually motivated by interest and not to force change for the sake of change.
 
 certainly, living the way audrey’s character does has a undeniable romantic appeal. those few people i encounter who drift into my life and astonish me only to vanish just as quickly are impossible not to admire.
 
