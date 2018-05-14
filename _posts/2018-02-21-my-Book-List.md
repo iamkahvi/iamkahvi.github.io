@@ -17,20 +17,20 @@ Until reading this book, I never had a rough grasp on statistics. I’ve now rea
 <br><br>
 
 - The Obelisk Gate <br>
-The second book in the Broken Earth series. Just as engaging as the first. Sped through this book in two days?
+The second book in the Broken Earth series. Just as engaging as the first. Sped through this book in two days.
 <br><br>
 
 - The Fifth Season <br>
-I devoured this book. The first in the Broken Earth series. Starts out rough, but keeps you trapped till the end after that. The first time in a while I’ve actually been enthralled with fantasy.
+I devoured this book. The first in the Broken Earth series. Starts out rough, but keeps you trapped till the end. The first time in a while I’ve actually been enthralled with fantasy.
 <br><br>
 
 - Death’s End <br>
-A fitting end to an amazing trilogy. This book dives even deeper into fantasy and I believe it completely every step of the way. Contains most realistic view of our (humanity’s) future, I think.
+A fitting end to an amazing trilogy. This book dives even deeper into fantasy and I believe it completely every step of the way. Contains the most realistic view of our (humanity’s) future, I think.
 <br><br>
 
 - The Dark Forest <br>
 The book is better than the first (The Three-Body Problem) in the trilogy. Takes a while to get started, but it’s an amazing ride once it does. If you are at all interested in alien life or astrophysics please read this book.<br>
-The ideas of a “dark forest” is so overarching and terrifying that it my changed my perception of space.  
+The idea of a “dark forest” is so overarching and terrifying that it my changed my perception of space.  
 <br>
 
 - The Three-Body Problem (re-read) <br>

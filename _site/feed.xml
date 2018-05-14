@@ -6,9 +6,65 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 May 2018 18:40:14 -0700</pubDate>
-    <lastBuildDate>Thu, 03 May 2018 18:40:14 -0700</lastBuildDate>
+    <pubDate>Sun, 13 May 2018 21:20:38 -0400</pubDate>
+    <lastBuildDate>Sun, 13 May 2018 21:20:38 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>on statistics</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Naked-Statistics-Stripping-Dread-Data/dp/1480590185&quot;&gt;Naked Statistics&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Two concepts in statistics that are important to understand.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Law of Large Numbers
+    &lt;blockquote&gt;
+      &lt;p&gt;“An important theorem known as the law of large numbers tells us that as the number of trials increases, the average of the outcomes will get closer and closer to its expected value”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is counter intuitive. This is how I think of this theory. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;You are flipping a coin 10 times. Imagine the first eight times you flip the coin, it lands on heads. Intuitively, you would assume that the next flip is more likely to land on tails than heads. This is FALSE. &lt;br /&gt;
+Every time you flip the coin, nothing different is happening. Every flip is a 50/50 chance. &lt;br /&gt;
+At the end of your 10 flips, you have landed nine heads and one tail. This doesn’t make sense. If the likelihood of flipping both possibilities is equal, why is the outcome so skewed? &lt;br /&gt;
+This is because you have witnessed an anomaly. The chances of you hitting nine heads in a row are very small (1/512 or 0.2%). The results you have witnessed are not representative of the true probability. &lt;br /&gt;
+The true probability only emerges as you keep flipping the coin. &lt;br /&gt;
+The logic behind this is hard to get. &lt;br /&gt;
+Basically, the more time you flip the coin, the less anomalies (like nine heads in a row) will matter to the overall result. Eventually anomalies are drowned out and the true probability can be seen. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The chart below illustrates the theory. Over the first 10 trials, the average number of heads fluctuates wildly, from an underrepresentation to an overrepresentation in 10 flips. You can see how if we stopped after just 10 flips, it would be hard to draw a conclusion. &lt;br /&gt;
+As more coins are flipped though, the average number of heads move closer to 0.5, which is what probability says it should be. &lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/heads14.png “heads14”&quot; alt=&quot;Small example image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://stats.idre.ucla.edu/wp-content/uploads/2016/02/heads14.png “heads14”&quot; alt=&quot;Coin flip chart&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The law of large numbers explains why casinos always make money in the long run. The probabilities associated with all casino games favor the house (assuming that the casino can successfully prevent blackjack players from counting cards). If enough bets are wagered over a long enough time, the casino will be certain to win more than it loses.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“At first glance, reversion to the mean may appear to be at odds with the “gambler’s fallacy.” After the student throws six tails in a row, is he “due” to throw heads or not? The probability that he throws heads on the next flip is the same as it always is: ½. The fact that he has thrown lots of tails in a row does not make heads more likely on the next flip. Each flip is an independent event. However, we can expect the results of the ensuing flips to be consistent with what probability predicts, which is half heads and half tails, rather than what it has been in the past, which is all tails. It’s a virtual certainty that someone who has flipped all tails will begin throwing more heads in the ensuing 10, 20, or 100 flips. And the more flips, the more closely the outcome will resemble the 50-50 mean outcome that the law of large numbers predicts. (Or, alternatively, we should start looking for evidence of fraud.)”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Excerpt From: Wheelan, Charles. “Naked Statistics: Stripping the Dread from the Data.”&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Independent and dependent relations&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.479.3099&amp;amp;rep=rep1&amp;amp;type=pdf&quot;&gt;Luck versus Skill in the Cross-Section of Mutual Fund Returns&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 May 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018/05/on-statistics</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/05/on-statistics</guid>
+        
+        
+      </item>
     
       <item>
         <title>my book list</title>
@@ -27,23 +83,23 @@ Until reading this book, I never had a rough grasp on statistics. I’ve now rea
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The Obelisk Gate &lt;br /&gt;
-The second book in the Broken Earth series. Just as engaging as the first. Sped through this book in two days?
+The second book in the Broken Earth series. Just as engaging as the first. Sped through this book in two days.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The Fifth Season &lt;br /&gt;
-I devoured this book. The first in the Broken Earth series. Starts out rough, but keeps you trapped till the end after that. The first time in a while I’ve actually been enthralled with fantasy.
+I devoured this book. The first in the Broken Earth series. Starts out rough, but keeps you trapped till the end. The first time in a while I’ve actually been enthralled with fantasy.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Death’s End &lt;br /&gt;
-A fitting end to an amazing trilogy. This book dives even deeper into fantasy and I believe it completely every step of the way. Contains most realistic view of our (humanity’s) future, I think.
+A fitting end to an amazing trilogy. This book dives even deeper into fantasy and I believe it completely every step of the way. Contains the most realistic view of our (humanity’s) future, I think.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The Dark Forest &lt;br /&gt;
 The book is better than the first (The Three-Body Problem) in the trilogy. Takes a while to get started, but it’s an amazing ride once it does. If you are at all interested in alien life or astrophysics please read this book.&lt;br /&gt;
-The ideas of a “dark forest” is so overarching and terrifying that it my changed my perception of space.&lt;br /&gt;
+The idea of a “dark forest” is so overarching and terrifying that it my changed my perception of space.&lt;br /&gt;
 &lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -223,7 +279,7 @@ By the same author who wrote &lt;em&gt;the Goldfinch&lt;/em&gt; (my favourite bo
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Wed, 21 Feb 2018 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 21 Feb 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/02/my-Book-List</link>
         <guid isPermaLink="true">http://localhost:4000/2018/02/my-Book-List</guid>
         
@@ -265,7 +321,7 @@ The book ends with the Count escaping the hotel after saying goodbye to all his 
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Mon, 22 Jan 2018 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 22 Jan 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/01/a-Gentleman-In-Moscow</link>
         <guid isPermaLink="true">http://localhost:4000/2018/01/a-Gentleman-In-Moscow</guid>
         
@@ -340,7 +396,7 @@ It’ll be volatile with or without your help. Better to set it aside and get b
 &lt;p&gt;I assume the only absolute solution is to create as if your audience is irrelevant.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/01/thoughts-on-2017</link>
         <guid isPermaLink="true">http://localhost:4000/2018/01/thoughts-on-2017</guid>
         
@@ -383,7 +439,7 @@ It’ll be volatile with or without your help. Better to set it aside and get b
 
 &lt;p&gt;the other side i am not so sure.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 27 Dec 2017 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 27 Dec 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2017/12/breakfast-at-tiffany's</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/breakfast-at-tiffany's</guid>
         
@@ -644,7 +700,7 @@ That is the interesting part of this book. You are presented with their insane e
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Tue, 12 Dec 2017 00:00:00 -0800</pubDate>
+        <pubDate>Tue, 12 Dec 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2017/12/Age-of-Ambition</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/Age-of-Ambition</guid>
         
@@ -693,7 +749,7 @@ I guess I’ve found the exact amount of value people place on their personal co
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 15 Nov 2017 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 15 Nov 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2017/11/on-flights</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/on-flights</guid>
         
@@ -744,7 +800,7 @@ I guess I’ve found the exact amount of value people place on their personal co
   &lt;li&gt;Nassim Taleb&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Fri, 03 Nov 2017 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 03 Nov 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/11/on-behavioural-economics</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/on-behavioural-economics</guid>
         
@@ -879,7 +935,7 @@ That is not to say that US politics are not relevant to me &lt;em&gt;at all&lt;/
 
 &lt;hr /&gt;
 </description>
-        <pubDate>Thu, 02 Nov 2017 00:00:00 -0700</pubDate>
+        <pubDate>Thu, 02 Nov 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/11/on-politics</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/on-politics</guid>
         
@@ -901,22 +957,9 @@ That is not to say that US politics are not relevant to me &lt;em&gt;at all&lt;/
 
 &lt;p&gt;this is just here to remind me to write about this&lt;/p&gt;
 </description>
-        <pubDate>Fri, 13 Oct 2017 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 13 Oct 2017 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</link>
         <guid isPermaLink="true">http://localhost:4000/2017/10/on-the-timeless-beauty-of-skateboarding</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>on internet dialogues</title>
-        <description>&lt;p&gt;Don’t try to argue with someone on the internet.&lt;/p&gt;
-
-&lt;p&gt;sorry im gonna finish this someday&lt;/p&gt;
-</description>
-        <pubDate>Sun, 03 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2017/09/on-internet-dialogues</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/09/on-internet-dialogues</guid>
         
         
       </item>

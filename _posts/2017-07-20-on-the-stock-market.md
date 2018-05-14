@@ -36,9 +36,12 @@ After spending 18 years of my life idolizing rich investment bankers on Wall Str
   ![Small example image](http://awealthofcommonsense.com/wp-content/uploads/2015/11/SPX-Time-Frames.png "investing chart")
 
   <br>
-  ^if you invest in an S&P 500 ETF, you can basically flip a coin to see whether you will make money tommorow. In a decade though, you have a much higher chance of profit.<br>
+  ^if you invest in an S&P 500 index, you can basically flip a coin to see whether you will make money tommorow. In a decade though, you have a much higher chance of profit.<br>
   <br>
-  <br>
+This is a excerpt from *Naked Statistics*
+> The S&P 500 is a nice example of what an index can and should do. The index is made up of the share prices of the 500 leading U.S. companies, each weighted by its market value (so that bigger companies have more weight in the index than smaller companies). The index is a simple and accurate gauge of what is happening to the share prices of the largest American companies at any given time. 
+  
+<br>
   okay, here's a research paper
   <br>
   <br>
