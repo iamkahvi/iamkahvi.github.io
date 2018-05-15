@@ -19,7 +19,7 @@ Anyway, then he won all of it.
 
 Almost immediately after there came the speculation. It usually starts with a well-intentioned discussion of politics that devolves into people trying to justify why he won: 
 
-What is
+Was it
 - Sexism?
 - Racism?
 - The establishment?
@@ -32,7 +32,7 @@ What is
 
 I think it was the media.
 
-But the point is WHO CARES? Until we figure out how to make a truth serum and chem trail into the lungs of every American citizen, there is not concrete way to know. 
+But the point is WHO CARES? Until we figure out how to make a truth serum and chem trail it into the lungs of every American citizen, there is not concrete way to know. 
 
 Main point:
 

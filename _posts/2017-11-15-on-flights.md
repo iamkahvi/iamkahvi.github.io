@@ -11,7 +11,7 @@ First, the AC105 has an absurd amount of people onboard.
 I wonder if the rising property value of a city can be associated with how many people regularly commute there. The correlation is present for this flight. The line to board was the longest I’ve ever seen and rent in Vancouver makes me want to cry.
 
 While walking from the terminal to the plane in that tunnel thing, I pass by a separate door used only by business class passengers. This is the first in a series of disappointments.
-As I enter the plane and recall Dante’s Divine Comedy; Inferno, Purgatory and Paradise. Though not in that order.
+As I enter the plane, I recall Dante’s Divine Comedy; Inferno, Purgatory and Paradise. Though not in that order.
 
 I walk past Paradise first. What I assume to be aggressively rich people are already seated and have to endure the somewhat hostile stares of all the lower class plebs walking past them. It this their punishment for paying such an absurd amount of money for a plane ticket? Wouldn’t they rather board after everyone else so as to avoid the awkward stares? I would.
 
@@ -41,7 +41,7 @@ In terms of the seat back. You have every right to lean your seat back as much a
 
 In some circumstances a full seat recline would be strange, as is exemplified by the passenger in front of me who is taking a nap at 45 degrees as the flight crew is walking by with lunch, but never unacceptable. The button is there for a reason and it’s stupid not to use it. There is not doubt it causes discomfort for your behind neighbour, as I am experiencing now, but that can always be somewhat alleviated with them reclining their own seat. 
 
-Armrests are slightly more difficult. As in most situations, I notice that older people assume the right to them immediately. Ageism. The key here is persistence. Find a purchase on the armrest and stay there. That is assuming the middle, and most valuable position, is not taken yet.
+Armrests are slightly more difficult. As in most situations, I notice that older people assume the right to them immediately. Ageism. The key here is persistence. Find a purchase on the armrest and stay there. That is assuming the middle of the armrest, the most valuable position, is not taken yet.
 
 
 ***this post is incomplete***
