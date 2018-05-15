@@ -57,7 +57,7 @@ A book that navigates through three generations of Korean immigrants in Japan du
 Set in the Soviet Union in Moscow in a famous hotel. A former Count lives from middle to old-age and must raise a adopted child within the walls of the hotel. He makes the best of his experience and we see him deal with the existing and developing culture of Russia. A happy ending.
 <br><br>
 
-- Age of Ambition: Chasing Fortune, Truth, and Faith in the New China (A) <br>
+- [Age of Ambition: Chasing Fortune, Truth, and Faith in the New China](/2017/12/Age-of-Ambition.html) <br>
 A useful and striking introduction to modern day China. Illustrates the speed at which China is growing and the costs of that growth. It is long.
 <br><br>
 

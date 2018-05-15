@@ -30,7 +30,8 @@ Example:
 
 
 Leading People:
-- Danny Kahneman
+- [Danny Kahneman](https://www.youtube.com/watch?v=uqXVAo7dVRU)
+
 - Amos Tversky
 - Richard Thaler
 - Nassim Taleb
