@@ -27,11 +27,8 @@ Human don’t make good decisions.
 Example: 
 - The Nudge Unit in the UK government.
 
-
-
 Leading People:
 - [Danny Kahneman](https://www.youtube.com/watch?v=uqXVAo7dVRU)
-
 - Amos Tversky
 - Richard Thaler
 - Nassim Taleb
