@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 30 May 2018 22:53:12 -0400</pubDate>
-    <lastBuildDate>Wed, 30 May 2018 22:53:12 -0400</lastBuildDate>
+    <pubDate>Wed, 30 May 2018 22:56:13 -0400</pubDate>
+    <lastBuildDate>Wed, 30 May 2018 22:56:13 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -170,7 +170,7 @@ This list will be updated continuously.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
-    &lt;p&gt;Naked Statistics &lt;br /&gt;
+    &lt;p&gt;&lt;a href=&quot;/2018/05/on-statistics.html&quot;&gt;Naked Statistics&lt;/a&gt; &lt;br /&gt;
 Until reading this book, I never had a rough grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
@@ -251,7 +251,7 @@ I started this book because Bill Gates recommended it. The whole book doesn’t 
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The Three-Body Problem &lt;br /&gt;
-See above. 
+See above.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -281,12 +281,12 @@ Bill Gates said he loved this book so I decided to read it. I was about three-qu
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;So You’ve Been Publicly Shamed &lt;br /&gt;
-This book is SOOO relevant today. Describes what it feels like to be on the other side of internet outrage. How a mob mentality can lead to terrible consequences. 
+This book is SOOO relevant today. Describes what it feels like to be on the other side of internet outrage. How a mob mentality can lead to terrible consequences.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Swordspoint &lt;br /&gt;
-As I’ve gotten older, my focus has turned away from fantasy and towards science-fiction. This book is an exception. 
+As I’ve gotten older, my focus has turned away from fantasy and towards science-fiction. This book is an exception.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -316,7 +316,7 @@ This book stayed with me. One of the most mature fantasy novels I’ve read. The
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;The Revenant &lt;br /&gt;
-Brutal, cunning and savage. Leo Dicaprio and bears. If you liked the movie, you’ll love the book because it’s three times as long. 
+Brutal, cunning and savage. Leo Dicaprio and bears. If you liked the movie, you’ll love the book because it’s three times as long.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -370,7 +370,6 @@ By the same author who wrote &lt;em&gt;the Goldfinch&lt;/em&gt; (my favourite bo
     &lt;p&gt;Steve Jobs &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
-
 </description>
         <pubDate>Wed, 21 Feb 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/02/my-Book-List</link>

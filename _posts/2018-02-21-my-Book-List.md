@@ -12,7 +12,7 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 
 ## <u> this year </u>
 
-- Naked Statistics <br>
+- [Naked Statistics](/2018/05/on-statistics.html) <br>
 Until reading this book, I never had a rough grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
 <br><br>
 
@@ -75,7 +75,7 @@ I started this book because Bill Gates recommended it. The whole book doesn’t 
 <br><br>
 
 - The Three-Body Problem <br>
-See above. 
+See above.
 <br><br>
 
 - A Visit from the Goon Squad (twice)<br>
@@ -99,11 +99,11 @@ Bill Gates said he loved this book so I decided to read it. I was about three-qu
 <br><br>
 
 - So You’ve Been Publicly Shamed <br>
-This book is SOOO relevant today. Describes what it feels like to be on the other side of internet outrage. How a mob mentality can lead to terrible consequences. 
+This book is SOOO relevant today. Describes what it feels like to be on the other side of internet outrage. How a mob mentality can lead to terrible consequences.
 <br><br>
 
 - Swordspoint <br>
-As I’ve gotten older, my focus has turned away from fantasy and towards science-fiction. This book is an exception. 
+As I’ve gotten older, my focus has turned away from fantasy and towards science-fiction. This book is an exception.
 <br><br>
 
 - The Sisters Brothers <br>
@@ -125,7 +125,7 @@ This book stayed with me. One of the most mature fantasy novels I’ve read. The
 <br><br>
 
 - The Revenant <br>
-Brutal, cunning and savage. Leo Dicaprio and bears. If you liked the movie, you’ll love the book because it’s three times as long. 
+Brutal, cunning and savage. Leo Dicaprio and bears. If you liked the movie, you’ll love the book because it’s three times as long.
 <br><br>
 
 - The Secret History <br>
@@ -161,6 +161,3 @@ By the same author who wrote *the Goldfinch* (my favourite book). “The story i
 - The Cat’s Table <br><br>
 
 - Steve Jobs <br><br>
-
-
-
