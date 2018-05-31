@@ -7,7 +7,7 @@ date: 2018-05-09
 
 [Naked Statistics](https://www.amazon.com/Naked-Statistics-Stripping-Dread-Data/dp/1480590185)
 
-This post is based entirely on what I've learned while reading ^that book.
+sidenote: *This post is based entirely on what I've learned while reading ^that book.*
 
 Three concepts in statistics that are important to understand.
 
