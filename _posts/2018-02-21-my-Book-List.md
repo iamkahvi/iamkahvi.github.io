@@ -12,6 +12,10 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 
 ## <u> this year </u>
 
+- La Belle Sauvage <br>
+I had a vague memory of liking the *Golden Compass* trilogy by the same author (Philip Pullman), which is why I read this book. It took me by surprise. The shift of environment and tone after the first half was sudden, but grew on me. One of my favourite main characters in any book. This story carries with it some deeper moral lessons. Set in a similar world as Harry Potter, but more serious and *slightly* less supernatural.
+<br><br>
+
 - [Naked Statistics](/2018/05/on-statistics.html) <br>
 Until reading this book, I never had a rough grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
 <br><br>
