@@ -12,6 +12,10 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 
 ## <u> this year </u>
 
+- The Idiot <br>
+This book is dense. It took me a while to finish. I haven't encountered this type of writing style before. It's abrupt and unique. I identify with the main character and her setting deeply. I need to post my highlights soon.
+<br><br>
+
 - La Belle Sauvage <br>
 I had a vague memory of liking the *Golden Compass* trilogy by the same author (Philip Pullman), which is why I read this book. It took me by surprise. The shift of environment and tone after the first half was sudden, but grew on me. One of my favourite main characters in any book. This story carries with it some deeper moral lessons. Set in a similar world as Harry Potter, but more serious and *slightly* less supernatural.
 <br><br>
