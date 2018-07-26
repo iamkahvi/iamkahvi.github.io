@@ -13,7 +13,7 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 ## <u> this year </u>
 
 - The Idiot <br>
-This book is dense. It took me a while to finish. I haven't encountered this type of writing style before. It's abrupt and unique. I identify with the main character and her setting deeply. I need to post my highlights soon.
+This book is dense. It took me a while to finish. I haven't encountered this type of writing style before. It's abrupt and unique. I identify with the main character and her setting deeply. [Highlights here](/_pages/highlights/The-Idiot).
 <br><br>
 
 - La Belle Sauvage <br>
@@ -21,7 +21,7 @@ I had a vague memory of liking the *Golden Compass* trilogy by the same author (
 <br><br>
 
 - [Naked Statistics](/2018/05/on-statistics.html) <br>
-Until reading this book, I never had a rough grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
+Until reading this book, I never had a grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
 <br><br>
 
 - The Obelisk Gate <br>
