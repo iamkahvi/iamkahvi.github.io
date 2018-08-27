@@ -8,9 +8,17 @@ date: 2018-02-21
 Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. <br><br>
 This list will be updated continuously.
 
-These are the [highlights](/bookhighlights.html) from all the books I’ve read on the Kindle.
+These are the [highlights](/bookhighlights.html) from all the books I’ve read on the Kindle (I’m really bad at updating this).
 
 ## <u> this year </u>
+
+- The English Patient<br>
+Not sure how I got through this book. It has exciting moments, but they are few and far between. This book takes a certain type of focus and patience that I barely have. It’s rewarding by the end though. About a group of people who live in an Italian villa after the War. Explores each of their historiy, some more than others.
+<br><br>
+
+- The Brief and Wondrous Life of Oscar Wao<br>
+Fun book to read. It goes by fast mostly due to the narrator’s hilarious tone. Follows a family through three generations as they navigate the Dominican Republic and then the United States, but mostly about Oscar Wao. Left me with a melancholy feeling. Important tip: Do not read the introduction, it takes way too long and is discouraging. 
+<br><br>
 
 - The Idiot <br>
 This book is dense. It took me a while to finish. I haven't encountered this type of writing style before. It's abrupt and unique. I identify with the main character and her setting deeply. [Highlights here](/_pages/highlights/The-Idiot).

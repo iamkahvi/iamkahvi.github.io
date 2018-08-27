@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Jul 2018 11:27:48 -0400</pubDate>
-    <lastBuildDate>Sat, 21 Jul 2018 11:27:48 -0400</lastBuildDate>
+    <pubDate>Mon, 27 Aug 2018 14:11:08 -0400</pubDate>
+    <lastBuildDate>Mon, 27 Aug 2018 14:11:08 -0400</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -25,6 +25,40 @@
         <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/07/youtube</link>
         <guid isPermaLink="true">http://localhost:4000/2018/07/youtube</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>us ideology</title>
+        <description>&lt;p&gt;This one gets into political ideology which I don’t usually like to talk about.
+Spending a few days in and around Chicago has illustrated to me the constant, uncomfortable tension in American society.&lt;/p&gt;
+
+&lt;p&gt;To begin, Canada is not that different from America. Obviously.&lt;/p&gt;
+
+&lt;p&gt;If money is our objective measure of success, Canada is failing. Our dollar is weaker. Is the mentality behind the US economy the right one? So often it’s painted as an abstract idea of perseverance and determination over everything. Seeing this in effect is less simple.&lt;/p&gt;
+
+&lt;p&gt;We use money as our objective measure of success because that’s what everyone else uses.&lt;/p&gt;
+
+&lt;p&gt;The stress I see around Chicago is not unlike the one that exists in Kingston. There are wealthy areas and not wealth areas. What disturbs me is the scale to which this applies in America. It’s either poor or rich.&lt;/p&gt;
+
+&lt;p&gt;I read this in every headline: The middle class is disappearing. It’s really harsh to see the reality reflect those headlines.&lt;/p&gt;
+
+&lt;p&gt;Everything that’s big is bigger. Everything that’s small is smaller. Everyone that’s rich is richer, everyone that’s poor is poorer.&lt;/p&gt;
+
+&lt;p&gt;(This is me dumming an incredible complex issue down to an easily digestible couple sentences that sound the same to make it easier to convince you of my perspective)&lt;/p&gt;
+
+&lt;p&gt;But the difficulty is that people want it that way. The mentality is all or nothing.&lt;/p&gt;
+
+&lt;p&gt;You wonder why so many people fall into that trap of inflated optimism. I’m a victim to it. I think my future will be brighter than it should be. It’s a country of idealists. With no facts to go around. And their infrastructure is shitty.&lt;/p&gt;
+
+&lt;p&gt;The mentality is confusing. For there to be winners, there have to be losers. Yet the losers think they’re all winners in the making and the winners keep convincing reinforcing that false belief.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2018/07/us-ideology</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/07/us-ideology</guid>
         
         
       </item>
@@ -185,14 +219,24 @@
         <description>&lt;p&gt;Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. &lt;br /&gt;&lt;br /&gt;
 This list will be updated continuously.&lt;/p&gt;
 
-&lt;p&gt;These are the &lt;a href=&quot;/bookhighlights.html&quot;&gt;highlights&lt;/a&gt; from all the books I’ve read on the Kindle.&lt;/p&gt;
+&lt;p&gt;These are the &lt;a href=&quot;/bookhighlights.html&quot;&gt;highlights&lt;/a&gt; from all the books I’ve read on the Kindle (I’m really bad at updating this).&lt;/p&gt;
 
 &lt;h2 id=&quot;-this-year-&quot;&gt;&lt;u&gt; this year &lt;/u&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
+    &lt;p&gt;The English Patient&lt;br /&gt;
+Not sure how I got through this book. It has exciting moments, but they are few and far between. This book takes a certain type of focus and patience that I barely have. It’s rewarding by the end though. About a group of people who live in an Italian villa after the War. Explores each of their historiy, some more than others.
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The Brief and Wondrous Life of Oscar Wao&lt;br /&gt;
+Fun book to read. It goes by fast mostly due to the narrator’s hilarious tone. Follows a family through three generations as they navigate the Dominican Republic and then the United States, but mostly about Oscar Wao. Left me with a melancholy feeling. Important tip: Do not read the introduction, it takes way too long and is discouraging. 
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
     &lt;p&gt;The Idiot &lt;br /&gt;
-This book is dense. It took me a while to finish. I haven’t encountered this type of writing style before. It’s abrupt and unique. I identify with the main character and her setting deeply. I need to post my highlights soon.
+This book is dense. It took me a while to finish. I haven’t encountered this type of writing style before. It’s abrupt and unique. I identify with the main character and her setting deeply. &lt;a href=&quot;/_pages/highlights/The-Idiot&quot;&gt;Highlights here&lt;/a&gt;.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -202,7 +246,7 @@ I had a vague memory of liking the &lt;em&gt;Golden Compass&lt;/em&gt; trilogy b
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;a href=&quot;/2018/05/on-statistics.html&quot;&gt;Naked Statistics&lt;/a&gt; &lt;br /&gt;
-Until reading this book, I never had a rough grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
+Until reading this book, I never had a grasp on statistics. I’ve now realized how important it is. The nature of statistics is counter-intuitive and learning the a few important concepts means defeating misinformation in your daily life. It’s dense though.
 &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -875,57 +919,6 @@ I guess I’ve found the exact amount of value people place on their personal co
         <pubDate>Wed, 15 Nov 2017 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2017/11/on-flights</link>
         <guid isPermaLink="true">http://localhost:4000/2017/11/on-flights</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>on behavioural economics</title>
-        <description>&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;problem-people-repeatedly-make-decisions-that-undermine-their-own-long-term-well-being&quot;&gt;Problem: People repeatedly make decisions that undermine their own long term well being.&lt;/h3&gt;
-
-&lt;h3 id=&quot;solution-give-people-the-satisfaction-they-need-in-the-short-term-and-the-outcomes-that-want-in-the-long-term&quot;&gt;Solution: Give people the satisfaction they need in the short term &lt;em&gt;and&lt;/em&gt; the outcomes that want in the long term.&lt;/h3&gt;
-
-&lt;p&gt;Human don’t make good decisions.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Health
-    &lt;ul&gt;
-      &lt;li&gt;Stop smoking&lt;/li&gt;
-      &lt;li&gt;Exercise more&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Education
-    &lt;ul&gt;
-      &lt;li&gt;Study better&lt;/li&gt;
-      &lt;li&gt;Teach better&lt;/li&gt;
-      &lt;li&gt;Learn better&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Personal Finance
-    &lt;ul&gt;
-      &lt;li&gt;Save more money&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The Nudge Unit in the UK government.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Leading People:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=uqXVAo7dVRU&quot;&gt;Danny Kahneman&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Amos Tversky&lt;/li&gt;
-  &lt;li&gt;Richard Thaler&lt;/li&gt;
-  &lt;li&gt;Nassim Taleb&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 03 Nov 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/2017/11/on-behavioural-economics</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/on-behavioural-economics</guid>
         
         
       </item>
