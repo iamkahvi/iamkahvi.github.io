@@ -6,9 +6,66 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 27 Aug 2018 14:11:08 -0400</pubDate>
-    <lastBuildDate>Mon, 27 Aug 2018 14:11:08 -0400</lastBuildDate>
+    <pubDate>Mon, 10 Sep 2018 14:51:35 -0700</pubDate>
+    <lastBuildDate>Mon, 10 Sep 2018 14:51:35 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>position paper</title>
+        <description>&lt;p&gt;I’ve been going through old papers of mine recently and this one struck me as actually interesting enough to share. I wrote a barebones &lt;a href=&quot;/2017/11/on-behavioural-economics&quot;&gt;post&lt;/a&gt; on this subject.&lt;/p&gt;
+
+&lt;p class=&quot;academic&quot;&gt;Kahvi Patel&lt;br /&gt;
+Research Paper&lt;br /&gt;
+April 17&lt;sup&gt;th&lt;/sup&gt;, 2017&lt;/p&gt;
+
+&lt;p class=&quot;academic indent&quot;&gt;In the early 20&lt;sup&gt;th&lt;/sup&gt; century, the separation between scientific and non-scientific theories was vague. The most practical way to distinguish a theory as scientific was to determine whether it was known a posteriori; relied on an empirical method. This meant that astrology, given its vast amounts of observed information, qualified as a scientific theory. In 1919, Karl Popper sought to contrive an alternative separation. Falsifiability was the philosophical term he coined. With this theory, Popper set the groundwork for the modern scientific method and, simultaneously, addressed the problem of induction that had troubled Hume and many other philosophers before him. Popper’s theory of Demarcation, however, not only has its roots in philosophy, but in human nature. As has been the case throughout history, human nature is more prone towards what Popper distinguished as “pseudo-scientific” theories rather than “scientific” ones. Our inherent desires are what make Popper’s theory of Falsification especially relevant; Demarcation is a tool to fight against our own misleading instincts. In order to repress this widespread malpractice, we must employ tactics of doubt exemplified by philosophers like Descartes and Socrates in order to enforce a more logical, and therefore more productive, general consciousness. As Popper originally described in his theory, &lt;em&gt;we must seek falsification&lt;/em&gt;, or doubt, &lt;em&gt;rather than confirmation&lt;/em&gt; in order to prove our own theories.&lt;/p&gt;
+
+&lt;p class=&quot;academic indent&quot;&gt;For Popper, the reason for distinguishing between theories was not “ doubting the &lt;em&gt;truth&lt;/em&gt; of those other theories, but something else” (Popper 32). What bothered Popper were the incessant “confirming instances” relating to the “pseudo-scientific theories” in question. Freud’s theory of psychoanalysis, for example, was supported repeatedly by whatever the psychologist theorized. In other words, &lt;em&gt;every event confirmed the theory&lt;/em&gt;. This practice has a flaw.&lt;/p&gt;
+
+&lt;blockquote class=&quot;academic&quot;&gt;
+  &lt;p&gt;I may illustrate this by two very different examples of human behavior: that of a man who pushes a child into the water with the intention of drowning it; and that of a man who sacrifices his life in an attempt to save the child. Each of these two cases can be explained with equal ease in Freudian and in Adlerian terms. According to Freud the first man suffered from repression (say, of some component of his Oedipus complex), while the second man had achieved sublimation. According to Adler the first man suffered from feelings of inferiority (producing perhaps the need to prove to himself that he dared to commit some crime), and so did the second man (whose need was to prove to himself that he dared to rescue the child). (Popper 35)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p class=&quot;academic&quot;&gt;This situation demonstrates the ambiguity of Freud’s (and Adler’s) theory. The result, no matter how unexpected or crazy, can always be justified. This method was in direct contrast to another Popper had witnessed; Einstein’s theory of gravitation. Whereas Freud’s theory relied on explanation, Einstein’s relied on prediction. More specifically, one sought &lt;em&gt;confirmation&lt;/em&gt;, the other sought &lt;em&gt;falsification&lt;/em&gt;. Alarmingly though, both relied on empirical evidence and the method of induction, thus classing them both, for now, as scientific theories. Importantly, Popper did not attempt to discredit the validity of Freud’s theory, although he may have done so unconsciously. His intention was merely to distinguish it. The significance of this separation cannot be understated. As history progressed, a scientific method was developed around Popper’s falsifiability and a separation began to emerge between science and others things.&lt;/p&gt;
+
+&lt;p class=&quot;academic indent&quot;&gt;More than just a method for distinction between theories, Falsification has significance in human behavior. In general, humans are programmed to ignore events that do not agree with their beliefs and pay attentions to ones that do. This behavior is called &lt;em&gt;confirmation bias&lt;/em&gt; and has been proven to exist in many studies, the most famous of which is the Wason Selection Task. Feel free to attempt this experiment on friends.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p class=&quot;academic&quot;&gt;He presented subjects with the three-number sequence 2, 4, 6, and asked them to try and guess the rule generating it. Their method of guessing was to produce other three-number sequences, to which the experimenter would respond &amp;ldquo;yes&amp;rdquo; or &amp;ldquo;no&amp;rdquo; depending on whether the new sequences were consistent with the rule. Once confident with their answers, the subjects would formulate the rule. The correct rule was &amp;ldquo;numbers in ascending order,&amp;rdquo; nothing more. Very few subjects discovered it because in order to do so they had to offer a series in descending order (that the experimenter would say &amp;ldquo;no&amp;rdquo; to). (Taleb 123)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class=&quot;academic&quot;&gt;This experiment demonstrates our inherent instinct to always seek confirmation for our own hypothesis, or theories, instead or trying to discredit them. Once the subjects had formulated a rule, their only intention became trying to find a pattern that fit it instead of trying to supply a series that was &lt;em&gt;inconsistent&lt;/em&gt; with their hypothesis. Our natural human behavior compels us to seek confirmation. The parallels here are widespread. Today, most people gather their information (and biases) from the news and there is more news today than ever before. The constant news cycle compounds biases. People have access to countless sources of evidence, or &quot;number series&quot;, which they use to confirm their own opinions. It becomes much more difficult to attempt to disprove your own opinion.&lt;/p&gt;
+
+&lt;p class=&quot;academic indent&quot;&gt;A most poignant example of this behavior of confirmation bias is the political polarization that currently exists in the United States: both sides seek confirmation for their own theories, never falsification. Popper&amp;rsquo;s Demarcation seems to work against human instinct. For instance, Freud&amp;rsquo;s theory of psychoanalysis is more easily understandable than Einstein&amp;rsquo;s theory of gravity and thus more attractive. This inherent preference leads to many human patterns of behavior, such as illusion of control and hindsight bias. When a need to explain something arises, we are predisposed to justify our theory by seeking confirmation instead of testing it. A striking example of this behavior is the justification for the start of World War 1. Clearly, the assassination of Franz Ferdinand and the escalating tension and militarization in various countries might predict international conflict. The ensuing World War seems to have been &lt;em&gt;inevitable&lt;/em&gt; - after the events have transpired. This is an example of hindsight bias. As Niall Ferguson, a professor of history at Harvard, makes clear in his paper &lt;em&gt;The international bond market between the 1848 revolution and the outbreak of the First World War&lt;/em&gt;, the world had not noticed these so-called significant events, as evidenced by the flat lining of war bond prices. &lt;strong&gt;If these hints towards the upcoming conflict were as clear as we now make them out to be, why did the price of war bonds not rise? &lt;/strong&gt;Was there a sudden, universal lack of desire to make profit? or were the events we speak of today &lt;em&gt;not obvious at all&lt;/em&gt;. Clearly, the latter is more in line with human nature. The pseudo-scientific theory suggests that the war started because of an episode of tension and militarization. We feel the need to justify events after the fact in order to reassure ourselves that we will see it coming next time. Yet, until those theories in question can withstand falsification, this practice of explanation is useless.&lt;/p&gt;
+
+&lt;p class=&quot;academic indent&quot;&gt;When theories are not tested with falsification, they can lead us to misleading conclusions or a false sense of security. In 470 BC, Socrates exposed society&amp;rsquo;s wrongful act of gathering, spreading and reciting knowledge that had illogical grounds. In what we now call &amp;ldquo;Socratic Dialogue&amp;rdquo;, Socrates reduced his subject&amp;rsquo;s opinions to a single thesis which was often illogical. Through this, he proved the Delphi&amp;rsquo;s prophecy true: he was, in fact, &amp;ldquo;the wisest of men&amp;rdquo;. This title, however, did not originate from vast education or far-reaching experience.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p class=&quot;academic&quot;&gt;I am wiser than this man; it is likely that neither of us knows anything worthwhile, but he thinks he knows something when he does not, whereas when I do not know, neither do I think I know; so I am likely to be wiser than he to this small extent, that &lt;em&gt;I do not think I know what I do not know&lt;/em&gt;. (Plato 3)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class=&quot;academic&quot;&gt;Socrates was merely the only man who knew the extent of his own ignorance. Today, we encounter a similar situation. Many of our generally accepted theories and personal opinions are illogical and/or justified by a flawed method. More importantly though, the vast majority of society &lt;em&gt;does not realize&lt;/em&gt; this. Descartes provides another apt exemplar. His doubt, though undoubtedly extreme, was important to build a foundation of truth upon which the rest of his beliefs were founded.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p class=&quot;academic&quot;&gt;It is as though they [my beliefs] had a right to a place in my belief-system as a result of long occupation and the law of custom. These habitual opinions of mine are indeed highly probable; although they are in a sense doubtful, as I have shown, it is more reasonable to believe than to deny them. But if I go on viewing them in that light I shall never get out of the habit of confidently assenting to them. To conquer that habit, therefore, I had better switch right around and pretend (for a while) that these former opinions of mine are utterly false and imaginary. I shall do this until I have something to counter-balance the weight of old opinion, and the distorting influence of habit no longer prevents me from judging correctly. (Descartes 2)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p class=&quot;academic&quot;&gt;The important parallel here is doubt. To doubt one&amp;rsquo;s own belief is the most basic and true form of falsification. We must take advice from Socrates and Descartes and question our own theories and opinions in order to arrive at the roots of our beliefs. We must acknowledge our own ignorance in order to take the next step towards progress.&lt;/p&gt;
+
+&lt;p class=&quot;academic indent&quot;&gt;Popper&amp;rsquo;s philosophy was originally meant to distinguish scientific theories. His philosophy of Demarcation, however, went beyond science, and addressed two methods of thinking. Unfortunately for humanity, we are prone to the less reliable mode of thinking: one that seeks confirmation. This behavior has led to a worrying trend in human history. By analyzing the past and present, we may understand how hindsight bias and the illusion of control reveal themselves in society and how they are the result of instinctual human behavior. With the problem assessed and recognized, we may understand it and endeavor to solve it. Doubt is perhaps the truest form of falsification and should be practiced by individuals today in order to justify beliefs. Unless we begin challenging our beliefs, instead of seeking confirmation of them, progress of all kinds will slow.&lt;/p&gt;
+
+&lt;p class=&quot;academic&quot;&gt;&lt;br /&gt;
+Works Cited&lt;/p&gt;
+&lt;ul class=&quot;academic&quot;&gt;
+  &lt;li&gt;Popper, Karl. &lt;em&gt;Conjectures and Refutations&lt;/em&gt;. Basic Books, 1962. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Nicholas Taleb, Nassim. &lt;em&gt;The Black Swan: The Impact of the Highly&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Improbable.&amp;lt;/em&amp;gt; Random House, 2007.&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Ferguson, Niall. “Political risk and the international bond market between the 1848 revolution and the outbreak of the First World War.” &lt;em&gt;Economic History Review&lt;/em&gt;, Vol 29, no. 1, February 2006.&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Plato. &lt;em&gt;Apology&lt;/em&gt;. translated by G.M.A. Grube, Hackett Publishing Company, 2000.&lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Descartes, Renee. &lt;em&gt;Meditations on First Philosophy&lt;/em&gt;. translated by Jonathan F. Bennett, Cambridge University Press, 1996.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 10 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/09/position-paper</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/09/position-paper</guid>
+        
+        
+      </item>
     
       <item>
         <title>my youtube channel</title>
@@ -22,7 +79,7 @@
 
 &lt;p&gt;One lesson learned: &lt;strong&gt;the edit is all that matters&lt;/strong&gt;. For me, 90% of the effort is put in during the edit.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 21 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018/07/youtube</link>
         <guid isPermaLink="true">http://localhost:4000/2018/07/youtube</guid>
         
@@ -56,7 +113,7 @@ Spending a few days in and around Chicago has illustrated to me the constant, un
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
+        <pubDate>Sat, 21 Jul 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018/07/us-ideology</link>
         <guid isPermaLink="true">http://localhost:4000/2018/07/us-ideology</guid>
         
@@ -103,7 +160,7 @@ Spending a few days in and around Chicago has illustrated to me the constant, un
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 May 2018 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 28 May 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018/05/on-gladwell</link>
         <guid isPermaLink="true">http://localhost:4000/2018/05/on-gladwell</guid>
         
@@ -207,7 +264,7 @@ Spending a few days in and around Chicago has illustrated to me the constant, un
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 09 May 2018 00:00:00 -0400</pubDate>
+        <pubDate>Wed, 09 May 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2018/05/on-statistics</link>
         <guid isPermaLink="true">http://localhost:4000/2018/05/on-statistics</guid>
         
@@ -446,7 +503,7 @@ By the same author who wrote &lt;em&gt;the Goldfinch&lt;/em&gt; (my favourite bo
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Wed, 21 Feb 2018 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 21 Feb 2018 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2018/02/my-Book-List</link>
         <guid isPermaLink="true">http://localhost:4000/2018/02/my-Book-List</guid>
         
@@ -488,7 +545,7 @@ The book ends with the Count escaping the hotel after saying goodbye to all his 
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Mon, 22 Jan 2018 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 22 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2018/01/a-Gentleman-In-Moscow</link>
         <guid isPermaLink="true">http://localhost:4000/2018/01/a-Gentleman-In-Moscow</guid>
         
@@ -563,7 +620,7 @@ It’ll be volatile with or without your help. Better to set it aside and get b
 &lt;p&gt;I assume the only absolute solution is to create as if your audience is irrelevant.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2018/01/thoughts-on-2017</link>
         <guid isPermaLink="true">http://localhost:4000/2018/01/thoughts-on-2017</guid>
         
@@ -606,7 +663,7 @@ It’ll be volatile with or without your help. Better to set it aside and get b
 
 &lt;p&gt;the other side i am not so sure.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 27 Dec 2017 00:00:00 -0500</pubDate>
+        <pubDate>Wed, 27 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/12/breakfast-at-tiffany's</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/breakfast-at-tiffany's</guid>
         
@@ -867,58 +924,9 @@ That is the interesting part of this book. You are presented with their insane e
 &lt;/blockquote&gt;
 
 </description>
-        <pubDate>Tue, 12 Dec 2017 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 12 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/12/Age-of-Ambition</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/Age-of-Ambition</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>on flights</title>
-        <description>&lt;p&gt;Boarding a flight is kinda weird.&lt;/p&gt;
-
-&lt;p&gt;First, the AC105 has an absurd amount of people onboard. 
-I wonder if the rising property value of a city can be associated with how many people regularly commute there. The correlation is present for this flight. The line to board was the longest I’ve ever seen and rent in Vancouver makes me want to cry.&lt;/p&gt;
-
-&lt;p&gt;While walking from the terminal to the plane in that tunnel thing, I pass by a separate door used only by business class passengers. This is the first in a series of disappointments.
-As I enter the plane, I recall Dante’s Divine Comedy; Inferno, Purgatory and Paradise. Though not in that order.&lt;/p&gt;
-
-&lt;p&gt;I walk past Paradise first. What I assume to be aggressively rich people are already seated and have to endure the somewhat hostile stares of all the lower class plebs walking past them. It this their punishment for paying such an absurd amount of money for a plane ticket? Wouldn’t they rather board after everyone else so as to avoid the awkward stares? I would.&lt;/p&gt;
-
-&lt;p&gt;Premium economy is after, which I suppose is Purgatory. The seats evolve from thrones to generous car seats.&lt;/p&gt;
-
-&lt;p&gt;Next is “preferred economy” which only serves to dishearten me more as I realize how low I’ve stooped to get on this plane.&lt;/p&gt;
-
-&lt;p&gt;That worry lasts only 5 seconds, or thirty depending on how efficient the people ahead of you are at packing the overhead compartments, until I arrive at the sea of regular economy seats.&lt;/p&gt;
-
-&lt;p&gt;I glance over the faces of the plebs. Given their location in the plane, they seem extraordinarily dignified and almost disgusted by their surroundings.  I can’t help but read the thoughts behind their expressions of misery: “Aren’t I special enough to be in the front?”, “Don’t I deserve it?”.&lt;/p&gt;
-
-&lt;p&gt;A plane is a unique situation where middle to high-income people are reduced to taking common transport, like a bus. Of course, being on a plane is nothing like being on a bus, but that’s not the point. 
-I’m trying to say that the type of middle-income people who don’t usually take public transportation are &lt;em&gt;forced&lt;/em&gt; to if they want to travel by air. Everyone is reduced to the same level, rid of income separation for the most part. The size of your seat is the same as your neighbour’s, no matter your background.&lt;/p&gt;
-
-&lt;p&gt;Unless you are in Purgatory or Paradise.&lt;/p&gt;
-
-&lt;p&gt;The act of sharing space with a stranger is so uncomfortable to me that I would assume most people within their means would pay to be rid of that experience. That seems to be the problem. Our society nowadays seems hell-bent on not caring about anything and remaining distant from everyone (very general statement that I will not justify).&lt;/p&gt;
-
-&lt;p&gt;That’s why it seems weird that all these people have agreed to exist in these circumstances for five hours. Those two things don’t make sense together. 
-I guess I’ve found the exact amount of value people place on their personal comfort.&lt;/p&gt;
-
-&lt;p&gt;All that said, the actual economy class seat isn’t all that bad. I’m 5’9” and 150 lbs and can sit somewhat comfortably.&lt;/p&gt;
-
-&lt;p&gt;More than your physical dimensions though, I think mastering the politics around seat manipulation are the key to a comfortable flight. Notably, armrest control and seat back position. My answers for both are simple.&lt;/p&gt;
-
-&lt;p&gt;In terms of the seat back. You have every right to lean your seat back as much as you like.&lt;/p&gt;
-
-&lt;p&gt;In some circumstances a full seat recline would be strange, as is exemplified by the passenger in front of me who is taking a nap at 45 degrees as the flight crew is walking by with lunch, but never unacceptable. The button is there for a reason and it’s stupid not to use it. There is not doubt it causes discomfort for your behind neighbour, as I am experiencing now, but that can always be somewhat alleviated with them reclining their own seat.&lt;/p&gt;
-
-&lt;p&gt;Armrests are slightly more difficult. As in most situations, I notice that older people assume the right to them immediately. Ageism. The key here is persistence. Find a purchase on the armrest and stay there. That is assuming the middle of the armrest, the most valuable position, is not taken yet.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 15 Nov 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2017/11/on-flights</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/11/on-flights</guid>
         
         
       </item>
