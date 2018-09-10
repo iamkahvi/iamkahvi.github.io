@@ -1,7 +1,7 @@
 ---
 layout: post
 title: position paper
-description: 
+description: about Karl Popper
 date: 2018-09-10
 ---
 
