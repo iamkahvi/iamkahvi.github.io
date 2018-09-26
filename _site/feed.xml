@@ -6,13 +6,183 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Sep 2018 14:51:35 -0700</pubDate>
-    <lastBuildDate>Mon, 10 Sep 2018 14:51:35 -0700</lastBuildDate>
+    <pubDate>Wed, 26 Sep 2018 10:55:31 -0700</pubDate>
+    <lastBuildDate>Wed, 26 Sep 2018 10:55:31 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
+        <title>Volunteer Robot</title>
+        <description>&lt;p&gt;Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The &lt;a href=&quot;https://github.com/iamkahvi/volunteers&quot;&gt;README &lt;/a&gt; I created builds on the &lt;a href=&quot;https://github.com/playasoft/volunteers&quot;&gt;forked repositories README&lt;/a&gt; and describes usage, features and installation of the application.&lt;/p&gt;
+
+&lt;p&gt;This post exists to specify which features I developed alone.&lt;/p&gt;
+
+&lt;h2 id=&quot;table-of-content&quot;&gt;Table of Content&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#ui-design&quot;&gt;UI Design&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Dashboard&lt;/li&gt;
+      &lt;li&gt;Event Page&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#backend-features&quot;&gt;Backend Features&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Email Notifications&lt;/li&gt;
+      &lt;li&gt;Hide Empty Days Feature&lt;/li&gt;
+      &lt;li&gt;Change to Reminder timing through .ENV laravel doc&lt;/li&gt;
+      &lt;li&gt;Filter by week&lt;/li&gt;
+      &lt;li&gt;CSV export for users&lt;/li&gt;
+      &lt;li&gt;Registering users&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;ui-design&quot;&gt;UI Design&lt;/h2&gt;
+
+&lt;h3 id=&quot;event-page&quot;&gt;Event Page&lt;/h3&gt;
+
+&lt;p&gt;I added a legend to the Event page. I changed the text formatting to make the page more legible.
+I changed the date format to make the page more legible.&lt;/p&gt;
+
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;iframe frameborder=&quot;0&quot; class=&quot;juxtapose&quot; width=&quot;100%&quot; height=&quot;800px&quot; src=&quot;https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4173867a-ba32-11e8-9dba-0edaf8f81e27&quot;&gt;&lt;/iframe&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
+
+&lt;p&gt;Using bootstrap list items element, I made the dashboard more legible.&lt;/p&gt;
+
+&lt;html&gt;
+&lt;body&gt;
+
+&lt;iframe frameborder=&quot;0&quot; class=&quot;juxtapose&quot; width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f31f125e-ba32-11e8-9dba-0edaf8f81e27&quot;&gt;&lt;/iframe&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;backend-features&quot;&gt;Backend Features&lt;/h2&gt;
+
+&lt;h3 id=&quot;email-notifications&quot;&gt;Email Notifications&lt;/h3&gt;
+
+&lt;p&gt;On the advice of the original developer, my plan for developing this feature was:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Create a console command which loops through the “slots” table for any slots starting within the next “hour”&lt;/li&gt;
+  &lt;li&gt;If a volunteer has signed up for that slot, send them a notification&lt;/li&gt;
+  &lt;li&gt;Add value to SQL table to prevent further notifications&lt;/li&gt;
+  &lt;li&gt;Add the command to the Laravel cron so it runs periodically (every 5 minutes? 15 minutes?)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This approach was somewhat efficient given the Laravel cron would be running continuously when it wouldn’t need to. Scheduling a task immediately when a user signs up instead of iterating through the table would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.&lt;/p&gt;
+
+&lt;p&gt;To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
+shift. I do this by creating two Carbon dates and add a designated amount of hours to the second variable.&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Cycle through all the slots
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shifts&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;$startDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Carbon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Y-m-d H:i:s'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strtotime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift-&amp;gt;start_date&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift-&amp;gt;start_time&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)));&lt;/span&gt;
+
+	&lt;span class=&quot;nv&quot;&gt;$remindDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Carbon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Y-m-d H:i:s'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;strtotime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift-&amp;gt;start_date&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift-&amp;gt;start_time&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)));&lt;/span&gt;
+
+	&lt;span class=&quot;nv&quot;&gt;$now&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Carbon&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+	&lt;span class=&quot;nv&quot;&gt;$remindDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;subHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'REMIND_HOURS'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Then I notify the user of the shift.&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;			
+&lt;span class=&quot;c1&quot;&gt;// Notify user of upcoming shift
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isNotified&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'No'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;notify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;shiftStarting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;In order to prevent the user from getting continuously notified, I created a column in the shifts table to track notification status.&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Update isNotifies value in SQL database
+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;DB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'slots'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'isNotified'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Yes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;hide-empty-days-feature&quot;&gt;Hide Empty Days Feature&lt;/h3&gt;
+
+&lt;p&gt;My strategy was to cycle through each day that would be displayed on the event page and check if the day had a shift.
+Fortunately, this check was relatively simple after looking into different SQL queries.&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Pluck all of the shift IDs for this event and check the if any in the schedule start today
+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Schedule&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;whereIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'shift_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shifts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'dates'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'LIKE'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;%&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Y-m-d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isEmpty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Continue onto the next day
+&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;addDay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;h3 id=&quot;filter-by-week&quot;&gt;Filter by week&lt;/h3&gt;
+
+&lt;p&gt;Fortunately, I’ve had previous experience with Javascript in University so working out the logic for this feature was trivial.&lt;/p&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Hide all the days&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.days .day'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'hidden'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Convert date to Moment format&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;moment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;moment&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toString&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Show this one&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Loop through seven days&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.days .day[data-date=&quot;'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Y-MM-DD'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'&quot;]'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;removeClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'hidden'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;trigger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'resize'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'days'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;The most challenging part of implementing this feature was working out how to install the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
+Since the server ran Ubuntu, the package wouldn’t install. After a few hours of Googling, one line of code in the header.blade.php
+solved all my problems.&lt;/p&gt;
+
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;change-to-reminder-timing-through-env-laravel-doc&quot;&gt;Change to Reminder timing through .ENV laravel doc&lt;/h3&gt;
+
+&lt;h3 id=&quot;csv-export-for-users&quot;&gt;CSV export for users&lt;/h3&gt;
+&lt;h3 id=&quot;registering-users&quot;&gt;Registering users&lt;/h3&gt;
+</description>
+        <pubDate>Wed, 12 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2018/09/Volunteer-Robot</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/09/Volunteer-Robot</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>position paper</title>
-        <description>&lt;p&gt;I’ve been going through old papers of mine recently and this one struck me as actually interesting enough to share. I wrote a barebones &lt;a href=&quot;/2017/11/on-behavioural-economics&quot;&gt;post&lt;/a&gt; on this subject.&lt;/p&gt;
+        <description>&lt;p&gt;I’ve been going through old papers of mine recently and this one struck me as interesting enough to share. I wrote a barebones &lt;a href=&quot;/2017/11/on-behavioural-economics&quot;&gt;post&lt;/a&gt; on this subject.&lt;/p&gt;
 
 &lt;p class=&quot;academic&quot;&gt;Kahvi Patel&lt;br /&gt;
 Research Paper&lt;br /&gt;
@@ -666,267 +836,6 @@ It’ll be volatile with or without your help. Better to set it aside and get b
         <pubDate>Wed, 27 Dec 2017 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2017/12/breakfast-at-tiffany's</link>
         <guid isPermaLink="true">http://localhost:4000/2017/12/breakfast-at-tiffany's</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Age of Ambition</title>
-        <description>&lt;p&gt;&lt;em&gt;Age of Ambition: Chasing Fortune, Truth, and Faith in the New China&lt;/em&gt;&lt;br /&gt;
-by Evan Osnos&lt;/p&gt;
-
-&lt;h3 id=&quot;-summary-&quot;&gt;&lt;u&gt; Summary: &lt;/u&gt;&lt;/h3&gt;
-
-&lt;p&gt;Most books I read don’t stay with me for long. This one is no different.
-&lt;br /&gt;&lt;br /&gt;
-To combat my failing memory, I read this book on a Kindle and highlighted things so that I might remember the entire book in more detail. This post is my attempt at summarizing the book using those highlighted quotations.
-&lt;br /&gt;&lt;br /&gt;
-China has always been a mystery to me. The variety of culture found in the United States is so broad that I find trouble believing the one-dimensional image I have in my head of China. A country with arguably the most important economy yet I have not idea how it’s run, it’s history, the source of its growth, etc.
-&lt;br /&gt;&lt;br /&gt;
-Also, the idea that they’re a communist country? Doesn’t the West hate Commies? Why are we okay with this?
-&lt;br /&gt;&lt;br /&gt;
-This book was easy to read for a couple reasons. First, it is an interesting introduction to a country I know nothing about. It follows personal journeys of people instead of talking about numbers and economics and boring.
-&lt;br /&gt;&lt;br /&gt;
-Second, it is somewhat reassuring. Here’s a fact that has consistently stuck in my mind: There are more MBAs graduating every year in China than there are undergrads graduating in the US. That’s ridiculous. Especially when there is this pessimistic outlook on the job market. China is a terrifying competitor, compounded by the fact that the US President is practically handing them the role of international leadership. 
-&lt;br /&gt;&lt;br /&gt;
-That is the interesting part of this book. You are presented with their insane economic success but also China’s flaws and the negative aspect of their ridiculous growth. Notably how there entire society is more “controlled”. It often seems like a Black Mirror episode. &lt;strong&gt;China spends more money on domestic security than national defence&lt;/strong&gt;. Bus routes get rerouted so citizens won’t pass the courthouse when contested cases are in session. Creepy stuff. My optimism comes from the fact that the West has freedom and China doesn’t. That inevitably changes the culture and behaviour of people and that is clearly illustrated in the book.&lt;/p&gt;
-
-&lt;p&gt;It boils down to the fact that I am not jealous of anyone in China. The feeling of powerlessness against the ruling party is something I am terrified of and hope to never experience. The Politburo seems to have a much lower threshold than America for throwing a hood over someones head and locking them up forever.&lt;/p&gt;
-
-&lt;p&gt;It just seems like the trade off wasn’t worth it. Sure your country is arguably the largest economic superpower in the world but where is your ~culture~? It just seems bland. Relevant quote from the book:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Let your public self be like rice in a dinner: bland and inconspicuous, taking on the flavors of its surroundings while giving off no flavor of its own.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Here are my favourite highlights from the book, none of which are properly cited:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;She was also moved by the way he cared for his widowed father. On their second date, he proposed marriage to her on the subway.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Don’t bother looking for favoritism or nepotism here. Work hard, and your success will be clear in your results. Don’t bother kissing ass.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I’d rather cry in a BMW than smile on a bicycle.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;the more violent the body contact of the sports you watch, the lower the class.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the quantity of money passing through Macau would exceed that of Las Vegas six times over.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Chinese were found to take consistently larger risks than Americans of comparable wealth.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Li urged us to soak our feet in hot water before bed—he said it would help with jet lag&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Department had a breadth of authority over the realm of ideas in China that Anne-Marie Brady, a scholar who studied it, compared to the “Vatican’s influence over the Catholic world.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;[The Department] encompassed, by one estimate, a propaganda officer for every one hundred Chinese citizens.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It was more important than ever, Party scholars pointed out, to “make their thinking conform with the dominant ideology, thereby standardizing people’s behaviour.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hu Shuli had a singular profile. She was an incurable muckraker, but had cultivated first-name familiarity with some of China’s most powerful Party leaders.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Her interviewees included a promising young cadre in city government whose openness to the free market had earned him the nickname the God of Wealth. His name was Xi Jinping, and years later he would become the president of China.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Almost nine out of ten Chinese approved of the way things were going in their country—the highest share of any of the twenty-four countries surveyed that spring by the Pew Research Center. (In the United States, by comparison, just two out of ten voiced such approval.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The United States brags about its political system, but the president says one thing during the election, something else when he takes office, something else at midterm, and something else when he leaves.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Fundamentally, the culture of the Web was an almost perfect opposite of the culture of the Communist Party: Chinese leaders cherished solemnity, conformity, and secrecy; the Web sanctified informality, newness, and, above all, disclosure.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Authenticity, or the appearance of it, had become the rarest of assets in China.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When the Party praised “democracy,” it meant “democratic centralism,” the concept of debate within its own ranks, and unquestioning adherence to final decisions.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;The instinct to shield the public from unflattering facts was absurdly at odds with the openness and sophistication in other parts of Chinese life, and it seemed to cheapen what ordinary Chinese people had worked so hard to achieve.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The night before his trial, his lawyer was detained; Chen was represented by court-appointed attorneys, who called no witnesses. He was found guilty of destroying property and disrupting traffic and was sentenced to four years and three months in prison.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;By the middle of April, human rights groups were calling it the largest crackdown on expression since Tiananmen Square two decades earlier. Two hundred people had been questioned or placed under house arrest; another thirty-five were presumed to be in detention. The list included not only old-line dissidents, but also social media celebrities and journalists.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;For the first time in history, the People’s Republic was spending more on domestic security than on foreign defense; it was devoting more money to policing and surveilling its own people than it was on defending against threats from abroad.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How much of the drama was light and how much was dark? How much was about opportunity and how much was about repression?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Why the most famous image from China in the past thirty years was not of its economic rise but of the man standing in front of the tank near Tiananmen Square.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;A study found that 70 percent of Chinese social media users relied on social media as their main source of news; in America, that number was 9 percent.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The ugly side of China’s growth is perhaps most clearly illustrated by the train crash. Its cause was completely preventable, which only served to propel the incident to an even higher level of fame. The core problem is illustrated below:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“The maintenance people weren’t familiar enough with their jobs, and they didn’t want to stop the train. They didn’t dare.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;^ China’s growth takes president over everything, even citizens own safety.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;China’s most famous public works project was an ecosystem almost perfectly hospitable to corruption—opaque, unsupervised, and overflowing with cash.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Central government was worried that if he really succeeded in giving out four hundred million in bribes he would essentially have bought a government position. That’s why he was arrested.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Public servants—officially earning twenty or thirty thousand dollars a year—became such frequent shoppers at Gucci and Louis Vuitton that high-end boutiques in Beijing ran out of stock whenever the National People’s Congress was in session.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In weak democracies, people paid their way into office by buying votes; in a state where there were no votes to buy, you paid the people who doled out the jobs.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Corruption bruuh&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;By 2012 the richest seventy members of China’s national legislature had a net worth of almost ninety billion dollars—more than ten times the combined net worth of the entire U.S. Congress.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Bo Xilai looked like a movie star.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Scandal was becoming the backbeat to China’s rise.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Oven if local bureaucrats were corrupt, its top leaders so exemplified wisdom, justice, and meritocracy that dissent and direct elections were superfluous and obsolete.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Wealth was hard for the Party to explain, so it decided not to try: within twenty-four hours, the government blocked the Bloomberg website—it would stay blocked in China for the foreseeable future—and&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;It would cost the company millions in lost sales and advertising.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“He and his family can’t stay in China. It’s no longer safe,” she said. “Something will happen. It will look like an accident. Nobody will know what happened. He’ll just be found dead.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The New York Times relied on corporate records to calculate that in the years that Prime Minister Wen Jiabao was in office, his family amassed assets worth $2.7 billion.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;“When the rules favor the rule-makers, they are applied; when they do not, they are ignored.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The inequality index:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;(An independent calculation put the figure at 0.61, higher than the level in Zimbabwe.)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;People had a surprisingly high tolerance for the rise of the plutocracy. What they resented were the obstacles that prevented them from joining it:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In all, authorities executed at least fourteen yuan billionaires in the span of eight years, on charges ranging from pyramid schemes to murder for hire.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In relation to FOXCON and the suicide nets, etc:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Outsiders were quick to imagine a sweatshop, but this explanation was not quite right.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;All websites are not to repost the news headlined, “UN Releases World Happiness Report, and China Ranks No. 112.”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Foshan is a market town, the home of enormous open-air emporiums, one after another: Iron and Steel World and Flower and Plant World and Children’s Clothing Town, which sells enough clothes each year to dress every kid in America, twice.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Instantly, the story of the seventeen passersby began to spread across China, and it provoked a surge of self-recrimination. The writer Zhang Lijia asked, “How can we possibly win respect and play the role of a world leader if this is a nation with 1.4 billion&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;In the years of the boom, people had picked up &lt;strong&gt;more reasons to fear the law than to trust it.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How could China ever hope to invent the next big thing, the next Facebook, if it didn’t dare to let its people use this one?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;A terrifying illustration of the governments control. Not quite blatant oppression, but a more quiet insidious suppression.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;The city diverted bus routes to bypass the courthouse.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Racism:&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;In Beijing, some shopkeepers hung signs in their windows like this one, in English, at a restaurant: THIS SHOP DOES NOT RECEIVE THE JAPANESE, THE PHILIPPINES, THE VIETNAMESE AND DOG. In this&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When Zhai Xiaobing, a man who worked at an investment fund in Beijing, tweeted a geeky joke that compared the meeting to a new apocalypse movie, he was arrested and held for three weeks.
-^ Three weeks for  tweet???&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The windows of public buses were taped shut. The city banned pleasure boats from the lakes,&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;the only Tibetans at the Great Hall were members of the official Tibetan delegation, who brought news that Lhasa, their capital, had been voted “the happiest city in China”&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;conducted a “Chinese Dream” survey, asking whether people supported one-party rule and believed in socialism, 80 percent of the three thousand respondents replied “no” to both questions,&lt;/p&gt;
-&lt;/blockquote&gt;
-
-</description>
-        <pubDate>Tue, 12 Dec 2017 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2017/12/Age-of-Ambition</link>
-        <guid isPermaLink="true">http://localhost:4000/2017/12/Age-of-Ambition</guid>
         
         
       </item>

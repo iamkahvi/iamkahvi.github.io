@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-67536075-4"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-67536075-4');
+  </script>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Volunteer Robot - kahvi's blog</title>
+  <meta name="description" content="Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The README  I created builds on the forked repositories R...">
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href=" /css/main.css ">
+  <link rel="canonical" href="http://localhost:4000/2018/09/Volunteer-Robot">
+  <link rel="alternate" type="application/rss+xml" title="kahvi's blog" href="http://localhost:4000 /feed.xml ">
+</head>
+
+    <body>
+        <main class="u-container">
+        <div class="c-page">
+    <header class="c-page__header">
+  <p>
+      <a href="/">Home</a><span
+        class="u-separate"></span> <a href="/2018/02/my-Book-List">Book List</a><span class="u-separate"></span> <a href="/about/">About</a>
+  </p>
+
+
+    
+
+</header>
+
+    <div class="c-page__main">
+    <article class="c-article">
+    <header class="c-article__header">
+        <h1 class="c-article__title">Volunteer Robot</h1>
+        <p class="c-article__time"><time datetime="2018-09-12T00:00:00-07:00" itemprop="datePublished">Sep 12, 2018</time></p>
+    </header>
+
+    <!--
+    Post Tags
+    <ul class="c-tags">
+    
+    </ul>
+    -->
+
+    <div class="c-article__main">
+        <p>Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The <a href="https://github.com/iamkahvi/volunteers">README </a> I created builds on the <a href="https://github.com/playasoft/volunteers">forked repositories README</a> and describes usage, features and installation of the application.</p>
+
+<p>This post exists to specify which features I developed alone.</p>
+
+<h2 id="table-of-content">Table of Content</h2>
+<ul>
+  <li><a href="#ui-design">UI Design</a>
+    <ul>
+      <li>Dashboard</li>
+      <li>Event Page</li>
+    </ul>
+  </li>
+  <li><a href="#backend-features">Backend Features</a>
+    <ul>
+      <li>Email Notifications</li>
+      <li>Hide Empty Days Feature</li>
+      <li>Change to Reminder timing through .ENV laravel doc</li>
+      <li>Filter by week</li>
+      <li>CSV export for users</li>
+      <li>Registering users</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="ui-design">UI Design</h2>
+
+<h3 id="event-page">Event Page</h3>
+
+<p>I added a legend to the Event page. I changed the text formatting to make the page more legible.
+I changed the date format to make the page more legible.</p>
+
+<html>
+<body>
+
+<iframe frameborder="0" class="juxtapose" width="100%" height="800px" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4173867a-ba32-11e8-9dba-0edaf8f81e27"></iframe>
+
+</body>
+</html>
+
+<h3 id="dashboard">Dashboard</h3>
+
+<p>Using bootstrap list items element, I made the dashboard more legible.</p>
+
+<html>
+<body>
+
+<iframe frameborder="0" class="juxtapose" width="100%" height="400px" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f31f125e-ba32-11e8-9dba-0edaf8f81e27"></iframe>
+
+</body>
+</html>
+
+<hr />
+
+<h2 id="backend-features">Backend Features</h2>
+
+<h3 id="email-notifications">Email Notifications</h3>
+
+<p>On the advice of the original developer, my plan for developing this feature was:</p>
+
+<ol>
+  <li>Create a console command which loops through the “slots” table for any slots starting within the next “hour”</li>
+  <li>If a volunteer has signed up for that slot, send them a notification</li>
+  <li>Add value to SQL table to prevent further notifications</li>
+  <li>Add the command to the Laravel cron so it runs periodically (every 5 minutes? 15 minutes?)</li>
+</ol>
+
+<p>This approach was somewhat efficient given the Laravel cron would be running continuously when it wouldn’t need to. Scheduling a task immediately when a user signs up instead of iterating through the table would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.</p>
+
+<p>To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
+shift. I do this by creating two Carbon dates and add a designated amount of hours to the second variable.</p>
+
+<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+
+<span class="c1">// Cycle through all the slots
+</span><span class="k">foreach</span><span class="p">(</span><span class="nv">$shifts</span> <span class="k">as</span> <span class="nv">$shift</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="nv">$startDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Carbon</span><span class="p">(</span><span class="nb">date</span><span class="p">(</span><span class="s1">'Y-m-d H:i:s'</span><span class="p">,</span> <span class="nb">strtotime</span><span class="p">(</span><span class="s2">"</span><span class="nv">$shift-&gt;start_date</span><span class="s2"> </span><span class="nv">$shift-&gt;start_time</span><span class="s2">"</span><span class="p">)));</span>
+
+	<span class="nv">$remindDate</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Carbon</span><span class="p">(</span><span class="nb">date</span><span class="p">(</span><span class="s1">'Y-m-d H:i:s'</span><span class="p">,</span> <span class="nb">strtotime</span><span class="p">(</span><span class="s2">"</span><span class="nv">$shift-&gt;start_date</span><span class="s2"> </span><span class="nv">$shift-&gt;start_time</span><span class="s2">"</span><span class="p">)));</span>
+
+	<span class="nv">$now</span> <span class="o">=</span> <span class="nx">Carbon</span><span class="o">::</span><span class="na">now</span><span class="p">();</span>
+
+	<span class="nv">$remindDate</span><span class="o">-&gt;</span><span class="na">subHours</span><span class="p">(</span><span class="nx">env</span><span class="p">(</span><span class="s1">'REMIND_HOURS'</span><span class="p">));</span>
+
+</code></pre>
+</div>
+<p>Then I notify the user of the shift.</p>
+
+<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>			
+<span class="c1">// Notify user of upcoming shift
+</span><span class="k">if</span><span class="p">(</span><span class="nv">$shift</span><span class="o">-&gt;</span><span class="na">isNotified</span> <span class="o">==</span> <span class="s1">'No'</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="nv">$user</span><span class="o">-&gt;</span><span class="na">notify</span><span class="p">(</span><span class="k">new</span> <span class="nx">shiftStarting</span><span class="p">(</span><span class="nv">$shift</span><span class="p">,</span> <span class="nv">$user</span><span class="p">));</span>
+<span class="p">}</span> <span class="k">else</span>
+</code></pre>
+</div>
+
+<p>In order to prevent the user from getting continuously notified, I created a column in the shifts table to track notification status.</p>
+
+<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+
+<span class="c1">// Update isNotifies value in SQL database
+</span><span class="nx">DB</span><span class="o">::</span><span class="na">table</span><span class="p">(</span><span class="s1">'slots'</span><span class="p">)</span>
+	<span class="o">-&gt;</span><span class="na">where</span><span class="p">(</span><span class="s1">'id'</span><span class="p">,</span> <span class="nv">$shift</span><span class="o">-&gt;</span><span class="na">id</span><span class="p">)</span>
+	<span class="o">-&gt;</span><span class="na">update</span><span class="p">([</span><span class="s1">'isNotified'</span> <span class="o">=&gt;</span> <span class="s1">'Yes'</span><span class="p">]);</span>
+
+</code></pre>
+</div>
+
+<h3 id="hide-empty-days-feature">Hide Empty Days Feature</h3>
+
+<p>My strategy was to cycle through each day that would be displayed on the event page and check if the day had a shift.
+Fortunately, this check was relatively simple after looking into different SQL queries.</p>
+
+<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<span class="c1">// Pluck all of the shift IDs for this event and check the if any in the schedule start today
+</span><span class="k">if</span><span class="p">(</span><span class="nx">Schedule</span><span class="o">::</span><span class="na">whereIn</span><span class="p">(</span><span class="s1">'shift_id'</span><span class="p">,</span> <span class="nv">$shifts</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">where</span><span class="p">(</span><span class="s1">'dates'</span><span class="p">,</span> <span class="s1">'LIKE'</span><span class="p">,</span> <span class="s2">"%"</span><span class="o">.</span><span class="nv">$date</span><span class="o">-&gt;</span><span class="na">format</span><span class="p">(</span><span class="s1">'Y-m-d'</span><span class="p">)</span><span class="o">.</span><span class="s2">"%"</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">isEmpty</span><span class="p">())</span>
+<span class="p">{</span>
+<span class="c1">// Continue onto the next day
+</span><span class="nv">$date</span><span class="o">-&gt;</span><span class="na">addDay</span><span class="p">();</span>
+<span class="k">continue</span><span class="p">;</span>
+</code></pre>
+</div>
+<h3 id="filter-by-week">Filter by week</h3>
+
+<p>Fortunately, I’ve had previous experience with Javascript in University so working out the logic for this feature was trivial.</p>
+
+<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="c1">// Hide all the days</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">'.days .day'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'hidden'</span><span class="p">);</span>
+
+<span class="c1">// Convert date to Moment format</span>
+<span class="kd">let</span> <span class="nx">m</span> <span class="o">=</span> <span class="nx">moment</span><span class="p">();</span>
+
+<span class="nx">m</span> <span class="o">=</span> <span class="nx">moment</span><span class="p">(</span><span class="nx">date</span><span class="p">.</span><span class="nx">toString</span><span class="p">());</span>
+
+<span class="c1">// Show this one</span>
+
+<span class="c1">// Loop through seven days</span>
+<span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="mi">7</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span>
+<span class="p">{</span>
+    <span class="nx">$</span><span class="p">(</span><span class="s1">'.days .day[data-date="'</span> <span class="o">+</span> <span class="nx">m</span><span class="p">.</span><span class="nx">format</span><span class="p">(</span><span class="s1">'Y-MM-DD'</span><span class="p">)</span> <span class="o">+</span> <span class="s1">'"]'</span><span class="p">).</span><span class="nx">removeClass</span><span class="p">(</span><span class="s1">'hidden'</span><span class="p">);</span>
+    <span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">trigger</span><span class="p">(</span><span class="s1">'resize'</span><span class="p">);</span>
+    <span class="nx">m</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">'days'</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+<p>The most challenging part of implementing this feature was working out how to install the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
+Since the server ran Ubuntu, the package wouldn’t install. After a few hours of Googling, one line of code in the header.blade.php
+solved all my problems.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code> <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre>
+</div>
+
+<h3 id="change-to-reminder-timing-through-env-laravel-doc">Change to Reminder timing through .ENV laravel doc</h3>
+
+<h3 id="csv-export-for-users">CSV export for users</h3>
+<h3 id="registering-users">Registering users</h3>
+
+    </div>
+
+    <!-- Previous / Next Buttons
+    <div class="pagenav">
+		
+        <div class="wrapper" id="left">
+          <small><b>Previous</b> Sep 10, 2018</small>
+          <br>
+          <a class="no-hov" href="/2018/09/position-paper">&laquo; position paper</a>
+        </div>
+		
+		
+		</div>  -->
+
+		<!-- Disqus comments view
+		  -->
+</article>
+
+    </div>
+    <!--<footer class="c-page__footer">
+  <p>&copy; kahvi patel 2018</p>
+  <p>shameless:
+    
+      <a href="https://twitter.com/iamkahvi">Twitter</a>
+      <span class="u-separate"></span>
+    
+    
+      <a href="https://github.com/iamkahvi">Github</a>
+    
+  </p>
+</footer>
+-->
+</div>
+
+          
+        </main>
+    
+    </body>
+
+</html>
