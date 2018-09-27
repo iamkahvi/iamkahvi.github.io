@@ -30,13 +30,13 @@ This post exists to specify which features I developed alone.
 I added a legend to the Event page. I changed the text formatting to make the page more legible.
 I changed the date format to make the page more legible.
 
-{% include event.html %}
+![Compare Event](/assets/EventCompare.png)
 
 ### Dashboard
 
 Using bootstrap list items element, I made the dashboard more legible.
 
-{% include dashboard.html %}
+![Compare Dashboard](/assets/DashboardCompare.png)
 
 <hr>
 
@@ -44,7 +44,7 @@ Using bootstrap list items element, I made the dashboard more legible.
 
 ### Email Notifications
 
-On the advice of the original developer, my plan for developing this feature was:
+On the advice of the original developer, my plan for developing the email notification feature was:
 
 1. Create a console command which loops through the "slots" table for any slots starting within the next "hour"
 2. If a volunteer has signed up for that slot, send them a notification
@@ -93,7 +93,7 @@ DB::table('slots')
 	->update(['isNotified' => 'Yes']);
 
 ```
-
+<br>
 
 ### Hide Empty Days Feature
 
@@ -109,6 +109,8 @@ if(Schedule::whereIn('shift_id', $shifts)->where('dates', 'LIKE', "%".$date->for
 $date->addDay();
 continue;
 ```
+<br>
+
 ### Filter by week
 
 Fortunately, I've had previous experience with Javascript in University so working out the logic for this feature was trivial.
@@ -139,7 +141,7 @@ solved all my problems.
 ```html
  <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
 ```
-
+<br>
 ### Change to Reminder timing through .ENV laravel doc
 
 ### CSV export for users
