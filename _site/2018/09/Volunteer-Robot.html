@@ -87,33 +87,13 @@
 <p>I added a legend to the Event page. I changed the text formatting to make the page more legible.
 I changed the date format to make the page more legible.</p>
 
-<<<<<<< HEAD
-<html>
-<body>
-
-<iframe frameborder="0" class="juxtapose" width="100%" height="800px" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4173867a-ba32-11e8-9dba-0edaf8f81e27"></iframe>
-
-</body>
-</html>
-=======
 <p><img src="/assets/EventCompare.png" alt="Compare Event" /></p>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 
 <h3 id="dashboard">Dashboard</h3>
 
 <p>Using bootstrap list items element, I made the dashboard more legible.</p>
 
-<<<<<<< HEAD
-<html>
-<body>
-
-<iframe frameborder="0" class="juxtapose" width="100%" height="400px" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f31f125e-ba32-11e8-9dba-0edaf8f81e27"></iframe>
-
-</body>
-</html>
-=======
 <p><img src="/assets/DashboardCompare.png" alt="Compare Dashboard" /></p>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 
 <hr />
 
@@ -121,33 +101,19 @@ I changed the date format to make the page more legible.</p>
 
 <h3 id="email-notifications">Email Notifications</h3>
 
-<<<<<<< HEAD
-<p>On the advice of the original developer, my plan for developing this feature was:</p>
-
-<ol>
-  <li>Create a console command which loops through the “slots” table for any slots starting within the next “hour”</li>
-=======
 <p>On the advice of the original developer, my plan for developing the email notification feature was:</p>
 
 <ol>
   <li>Create a console command which loops through the a table for any shifts starting within the next “hour”</li>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
   <li>If a volunteer has signed up for that slot, send them a notification</li>
   <li>Add value to SQL table to prevent further notifications</li>
   <li>Add the command to the Laravel cron so it runs periodically (every 5 minutes? 15 minutes?)</li>
 </ol>
 
-<<<<<<< HEAD
-<p>This approach was somewhat efficient given the Laravel cron would be running continuously when it wouldn’t need to. Scheduling a task immediately when a user signs up instead of iterating through the table would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.</p>
-
-<p>To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
-shift. I do this by creating two Carbon dates and add a designated amount of hours to the second variable.</p>
-=======
 <p>This approach was somewhat inefficient given the Laravel cron would be running continuously when it wouldn’t need to. Scheduling a task immediately when a user signs up instead of iterating through the table continuously would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.</p>
 
 <p>To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
 shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbon</a> dates and add a user-designated amount of hours to the second variable.</p>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 
 <div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
@@ -164,9 +130,6 @@ shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbo
 
 </code></pre>
 </div>
-<<<<<<< HEAD
-<p>Then I notify the user of the shift.</p>
-=======
 <p>I find the shift starting within the given reminder period using the variables.</p>
 
 <div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
@@ -184,7 +147,6 @@ shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbo
 </code></pre>
 </div>
 <p>Then I notify the user of the shift. I used the <a href="https://www.mailgun.com/email-api">MailGun api</a> with <a href="https://laravel.com/docs/5.2/mail">Laravel</a> to send the emails.</p>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 
 <div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>			
 <span class="c1">// Notify user of upcoming shift
@@ -199,21 +161,14 @@ shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbo
 
 <div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
-<<<<<<< HEAD
-<span class="c1">// Update isNotifies value in SQL database
-=======
 <span class="c1">// Update isNotified value in SQL database
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 </span><span class="nx">DB</span><span class="o">::</span><span class="na">table</span><span class="p">(</span><span class="s1">'slots'</span><span class="p">)</span>
 	<span class="o">-&gt;</span><span class="na">where</span><span class="p">(</span><span class="s1">'id'</span><span class="p">,</span> <span class="nv">$shift</span><span class="o">-&gt;</span><span class="na">id</span><span class="p">)</span>
 	<span class="o">-&gt;</span><span class="na">update</span><span class="p">([</span><span class="s1">'isNotified'</span> <span class="o">=&gt;</span> <span class="s1">'Yes'</span><span class="p">]);</span>
 
 </code></pre>
 </div>
-<<<<<<< HEAD
-=======
 <p><br /></p>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 
 <h3 id="hide-empty-days-feature">Hide Empty Days Feature</h3>
 
@@ -229,11 +184,8 @@ Fortunately, this check was relatively simple after looking into different SQL q
 <span class="k">continue</span><span class="p">;</span>
 </code></pre>
 </div>
-<<<<<<< HEAD
-=======
 <p><br /></p>
 
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 <h3 id="filter-by-week">Filter by week</h3>
 
 <p>Fortunately, I’ve had previous experience with Javascript in University so working out the logic for this feature was trivial.</p>
@@ -257,27 +209,15 @@ Fortunately, this check was relatively simple after looking into different SQL q
 <span class="p">}</span>
 </code></pre>
 </div>
-<<<<<<< HEAD
-<p>The most challenging part of implementing this feature was working out how to install the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
-Since the server ran Ubuntu, the package wouldn’t install. After a few hours of Googling, one line of code in the header.blade.php
-solved all my problems.</p>
-=======
-<p>Instead of the logic, the most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
+<p>The most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
 Since the server ran Ubuntu, the package wouldn’t install. After some Googling, one line of code in the header.blade.php solved all my problems.</p>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 
 <div class="language-html highlighter-rouge"><pre class="highlight"><code> <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 </code></pre>
 </div>
-<<<<<<< HEAD
-
-<h3 id="change-to-reminder-timing-through-env-laravel-doc">Change to Reminder timing through .ENV laravel doc</h3>
-
-=======
 <p><br /></p>
 
 <h3 id="change-to-reminder-timing-through-env-laravel-doc">Change to Reminder timing through .ENV laravel doc</h3>
->>>>>>> 559b194fd53caab99701e6523b717fca9398da53
 <h3 id="csv-export-for-users">CSV export for users</h3>
 <h3 id="registering-users">Registering users</h3>
 
