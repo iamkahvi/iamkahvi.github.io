@@ -46,15 +46,15 @@ Using bootstrap list items element, I made the dashboard more legible.
 
 On the advice of the original developer, my plan for developing the email notification feature was:
 
-1. Create a console command which loops through the "slots" table for any slots starting within the next "hour"
+1. Create a console command which loops through the a table for any shifts starting within the next "hour"
 2. If a volunteer has signed up for that slot, send them a notification
 3. Add value to SQL table to prevent further notifications
 4. Add the command to the Laravel cron so it runs periodically (every 5 minutes? 15 minutes?)
 
-This approach was somewhat efficient given the Laravel cron would be running continuously when it wouldn't need to. Scheduling a task immediately when a user signs up instead of iterating through the table would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.
+This approach was somewhat inefficient given the Laravel cron would be running continuously when it wouldn't need to. Scheduling a task immediately when a user signs up instead of iterating through the table continuously would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.
 
 To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
-shift. I do this by creating two Carbon dates and add a designated amount of hours to the second variable.
+shift. I do this by creating two [Carbon](https://carbon.nesbot.com/docs/) dates and add a user-designated amount of hours to the second variable.
 
 ```php
 <?php
@@ -71,7 +71,23 @@ foreach($shifts as $shift)
 	$remindDate->subHours(env('REMIND_HOURS'));
 
 ```
-Then I notify the user of the shift.
+I find the shift starting within the given reminder period using the variables.
+
+```php
+<?php
+if($remindDate <= $now and $startDate > $now)
+```
+
+Then, I cycle through all users to find who is registered for the shift in question.
+
+```php
+<?php
+foreach ($users as $user)
+	{
+		// Find user that is registered for this shift
+		if ($user->id == $shift->user_id) {
+```
+Then I notify the user of the shift. I used the [MailGun api](https://www.mailgun.com/email-api) with [Laravel](https://laravel.com/docs/5.2/mail) to send the emails.
 
 ```php
 <?php			
@@ -87,7 +103,7 @@ In order to prevent the user from getting continuously notified, I created a col
 ```php
 <?php
 
-// Update isNotifies value in SQL database
+// Update isNotified value in SQL database
 DB::table('slots')
 	->where('id', $shift->id)
 	->update(['isNotified' => 'Yes']);
@@ -134,15 +150,14 @@ for(var i = 0; i < 7; i++)
     m.add(1, 'days');
 }
 ```
-The most challenging part of implementing this feature was working out how to install the Moment package on the active server. Without this package, I wasn't able to manipulate date strings easily.
-Since the server ran Ubuntu, the package wouldn't install. After a few hours of Googling, one line of code in the header.blade.php
-solved all my problems.
+Instead of the logic, the most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn't able to manipulate date strings easily.
+Since the server ran Ubuntu, the package wouldn't install. After some Googling, one line of code in the header.blade.php solved all my problems.
 
 ```html
  <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
 ```
 <br>
-### Change to Reminder timing through .ENV laravel doc
 
+### Change to Reminder timing through .ENV laravel doc
 ### CSV export for users
 ### Registering users
