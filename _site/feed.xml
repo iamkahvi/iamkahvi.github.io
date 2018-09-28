@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Sep 2018 10:55:31 -0700</pubDate>
-    <lastBuildDate>Wed, 26 Sep 2018 10:55:31 -0700</lastBuildDate>
+    <pubDate>Thu, 27 Sep 2018 20:14:52 -0700</pubDate>
+    <lastBuildDate>Thu, 27 Sep 2018 20:14:52 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -45,25 +45,13 @@
 &lt;p&gt;I added a legend to the Event page. I changed the text formatting to make the page more legible.
 I changed the date format to make the page more legible.&lt;/p&gt;
 
-&lt;html&gt;
-&lt;body&gt;
-
-&lt;iframe frameborder=&quot;0&quot; class=&quot;juxtapose&quot; width=&quot;100%&quot; height=&quot;800px&quot; src=&quot;https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=4173867a-ba32-11e8-9dba-0edaf8f81e27&quot;&gt;&lt;/iframe&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/EventCompare.png&quot; alt=&quot;Compare Event&quot; /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
 
 &lt;p&gt;Using bootstrap list items element, I made the dashboard more legible.&lt;/p&gt;
 
-&lt;html&gt;
-&lt;body&gt;
-
-&lt;iframe frameborder=&quot;0&quot; class=&quot;juxtapose&quot; width=&quot;100%&quot; height=&quot;400px&quot; src=&quot;https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=f31f125e-ba32-11e8-9dba-0edaf8f81e27&quot;&gt;&lt;/iframe&gt;
-
-&lt;/body&gt;
-&lt;/html&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/DashboardCompare.png&quot; alt=&quot;Compare Dashboard&quot; /&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -71,19 +59,19 @@ I changed the date format to make the page more legible.&lt;/p&gt;
 
 &lt;h3 id=&quot;email-notifications&quot;&gt;Email Notifications&lt;/h3&gt;
 
-&lt;p&gt;On the advice of the original developer, my plan for developing this feature was:&lt;/p&gt;
+&lt;p&gt;On the advice of the original developer, my plan for developing the email notification feature was:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Create a console command which loops through the “slots” table for any slots starting within the next “hour”&lt;/li&gt;
+  &lt;li&gt;Create a console command which loops through the a table for any shifts starting within the next “hour”&lt;/li&gt;
   &lt;li&gt;If a volunteer has signed up for that slot, send them a notification&lt;/li&gt;
   &lt;li&gt;Add value to SQL table to prevent further notifications&lt;/li&gt;
   &lt;li&gt;Add the command to the Laravel cron so it runs periodically (every 5 minutes? 15 minutes?)&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;This approach was somewhat efficient given the Laravel cron would be running continuously when it wouldn’t need to. Scheduling a task immediately when a user signs up instead of iterating through the table would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.&lt;/p&gt;
+&lt;p&gt;This approach was somewhat inefficient given the Laravel cron would be running continuously when it wouldn’t need to. Scheduling a task immediately when a user signs up instead of iterating through the table continuously would be a better approach. Ultimately I chose to implement the feature as a simple solution using the existing schema as opposed to changing the schema and the controller logic.&lt;/p&gt;
 
 &lt;p&gt;To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
-shift. I do this by creating two Carbon dates and add a designated amount of hours to the second variable.&lt;/p&gt;
+shift. I do this by creating two &lt;a href=&quot;https://carbon.nesbot.com/docs/&quot;&gt;Carbon&lt;/a&gt; dates and add a user-designated amount of hours to the second variable.&lt;/p&gt;
 
 &lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 
@@ -100,7 +88,23 @@ shift. I do this by creating two Carbon dates and add a designated amount of hou
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;Then I notify the user of the shift.&lt;/p&gt;
+&lt;p&gt;I find the shift starting within the given reminder period using the variables.&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$remindDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$now&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$startDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Then, I cycle through all users to find who is registered for the shift in question.&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$users&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;c1&quot;&gt;// Find user that is registered for this shift
+&lt;/span&gt;		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Then I notify the user of the shift. I used the &lt;a href=&quot;https://www.mailgun.com/email-api&quot;&gt;MailGun api&lt;/a&gt; with &lt;a href=&quot;https://laravel.com/docs/5.2/mail&quot;&gt;Laravel&lt;/a&gt; to send the emails.&lt;/p&gt;
 
 &lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;			
 &lt;span class=&quot;c1&quot;&gt;// Notify user of upcoming shift
@@ -115,13 +119,14 @@ shift. I do this by creating two Carbon dates and add a designated amount of hou
 
 &lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 
-&lt;span class=&quot;c1&quot;&gt;// Update isNotifies value in SQL database
+&lt;span class=&quot;c1&quot;&gt;// Update isNotified value in SQL database
 &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;DB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'slots'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 	&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 	&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'isNotified'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Yes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
 
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;hide-empty-days-feature&quot;&gt;Hide Empty Days Feature&lt;/h3&gt;
 
@@ -137,6 +142,8 @@ Fortunately, this check was relatively simple after looking into different SQL q
 &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;filter-by-week&quot;&gt;Filter by week&lt;/h3&gt;
 
 &lt;p&gt;Fortunately, I’ve had previous experience with Javascript in University so working out the logic for this feature was trivial.&lt;/p&gt;
@@ -160,16 +167,15 @@ Fortunately, this check was relatively simple after looking into different SQL q
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-&lt;p&gt;The most challenging part of implementing this feature was working out how to install the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
-Since the server ran Ubuntu, the package wouldn’t install. After a few hours of Googling, one line of code in the header.blade.php
-solved all my problems.&lt;/p&gt;
+&lt;p&gt;Instead of the logic, the most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
+Since the server ran Ubuntu, the package wouldn’t install. After some Googling, one line of code in the header.blade.php solved all my problems.&lt;/p&gt;
 
 &lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;change-to-reminder-timing-through-env-laravel-doc&quot;&gt;Change to Reminder timing through .ENV laravel doc&lt;/h3&gt;
-
 &lt;h3 id=&quot;csv-export-for-users&quot;&gt;CSV export for users&lt;/h3&gt;
 &lt;h3 id=&quot;registering-users&quot;&gt;Registering users&lt;/h3&gt;
 </description>

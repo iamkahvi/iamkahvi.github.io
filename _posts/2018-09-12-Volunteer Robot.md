@@ -150,7 +150,7 @@ for(var i = 0; i < 7; i++)
     m.add(1, 'days');
 }
 ```
-Instead of the logic, the most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn't able to manipulate date strings easily.
+The most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn't able to manipulate date strings easily.
 Since the server ran Ubuntu, the package wouldn't install. After some Googling, one line of code in the header.blade.php solved all my problems.
 
 ```html
