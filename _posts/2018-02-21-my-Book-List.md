@@ -13,7 +13,7 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 ## <u> this year </u>
 
 - The Looming Tower<br>
-It's sort of against the rules but I haven't finished this book yet. I wanted to write about it because it's the first non-fiction book that has kept me engaged for over a month of regular reading. The book explores Islam, US Policy, personal motivations; and culminate in 9/11. Despite this inevitable terrifying conlcusion, my interest stems mostly from the background surrounding the event and not the event itself. The lore surrounding the events leading up to 9/11 involving Bin Laden, Sudan, Yemen and Saudi Arabia was murky and misleading before I started reading this book.
+It's sort of against the rules but I haven't finished this book yet. I wanted to write about it because it's the first non-fiction book that has kept me engaged for over a month of regular reading. The book explores Islam, US Policy, personal motivations; and culminates in 9/11. Despite this inevitable conclusion, what keeps me reading is the background leading up to the event and not the event itself. My knowledge surrounding the events leading up to 9/11 involving Bin Laden, Sudan, Yemen and Saudi Arabia was murky and misinformed until I started reading this book.
 <br><br>
 
 - The English Patient<br>
