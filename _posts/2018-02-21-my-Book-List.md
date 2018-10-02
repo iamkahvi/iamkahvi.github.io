@@ -13,7 +13,8 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 ## <u> this year </u>
 
 - The Looming Tower<br>
-It's sort of against the rules but I haven't finished this book yet. I wanted to write about it because it's the first non-fiction book that has kept me engaged for over a month of regular reading. The book explores Islam, US Policy, personal motivations; and culminates in 9/11. Despite this inevitable conclusion, what keeps me reading is the background leading up to the event and not the event itself. My knowledge surrounding the events leading up to 9/11 involving Bin Laden, Sudan, Yemen and Saudi Arabia was murky and misinformed until I started reading this book.
+It's sort of against the rules but I haven't finished this book yet. I wanted to write about it because it's the first non-fiction book that has kept me engaged for over a month of regular reading. The book explores Islam, US Policy, personal motivations; and culminates in 9/11. Despite this inevitable conclusion, what keeps me reading is the background leading up to the event and not the event itself. My knowledge surrounding the events leading up to 9/11 involving Bin Laden, Sudan, Yemen and Saudi Arabia was murky and misinformed until I started reading this book.<br>
+(Update: Just finished it)
 <br><br>
 
 - The English Patient<br>
@@ -21,7 +22,7 @@ Not sure how I got through this book. It has exciting moments, but they are few 
 <br><br>
 
 - The Brief and Wondrous Life of Oscar Wao<br>
-Fun book to read. It goes by fast mostly due to the narrator’s hilarious tone. Follows a family through three generations as they navigate the Dominican Republic and then the United States, but mostly about Oscar Wao. Left me with a melancholy feeling. Important tip: Do not read the introduction, it takes way too long and is discouraging. 
+Fun book to read. It goes by fast mostly due to the narrator’s hilarious tone. Follows a family through three generations as they navigate the Dominican Republic and then the United States, but mostly about Oscar Wao. Left me with a melancholy feeling. Important tip: Do not read the introduction, it takes way too long and is discouraging.
 <br><br>
 
 - The Idiot <br>
