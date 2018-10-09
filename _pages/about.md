@@ -5,7 +5,7 @@ permalink: /about/
 ---
 Hi, I'm Kahvi.
 
-I study software engineering at the University of Victoria.
+I study software engineering at the University of Victoria. This is my [resume](/resume/), [GitHub](https://github.com/iamkahvi).
 
 I used to do art. This is my [portfolio](http://kahvipatel.com/portfolio.html).
 

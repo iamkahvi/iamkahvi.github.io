@@ -18,7 +18,7 @@ It's sort of against the rules but I haven't finished this book yet. I wanted to
 <br><br>
 
 - The English Patient<br>
-Not sure how I got through this book. It has exciting moments, but they are few and far between. This book takes a certain type of focus and patience that I barely have. It’s rewarding by the end though. About a group of people who live in an Italian villa after the War. Explores each of their historiy, some more than others.
+Not sure how I got through this book. It has exciting moments, but they are few and far between. This book takes a certain type of focus and patience that I barely have. It’s rewarding by the end though. About a group of people who live in an Italian villa after the War. Explores each of their history, some more than others.
 <br><br>
 
 - The Brief and Wondrous Life of Oscar Wao<br>
@@ -55,7 +55,7 @@ The idea of a “dark forest” is so overarching and terrifying that it my chan
 <br>
 
 - The Three-Body Problem (re-read) <br>
-My second favourite science-fiction novel. Involves the Chinese Cultural Revolution, chaotic motion, aliens and a funny cop. Mostly, it keeps engaging you with an overarching mystery. The novel gives you a jarring view of what contact with extra-terrestrial intelligence would feel like.
+My second favorite science-fiction novel. Involves the Chinese Cultural Revolution, chaotic motion, aliens and a funny cop. Mostly, it keeps engaging you with an overarching mystery. The novel gives you a jarring view of what contact with extra-terrestrial intelligence would feel like.
 <br><br>
 
 - Annihilation <br>
