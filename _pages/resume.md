@@ -4,7 +4,9 @@ permalink: /resume/
 ---
 
 # Kahvi Patel
-*4087 Longview Dr, Victoria, BC |  613 - 328 - 6030 | iamkahvi@gmail.com*
+*4087 Longview Dr, Victoria, BC |  613 - 328 - 6030 | iamkahvi@gmail.com*  
+
+[Github](http://github.com/iamkahvi) | [Linkedin](linkedin.com/in/kahvi-patel)
 
 ---
 
@@ -13,27 +15,32 @@ permalink: /resume/
 ### **Data Management Assistant** – Loving Spoonful
 04.2018 – 08. 2018  
 Kingston, ON  
-- Worked independently at non-profit organization
-- Created [Volunteer Database](/2018/09/Volunteer-Robot) to manage volunteer shifts and records using Laravel Framework, PHP, SQL, HTML and CSS.
-  * Showing 99 changed files with 10,052 additions and 1,416 deletions to [forked repo](https://github.com/playasoft/volunteers)
-  * Added multiple features to application
-  * Over 70 users registered within two weeks
-  * Over 150 shifts registered out of 300 shifts created
-  * List of [commits](https://github.com/playasoft/volunteers/compare/master...iamkahvi:master)
-  * Deployed Site using npm, composer, Digital Ocean, Laravel Forge
-- Managed a beta for Volunteer Database to gather and implement user feedback
-- Updated Google SEO information for Loving Spoonful Website
-- Updated databases (Excel, Dropbox, etc) for Loving Spoonful
+- Worked in various teams at non-profit organization
+- Management of multiple simultaneous projects
+- Developed “Volunteer-Robot“Application to manage shifts for volunteer programs using Laravel Framework, PHP, SQL, HTML and CSS.
+  - Contributed 11,000 lines of code
+  - Interfaced directly with users to quickly iterate on feedback
+  - Implemented email notifications using MailGun
+  - Implemented weekly filtering using Javascript
+  - Implemented searchable volunteer database with .CSV export
+  - Implemented hide-empty-days option using Laravel Queries
+  - Deployed “Volunteer-Robot” Application using npm, composer, Digital Ocean, Laravel Forge
+  - 67 users registered in two weeks
+  - Over 400 shifts created, 127 shifts registered
+- Created visualization application using R to display and analyze food donation trends
+- Organized and improved internal databases and filing systems, including Dropbox and DonorSnap
+- Updated and formatted Loving Spoonful Website
+
 
 ---
 
 ### **Fresh Food Coordinator** – Loving Spoonful
 05.2017 – 08. 2017  
 Kingston, ON
-- Oversaw outreach campaign across the community
-- Organized and scheduled shifts among volunteers
+- Interfaced with community members to gather feedback and to drive engage with programs.
+- Developed data collection system using Google forms and Google sheets for food donations (over
+2000 donations recorded; 20 000lbs of food)
 - Assisted in planning and executing events
-- Created social messaging (Facebook, Instagram, Email)
 
 ---
 
