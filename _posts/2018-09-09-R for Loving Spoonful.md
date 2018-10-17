@@ -2,7 +2,7 @@
 layout: post
 title: R for Loving Spoonful
 description: How visualizations lead to insight
-date: 2018-09-12
+date: 2018-09-09
 ---
 
 I made some apps with Shiny and R to visualize the data gathered with several programs that were implemented last year.

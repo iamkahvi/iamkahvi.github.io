@@ -12,7 +12,12 @@ These are the [highlights](/bookhighlights.html) from all the books I’ve read 
 
 ## <u> this year </u>
 
-- The Looming Tower<br>
+- Orchid and the Wasp  
+This book reminds me of The Goldfinch. Despite the unusual situations Gael (the protagonist) finds herself in, I *believe* in the logic of why she got there. In fact, I feel like that's where I would be in her shoes. Despite her facetious, ruthless, manipulative personality. Yet at her core, Gael is motivated by her caring for her family. I guess the ends justify the means. 
+[Highlights here](/_pages/highlights/Orchid-and-the-Wasp)
+<br><br>
+
+- The Looming Tower  
 It's sort of against the rules but I haven't finished this book yet. I wanted to write about it because it's the first non-fiction book that has kept me engaged for over a month of regular reading. The book explores Islam, US Policy, personal motivations; and culminates in 9/11. Despite this inevitable conclusion, what keeps me reading is the background leading up to the event and not the event itself. My knowledge surrounding the events leading up to 9/11 involving Bin Laden, Sudan, Yemen and Saudi Arabia was murky and misinformed until I started reading this book.<br>
 (Update: Just finished it)
 <br><br>

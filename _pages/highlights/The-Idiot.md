@@ -4,7 +4,7 @@ title: The Idiot Highlights
 date: 2018-07-25
 ---
 
-By: Elif Batuman
+by Elif Batuman
 
 > It was a mystery to me how Svetlana generated so many opinions. Any piece of information seemed to produce an opinion on contact. Meanwhile, I went from class to class, read hundreds, thousands of pages of the distilled ideas of the great thinkers of human history, and nothing happened. In high school I had been full of opinions, but high school had been like prison, with constant opposition and obstacles. Once the obstacles were gone, meaning seemed to vanish, too. It was just like Chekhov said, in “The Darling”: She saw objects round her and understood everything that was going on, but she could not form opinions about anything and did not know what to talk about. How awful it is not to have an opinion! You see a bottle, for example, standing there, or the rain falling, or a peasant going along in his cart, but what the bottle or rain or peasant are for, what sense they make, you can’t say and couldn’t say, even if they offered you a thousand rubles.
 
@@ -141,5 +141,3 @@ Elif Batuman, Idiot, The, loc. 6037-6039
 > When I got back to school in the fall, I changed my major from linguistics and didn’t take any more classes in the philosophy or psychology of language. They had let me down. I hadn’t learned what I had wanted to about how language worked. I hadn’t learned anything at all.
 
 Elif Batuman, Idiot, The, loc. 6085-6087
-
-
