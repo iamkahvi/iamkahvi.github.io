@@ -1,7 +1,7 @@
 ---
 layout: content
 title: my book highlights
-permalink: bookhighlights.html
+permalink: /book-highlights
 ---
 
 ### A Gentleman in Moscow, Amor Towles
