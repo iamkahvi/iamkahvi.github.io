@@ -12,15 +12,15 @@ Recently, I’ve gotten better at interacting with my computer.
 
 It’s a mid-2014 MacBook Pro. 8GB of RAM, 128GB of storage; pretty standard. Despite these outdated stats, I don’t want a new computer.
 
-My relationship with my laptop has evolved. Even though it’s 5 years old, these days it feels like I’m interacting with a new machine. More accurately, I have a *new* way of interacting with my machine. 
+My relationship with my laptop has evolved. Even though it’s 5 years old, these days it feels like I’m interacting with a new machine. More accurately, I have a *new way* of interacting with my machine. 
 
 Basically, this post is all about inputs. 
 
 Usually to make your computer do things, you interact with it through a controller. Most often, those controllers are a mouse/trackpad and a keyboard.
 
-My entire life, the mouse was the way I interacted with a computer. This means what you think it does. Clicking, dragging, selecting, highlighting; everything was done by using my hand to move my mouse across the screen. The keyboard was used for typing, turning up the brightness and volume and maybe pausing Youtube videos.
+My the majority of my life, the mouse was the way I interacted with a computer. This means what you think it does. Clicking, dragging, selecting, highlighting; everything was done using my hand to move my mouse across the screen. The keyboard was used for typing, turning up the brightness and volume and maybe pausing Youtube videos.
 
-This method of interaction is fine. It’s cool. It’s was most people do.
+This method of interaction is fine. It’s cool. It’s what most people do.
 
 It isn’t fast though. 
 
@@ -32,7 +32,7 @@ The reason I wrote a whole blog post to tell you this is because it really speed
 
 I created this blog post, setup a localhost to view it on Chrome and am writing this post _all_ without touching the trackpad. 
 
-This also implies something important. The less you use the mouse, the you need a Graphical User Interface (GUI).
+This also implies something important. The less you use the mouse, the less you need a Graphical User Interface (GUI).
 
 This is how I think of it. Imagine you have a window on your computer screen with a bunch of buttons on it. Like the toolbar in Microsoft Word. Every button on that screen has a specific function: Set the font size, font colour, line spacing, bold, etc. 
 
@@ -42,11 +42,11 @@ To use these functions, you navigate the mouse to each button. This takes time b
 In that case, why have the buttons on the screen in the first place? If the buttons are your keys, why do you need buttons on the screen?
 
 Okay, that was a bit confusing. Let me put this another way.  
-Imagine you didn’t have the keyboard. Imagine you had to write an essay using a mouse and a virtual keyboard on the screen. 
+Imagine you didn’t have a keyboard. Imagine you had to write an essay using a mouse and a virtual keyboard on the screen. 
 
 ![virtual keyboard mac](/assets/virtual-keyboard.jpg)
 
-That would suck, right? Clicking every character? It would take so long! Even though clicking the letter “k” on a virtual keyboard takes less than a second, doing it repeatedly adds up.
+That would suck, right? Clicking every character? It would take so long! Even though clicking one letter on a virtual keyboard takes less than a second, doing it repeatedly adds up.
 
 This same idea applies to interacting with your computer as a whole. For *most* things, the keyboard is faster than the mouse. Individual operations are not faster by hours or minutes or seconds. They’re faster by less than a second. But again, it adds up.
 
@@ -70,7 +70,7 @@ Legend:
 ⌥ is the Option key  
 ⇧ is the Shift key
   
-“+” means using the two keys at the same time
+“+” means pressing the two keys at the same time
 
 MacOS
 - Switch Apps: ⌘ + Tab
@@ -80,6 +80,7 @@ MacOS
 Applications 
 - New Tab: ⌘ + t
 - Type in Nav Bar: ⌘ + l
+- Navigate Tabs: ⌘ + ⌥ + ← or →
 - Save File: ⌘ + s
 - Close Window: ⌘ + w
 - Undo: ⌘ + z
