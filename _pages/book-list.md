@@ -10,6 +10,10 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 
 ## <u> this year </u>
 
+- Naked Economics  
+I haven't finished this book yet. Mostly because it has a tendency to put me to sleep which is convenient since I read it right before bed. Despite that, every second I'm awake to enjoy it the content is engaging! Hopefully it will be done by Christmas.
+<br><br>
+
 - Orchid and the Wasp  
 This book reminds me of The Goldfinch. Despite the unusual situations Gael (the protagonist) finds herself in, I *believe* in the logic of why she got there. In fact, I feel like that's where I would be in her shoes. Despite her facetious, ruthless, manipulative personality. Yet at her core, Gael is motivated by her caring for her family. I guess the ends justify the means. 
 [Highlights here](/_pages/highlights/Orchid-and-the-Wasp)

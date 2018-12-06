@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 26 Nov 2018 10:07:32 -0800</pubDate>
-    <lastBuildDate>Mon, 26 Nov 2018 10:07:32 -0800</lastBuildDate>
+    <pubDate>Wed, 05 Dec 2018 21:31:29 -0800</pubDate>
+    <lastBuildDate>Wed, 05 Dec 2018 21:31:29 -0800</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -20,15 +20,15 @@
 
 &lt;p&gt;It’s a mid-2014 MacBook Pro. 8GB of RAM, 128GB of storage; pretty standard. Despite these outdated stats, I don’t want a new computer.&lt;/p&gt;
 
-&lt;p&gt;My relationship with my laptop has evolved. Even though it’s 5 years old, these days it feels like I’m interacting with a new machine. More accurately, I have a &lt;em&gt;new&lt;/em&gt; way of interacting with my machine.&lt;/p&gt;
+&lt;p&gt;My relationship with my laptop has evolved. Even though it’s 5 years old, these days it feels like I’m interacting with a new machine. More accurately, I have a &lt;em&gt;new way&lt;/em&gt; of interacting with my machine.&lt;/p&gt;
 
 &lt;p&gt;Basically, this post is all about inputs.&lt;/p&gt;
 
 &lt;p&gt;Usually to make your computer do things, you interact with it through a controller. Most often, those controllers are a mouse/trackpad and a keyboard.&lt;/p&gt;
 
-&lt;p&gt;My entire life, the mouse was the way I interacted with a computer. This means what you think it does. Clicking, dragging, selecting, highlighting; everything was done by using my hand to move my mouse across the screen. The keyboard was used for typing, turning up the brightness and volume and maybe pausing Youtube videos.&lt;/p&gt;
+&lt;p&gt;My the majority of my life, the mouse was the way I interacted with a computer. This means what you think it does. Clicking, dragging, selecting, highlighting; everything was done using my hand to move my mouse across the screen. The keyboard was used for typing, turning up the brightness and volume and maybe pausing Youtube videos.&lt;/p&gt;
 
-&lt;p&gt;This method of interaction is fine. It’s cool. It’s was most people do.&lt;/p&gt;
+&lt;p&gt;This method of interaction is fine. It’s cool. It’s what most people do.&lt;/p&gt;
 
 &lt;p&gt;It isn’t fast though.&lt;/p&gt;
 
@@ -40,7 +40,7 @@
 
 &lt;p&gt;I created this blog post, setup a localhost to view it on Chrome and am writing this post &lt;em&gt;all&lt;/em&gt; without touching the trackpad.&lt;/p&gt;
 
-&lt;p&gt;This also implies something important. The less you use the mouse, the you need a Graphical User Interface (GUI).&lt;/p&gt;
+&lt;p&gt;This also implies something important. The less you use the mouse, the less you need a Graphical User Interface (GUI).&lt;/p&gt;
 
 &lt;p&gt;This is how I think of it. Imagine you have a window on your computer screen with a bunch of buttons on it. Like the toolbar in Microsoft Word. Every button on that screen has a specific function: Set the font size, font colour, line spacing, bold, etc.&lt;/p&gt;
 
@@ -50,11 +50,11 @@
 In that case, why have the buttons on the screen in the first place? If the buttons are your keys, why do you need buttons on the screen?&lt;/p&gt;
 
 &lt;p&gt;Okay, that was a bit confusing. Let me put this another way.&lt;br /&gt;
-Imagine you didn’t have the keyboard. Imagine you had to write an essay using a mouse and a virtual keyboard on the screen.&lt;/p&gt;
+Imagine you didn’t have a keyboard. Imagine you had to write an essay using a mouse and a virtual keyboard on the screen.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/virtual-keyboard.jpg&quot; alt=&quot;virtual keyboard mac&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;That would suck, right? Clicking every character? It would take so long! Even though clicking the letter “k” on a virtual keyboard takes less than a second, doing it repeatedly adds up.&lt;/p&gt;
+&lt;p&gt;That would suck, right? Clicking every character? It would take so long! Even though clicking one letter on a virtual keyboard takes less than a second, doing it repeatedly adds up.&lt;/p&gt;
 
 &lt;p&gt;This same idea applies to interacting with your computer as a whole. For &lt;em&gt;most&lt;/em&gt; things, the keyboard is faster than the mouse. Individual operations are not faster by hours or minutes or seconds. They’re faster by less than a second. But again, it adds up.&lt;/p&gt;
 
@@ -78,7 +78,7 @@ The command line is an application with exactly this in mind. The keyboard is yo
 ⌥ is the Option key&lt;br /&gt;
 ⇧ is the Shift key&lt;/p&gt;
 
-&lt;p&gt;“+” means using the two keys at the same time&lt;/p&gt;
+&lt;p&gt;“+” means pressing the two keys at the same time&lt;/p&gt;
 
 &lt;p&gt;MacOS&lt;/p&gt;
 &lt;ul&gt;
@@ -91,6 +91,7 @@ The command line is an application with exactly this in mind. The keyboard is yo
 &lt;ul&gt;
   &lt;li&gt;New Tab: ⌘ + t&lt;/li&gt;
   &lt;li&gt;Type in Nav Bar: ⌘ + l&lt;/li&gt;
+  &lt;li&gt;Navigate Tabs: ⌘ + ⌥ + ← or →&lt;/li&gt;
   &lt;li&gt;Save File: ⌘ + s&lt;/li&gt;
   &lt;li&gt;Close Window: ⌘ + w&lt;/li&gt;
   &lt;li&gt;Undo: ⌘ + z&lt;/li&gt;
