@@ -22,11 +22,6 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 391-392
 <hr>
 
 
- > Wealthy Americans are willing to spend more money to protect the environment as a fraction of their incomes than are less wealthy Americans.
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 391-392
-<hr>
-
 
  > The next time you are on an airplane, try this experiment: Ask the person next to you how much he or she paid for the ticket. It’s probably not what you paid; it may not even be close.
 
@@ -250,40 +245,17 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2120-2122
 <hr>
 
 
- > “While all forms of capital—physical capital, such as machinery and plants, financial capital, and human capital—are important, human capital is the most important. Indeed, in a modern economy, human capital is by far the most important
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2375-2377
-<hr>
-
-
  > “While all forms of capital—physical capital, such as machinery and plants, financial capital, and human capital—are important, human capital is the most important. Indeed, in a modern economy, human capital is by far the most important form of capital in creating wealth and growth.”6
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2375-2378
 <hr>
 
 
- > There is a striking correlation between a country’s level of human capital and its economic well-being. At the same time, there is a striking lack of correlation between natural resources and standard of living.
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2378-2380
-<hr>
-
-
  > There is a striking correlation between a country’s level of human capital and its economic well-being. At the same time, there is a striking lack of correlation between natural resources and standard of living. Countries like Japan and Switzerland are among the richest in the world despite having relatively poor endowments of natural resources. Countries like Nigeria are just the opposite; enormous oil wealth has done relatively little for the nation’s standard of living. In some cases, the mineral wealth of Africa has financed bloody civil wars that would have otherwise died out. In the Middle East, Saudi Arabia has most of the oil while Israel, with no natural resources to speak of, has a higher per capita income. High levels of human capital create a virtuous cycle; well-educated parents invest heavily in the human capital of their children. Low levels of human capital have just the opposite effect.
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2378-2385
 <hr>
 
-
- > There is a striking correlation between a country’s level of human capital and its economic well-being. At the same time, there is a striking lack of correlation between natural resources and standard of living. Countries like Japan and Switzerland are among the richest in the world despite having relatively poor endowments of natural resources. Countries like Nigeria are just the opposite; enormous oil wealth has done relatively little for the nation’s standard of living. In some cases, the mineral wealth of Africa has financed bloody civil wars that would have otherwise died out. In the Middle East, Saudi Arabia has most of the oil while Israel, with no natural resources to speak of, has a higher per capita income. High levels of human capital create a virtuous cycle; well-educated parents invest heavily in the human capital of their children. Low levels of human capital have just the opposite effect.
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2378-2385
-<hr>
-
-
-> Countries like Japan and Switzerland are among the richest in the world despite having relatively poor endowments of natural resources. Countries like Nigeria are just the opposite; enormous oil wealth has done relatively little for the nation’s standard of living. In some cases, the mineral wealth of Africa has financed bloody civil wars that would have otherwise died out. In the Middle East, Saudi Arabia has most of the oil while Israel, with no natural resources to speak of, has a higher per capita income.
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2380-2383
-<hr>
 
 
  > The poverty line is now at a level of real income that was attained only by those in the top 10 percent of the income distribution a century ago.
@@ -328,7 +300,7 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2621-2623
 <hr>
 
 
- > Opportunity International is one such “microcredit” lender. In 2000, the organization made nearly 325,000 low-collateral or non-collateral loans in twenty-four developing countries. The average loan size was a seemingly paltry $195. Esther Gelabuzi, a widow in Uganda with six children, represents a typical story. She is a professional midwife, and she used a tiny loan by Western standards to set up a clinic (still without electricity). She has since delivered some fourteen hundred babies, charging patients from $6 to $14 each. Opportunity International claims to have created some 430,000 jobs. As impressive, the repayment rate on the micro-loans is 96 percent.
+ > Opportunity International is one such “micro-credit” lender. In 2000, the organization made nearly 325,000 low-collateral or non-collateral loans in twenty-four developing countries. The average loan size was a seemingly paltry $195. Esther Gelabuzi, a widow in Uganda with six children, represents a typical story. She is a professional midwife, and she used a tiny loan by Western standards to set up a clinic (still without electricity). She has since delivered some fourteen hundred babies, charging patients from $6 to $14 each. Opportunity International claims to have created some 430,000 jobs. As impressive, the repayment rate on the micro-loans is 96 percent.
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2625-2629
 <hr>
@@ -343,12 +315,6 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2634-2635
  > In a world in which everyone is looking to make profitable investments, no one is going to leave $250,000 sitting on the table. Yet people assume the stock market works like this all the time.
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2795-2797
-<hr>
-
-
- > We believe that after reading about a “hot stock” in BusinessWeek, or reading a Wall Street analyst’s buy recommendation (offered to all the firm’s clients), we can load
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2797-2798
 <hr>
 
 
@@ -373,12 +339,6 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2815-2817
  > Stock prices settle at a fair price given everything that we know or can reasonably predict; prices will rise or fall in the future only in response to unanticipated events—things that we cannot know in the present.
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2819-2820
-<hr>
-
-
- > Riskier investments must offer a higher expected return in order to attract capital.
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 2918-2919
 <hr>
 
 
@@ -448,13 +408,13 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 3332-3335
 <hr>
 
 
- > “In general, the economic arbiters of taste recommend ‘experiences’ over commodities, pastimes over knick-knacks, doing over having.”7
+ > “In general, the economic arbiters of taste recommend ‘experiences’ over commodities, pastimes over knick-knacks, doing over having.”
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 3365-3367
 <hr>
 
 
- > year—may cost you your job, which will in turn hurt my business! Indeed, if we all believe the economy is likely to get worse, then it will get worse. And if we all believe
+ > Indeed, if we all believe the economy is likely to get worse, then it will get worse. 
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 3410-3412
 <hr>
@@ -604,13 +564,7 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 4479-4482
 <hr>
 
 
- > We trade with others because it frees up time and resources to do things that we are better at. Saudi Arabia can produce
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 4485-4486
-<hr>
-
-
-have used to do something else far more productive. We trade with others because it frees up time and resources to do things that we are better at.
+ > We trade with others because it frees up time and resources to do things that we are better at.
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 4485-4486
 <hr>
@@ -667,12 +621,6 @@ Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 4755-4759
  > you buy a product made in a third-world country, it was produced by workers who are paid incredibly little by Western standards and probably work under awful conditions. Anyone who is not bothered by those facts, at least some of the time, has no heart. But that doesn’t mean the demonstrators are right. On the contrary, anyone who thinks that the answer to world poverty is simple outrage against global trade has no head—or chooses not to use it. The anti-globalization movement already has a remarkable track record of hurting the very people and causes it claims to champion.22
 
 Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 4778-4782
-<hr>
-
-
- > Economists Daron Acemoglu, Simon Johnson, and James Robinson hypothesized that the economic success of developing countries that were formerly colonized has been affected by the quality of the institutions that their colonizers left behind.
-
-Charles Wheelan, Naked Economics: Undressing the Dismal Science, loc. 4838-4840
 <hr>
 
 
