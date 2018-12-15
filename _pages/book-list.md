@@ -10,22 +10,27 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 
 ## <u> this year </u>
 
+- Circe  
+I love the Greek Gods. The combination of vanity and absolute power always make for exciting stories. This book went by quickly. It’s a retelling of _The Odyssey_ and several other classic Greek tales from the perspective of the Goddess Circe. Reading it felt somewhat similar to Percy Jackson but I wouldn’t recommend it to children. It explores the idea of immortality, love, children, beauty. There is a happy ending.  
+ “he had never met a god [Circe] who enjoyed their divinity less.”
+<br><br>
+
 - Naked Economics  
-I haven't finished this book yet. Mostly because it has a tendency to put me to sleep which is convenient since I read it right before bed. Despite that, every second I'm awake to enjoy it the content is engaging! Hopefully it will be done by Christmas.
+I haven't finished this book yet. Mostly because it has a tendency to put me to sleep which is convenient since I read it right before bed. Despite that, I enjoy every second I'm awake! Hopefully it will be done by Christmas. (Update: Just finished it)   
+[Highlights here](/_pages/highlights/Naked-Economics)
 <br><br>
 
 - Orchid and the Wasp  
-This book reminds me of The Goldfinch. Despite the unusual situations Gael (the protagonist) finds herself in, I *believe* in the logic of why she got there. In fact, I feel like that's where I would be in her shoes. Despite her facetious, ruthless, manipulative personality. Yet at her core, Gael is motivated by her caring for her family. I guess the ends justify the means. 
+This book reminds me of The Goldfinch. Despite the unusual situations Gael (the protagonist) finds herself in, I *believe* in the logic of why she got there. In fact, I feel like that's where I would be in her shoes despite her facetious, ruthless, manipulative personality. Yet at her core, Gael is motivated by her caring for her family. I guess the ends justify the means. 
 [Highlights here](/_pages/highlights/Orchid-and-the-Wasp)
 <br><br>
 
 - The Looming Tower  
-It's sort of against the rules but I haven't finished this book yet. I wanted to write about it because it's the first non-fiction book that has kept me engaged for over a month of regular reading. The book explores Islam, US Policy, personal motivations; and culminates in 9/11. Despite this inevitable conclusion, what keeps me reading is the background leading up to the event and not the event itself. My knowledge surrounding the events leading up to 9/11 involving Bin Laden, Sudan, Yemen and Saudi Arabia was murky and misinformed until I started reading this book.<br>
-(Update: Just finished it)
+This is the first non-fiction book that has kept me engaged for over a month of regular reading. The book explores Islam, US Policy, personal motivations; and culminates in 9/11. Despite this inevitable conclusion, what kept me reading is the background leading up to the event and not the event itself. My knowledge surrounding the events leading up to 9/11 involving Bin Laden, Sudan, Yemen and Saudi Arabia was murky and misinformed until I started reading this book.
 <br><br>
 
 - The English Patient<br>
-Not sure how I got through this book. It has exciting moments, but they are few and far between. This book takes a certain type of focus and patience that I barely have. It’s rewarding by the end though. About a group of people who live in an Italian villa after the War. Explores each of their history, some more than others.
+Not sure how I got through this book. It has exciting moments, but they are few and far between. This book takes a certain type of focus and patience that I barely have. It’s rewarding by the end though. About a group of people who live in an Italian villa after the War. Explores each of their histories, some more than others.
 <br><br>
 
 - The Brief and Wondrous Life of Oscar Wao<br>
