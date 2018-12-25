@@ -10,8 +10,13 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 
 ## <u> this year </u>
 
+- Bad Blood  
+Read this one very quickly. This is the story behind the rise and fall of Theranos. If that company is unknown to you, I highly recommend looking them up. The story is larger than life and illustrates the strange motivations that govern Silicon Valley. It’s disturbing how much they got away with and for how long. It made me question the whole ecosystem. They’ll probably make a movie about it soon.  
+“…in her [Elizabeth Holmes’s]  all-consuming quest to be the second coming of Steve Jobs amid the gold rush of the “unicorn” boom, there came a point when she stopped listening to sound advice and began to cut corners. Her ambition was voracious and it brooked no interference.”
+<br><br>
+
 - Circe  
-I love the Greek Gods. The combination of vanity and absolute power always makes for exciting stories. This book went by quickly. It’s a retelling of _The Odyssey_ and several other classic Greek tales from the perspective of the Goddess Circe. Reading it felt somewhat similar to Percy Jackson but I wouldn’t recommend it to children. It explores the idea of immortality, love, children, beauty. There is a happy ending.  
+I love the Greek Gods. Their combination of vanity and absolute power always makes for exciting stories. This book went by quickly. It’s a retelling of _The Odyssey_ and several other classic Greek tales from the perspective of the Goddess Circe. Reading it felt somewhat similar to Percy Jackson but I wouldn’t recommend it to children. It explores the idea of immortality, love, children, beauty. There is a happy ending.  
  “he had never met a god [Circe] who enjoyed their divinity less.”
 <br><br>
 
