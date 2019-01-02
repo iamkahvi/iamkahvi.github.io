@@ -10,6 +10,10 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 
 ## <u> this year </u>
 
+- Leviathan Wakes  
+I haven’t read any new science-fiction in a while. This book grabbed me. It’s gritty, intricate, emotional and never dull. Will probably keep reading this series. Not sure why I haven’t been reading more science-fiction.
+<br><br>
+
 - Bad Blood  
 Read this one quickly. This is the story behind the rise and fall of Theranos. If that company is unknown to you, I highly recommend looking them up. The story is larger than life and illustrates the strange motivations that govern Silicon Valley. It’s disturbing how much they got away with and for how long. It made me question the whole ecosystem. They’ll probably make a movie about it soon.  
 “…in her [Elizabeth Holmes’s]  all-consuming quest to be the second coming of Steve Jobs amid the gold rush of the “unicorn” boom, there came a point when she stopped listening to sound advice and began to cut corners. Her ambition was voracious and it brooked no interference.”
