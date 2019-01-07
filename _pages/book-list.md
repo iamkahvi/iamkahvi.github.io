@@ -10,6 +10,10 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 
 ## <u> this year </u>
 
+- Shoe Dog  
+This book motivates yet discourages entrepreneurship. The thrill of working towards a vision you create, changing customers’ lives, the idea of having a legacy, are all overwhelmingly desireable. And since Phil seems like the most humble of founding billionaires, the ups and downs of his story are described pretty objectively. But his storytelling leads to many reflections on what he is sacrificing to achieve those goals. And I empathized with those parts more. Knight’s journey makes for a thrilling story either way.  
+<br>
+
 - Leviathan Wakes  
 I haven’t read any new science-fiction in a while. This book grabbed me. It’s gritty, intricate, emotional and never dull. Will probably keep reading this series. Not sure why I haven’t been reading more science-fiction.
 <br><br>
