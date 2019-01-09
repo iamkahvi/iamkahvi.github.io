@@ -14,6 +14,8 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 This book motivates yet discourages entrepreneurship. The thrill of working towards a vision you create, changing customers’ lives, the idea of having a legacy, are all overwhelmingly desireable. And since Phil seems like the most humble of founding billionaires, the ups and downs of his story are described pretty objectively. But his storytelling leads to many reflections on what he is sacrificing to achieve those goals. And I empathized with those parts more. Knight’s journey makes for a thrilling story either way.  
 <br>
 
+## <u> 2018 </u>
+
 - Leviathan Wakes  
 I haven’t read any new science-fiction in a while. This book grabbed me. It’s gritty, intricate, emotional and never dull. Will probably keep reading this series. Not sure why I haven’t been reading more science-fiction.
 <br><br>
@@ -107,7 +109,7 @@ Set in the Soviet Union in Moscow in a famous hotel. A former Count lives from m
 A useful and striking introduction to modern day China. Illustrates the speed at which China is growing and the costs of that growth. It is long.
 <br><br>
 
-## <u> last year </u>
+## <u> 2017 </u>
 
 - Fooled by Randomness <br>
 This book was the catalyst for my obsession with Behavioural Economics. Nassim Nicholas Taleb effectively eliminated my trust in the global stock market and everyone who works for it. I do not, however, align with his political beliefs. Taleb lays out how we all operate under frightening amounts of randomness. Highly recommend.
