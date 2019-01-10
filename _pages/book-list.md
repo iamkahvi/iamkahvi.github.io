@@ -3,15 +3,20 @@ layout: book-list
 permalink: /book-list
 ---
 
-Preface: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would honestly recommend all the books listed below. <br><br>
+First: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would recommend all the books listed below. <br><br>
 This list will be updated continuously.
 
 These are the [highlights](/book-highlights) from all the books I’ve read on the Kindle (I’m really bad at updating this).
 
 ## <u> this year </u>
 
-- Shoe Dog  
-This book motivates yet discourages entrepreneurship. The thrill of working towards a vision you create, changing customers’ lives, the idea of having a legacy, are all overwhelmingly desireable. And since Phil seems like the most humble of founding billionaires, the ups and downs of his story are described pretty objectively. But his storytelling leads to many reflections on what he is sacrificing to achieve those goals. And I empathized with those parts more. Knight’s journey makes for a thrilling story either way.  
+- Priestdaddy <br>
+I read this one last year but never wrote about it. This book is hilarious. Focuses on the struggles of masculinity, church, religion, family. Manages to find humour in every one of those topics. I really liked it.
+[Highlights here](/_pages/highlights/Priestdaddy)
+<br><br>
+
+- Shoe Dog - <em>07/01/19</em>   
+This book motivates yet discourages entrepreneurship for me. The thrill of working towards a vision you create, changing customers’ lives, the idea of having a legacy, are all overwhelmingly desireable. And since Phil seems like the most humble of founding billionaires, the ups and downs of his story are described pretty objectively. But his storytelling leads to many reflections on what he is sacrificing to achieve those goals. And I empathized with those parts more. Knight’s journey makes for a thrilling story either way.  
 <br>
 
 ## <u> 2018 </u>
