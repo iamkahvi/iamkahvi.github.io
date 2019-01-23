@@ -10,6 +10,10 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 
 ## <u> this year </u>
 
+- Still Me - <em>23/01/19</em>  
+I didn't realize this book was part of a trilogy until I finished it which I guess is a good thing. It’s a story that focuses around life and growing up and relationships and New York City. I really enjoyed it. A great ending too.
+<br><br>
+
 - Priestdaddy <br>
 I read this one last year but never wrote about it. This book is hilarious. Focuses on the struggles of masculinity, church, religion, family. Manages to find humour in every one of those topics. I really liked it.
 [Highlights here](/_pages/highlights/Priestdaddy)
