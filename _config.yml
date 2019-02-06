@@ -9,8 +9,9 @@ twitter_username: iamkahvi
 github_username: iamkahvi
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
-
+url: "https://kahvipatel.com" # the base hostname & protocol for your site
+gems:
+  - jekyll-sitemap
 google_analytics_id: UA-1111111111-1
 disqus_id:
 
