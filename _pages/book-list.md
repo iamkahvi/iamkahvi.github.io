@@ -10,6 +10,10 @@ These are the [highlights](/book-highlights) from all the books I’ve read on t
 
 ## <u> this year </u>
 
+- Asymmetry - <em>05/02/19</em>  
+The structure of this book is a bit of a puzzle. The first, second and third all act tie together in a subtle way. I like the book because of the content, not the puzzle. Intricate and enjoyed.
+<br><br>
+
 - Still Me - <em>23/01/19</em>  
 I didn't realize this book was part of a trilogy until I finished it which I guess is a good thing. It’s a story that focuses around life and growing up and relationships and New York City. I really enjoyed it. A great ending too.
 <br><br>
