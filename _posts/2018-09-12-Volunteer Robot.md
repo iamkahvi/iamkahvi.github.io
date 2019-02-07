@@ -46,7 +46,7 @@ Using bootstrap list items element, I made the dashboard more legible.
 
 On the advice of the original developer, my plan for developing the email notification feature was:
 
-1. Create a console command which loops through the a table for any shifts starting within the next "hour"
+1. Create a console command which loops through a table for any shifts starting within the next "hour"
 2. If a volunteer has signed up for that slot, send them a notification
 3. Add value to SQL table to prevent further notifications
 4. Add the command to the Laravel cron so it runs periodically (every 5 minutes? 15 minutes?)
