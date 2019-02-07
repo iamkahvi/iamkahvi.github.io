@@ -18,6 +18,23 @@
 
 }
 
+.profile {
+	width: 20vh;
+	float: right;
+	margin-right: 20px;	
+	margin-left: 60px;
+}
+
+@media screen and (max-width: 565px) {
+  .profile {
+	display: block;
+	float:none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+  }
+}
+
 .c-page__header {
     margin-bottom: 3rem; // 100px
 
