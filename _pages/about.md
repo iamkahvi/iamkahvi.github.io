@@ -1,6 +1,6 @@
 ---
 layout: content
-title: About
+title: About Me
 permalink: /about/
 ---
 ![Profile](/assets/profile2.jpg){:class="profile"}
