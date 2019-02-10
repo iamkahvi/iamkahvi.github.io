@@ -1,4 +1,5 @@
 ---
+title: My Book List
 layout: book-list 
 permalink: /book-list
 ---

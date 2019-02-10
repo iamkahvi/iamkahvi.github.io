@@ -17,7 +17,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Volunteer Robot - kahvi's blog</title>
-  <meta name="description" content="Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The README  I created builds on the forked repositories R...">
+  <meta name="description" content="Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The README  I created builds on the forked repository’s R...">
 
   <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href=" /css/main.css ">
@@ -57,7 +57,7 @@
     -->
 
     <div class="c-article__main">
-        <p>Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The <a href="https://github.com/iamkahvi/volunteers">README </a> I created builds on the <a href="https://github.com/playasoft/volunteers">forked repositories README</a> and describes usage, features and installation of the application.</p>
+        <p>Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The <a href="https://github.com/iamkahvi/volunteers">README </a> I created builds on the <a href="https://github.com/playasoft/volunteers">forked repository’s README</a> and describes usage, features and installation of the application.</p>
 
 <p>This post exists to specify which features I developed alone.</p>
 
@@ -118,7 +118,7 @@ I changed the date format to make the page more legible.</p>
 <p>To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
 shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbon</a> dates and add a user-designated amount of hours to the second variable.</p>
 
-<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
 <span class="c1">// Cycle through all the slots
 </span><span class="k">foreach</span><span class="p">(</span><span class="nv">$shifts</span> <span class="k">as</span> <span class="nv">$shift</span><span class="p">)</span>
@@ -131,46 +131,41 @@ shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbo
 
 	<span class="nv">$remindDate</span><span class="o">-&gt;</span><span class="na">subHours</span><span class="p">(</span><span class="nx">env</span><span class="p">(</span><span class="s1">'REMIND_HOURS'</span><span class="p">));</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>I find the shift starting within the given reminder period using the variables.</p>
 
-<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 <span class="k">if</span><span class="p">(</span><span class="nv">$remindDate</span> <span class="o">&lt;=</span> <span class="nv">$now</span> <span class="k">and</span> <span class="nv">$startDate</span> <span class="o">&gt;</span> <span class="nv">$now</span><span class="p">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Then, I cycle through all users to find who is registered for the shift in question.</p>
 
-<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 <span class="k">foreach</span> <span class="p">(</span><span class="nv">$users</span> <span class="k">as</span> <span class="nv">$user</span><span class="p">)</span>
 	<span class="p">{</span>
 		<span class="c1">// Find user that is registered for this shift
 </span>		<span class="k">if</span> <span class="p">(</span><span class="nv">$user</span><span class="o">-&gt;</span><span class="na">id</span> <span class="o">==</span> <span class="nv">$shift</span><span class="o">-&gt;</span><span class="na">user_id</span><span class="p">)</span> <span class="p">{</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>Then I notify the user of the shift. I used the <a href="https://www.mailgun.com/email-api">MailGun api</a> with <a href="https://laravel.com/docs/5.2/mail">Laravel</a> to send the emails.</p>
 
-<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>			
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>			
 <span class="c1">// Notify user of upcoming shift
 </span><span class="k">if</span><span class="p">(</span><span class="nv">$shift</span><span class="o">-&gt;</span><span class="na">isNotified</span> <span class="o">==</span> <span class="s1">'No'</span><span class="p">)</span>
 <span class="p">{</span>
 	<span class="nv">$user</span><span class="o">-&gt;</span><span class="na">notify</span><span class="p">(</span><span class="k">new</span> <span class="nx">shiftStarting</span><span class="p">(</span><span class="nv">$shift</span><span class="p">,</span> <span class="nv">$user</span><span class="p">));</span>
 <span class="p">}</span> <span class="k">else</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>In order to prevent the user from getting continuously notified, I created a column in the shifts table to track notification status.</p>
 
-<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 
 <span class="c1">// Update isNotified value in SQL database
 </span><span class="nx">DB</span><span class="o">::</span><span class="na">table</span><span class="p">(</span><span class="s1">'slots'</span><span class="p">)</span>
 	<span class="o">-&gt;</span><span class="na">where</span><span class="p">(</span><span class="s1">'id'</span><span class="p">,</span> <span class="nv">$shift</span><span class="o">-&gt;</span><span class="na">id</span><span class="p">)</span>
 	<span class="o">-&gt;</span><span class="na">update</span><span class="p">([</span><span class="s1">'isNotified'</span> <span class="o">=&gt;</span> <span class="s1">'Yes'</span><span class="p">]);</span>
 
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <h3 id="hide-empty-days-feature">Hide Empty Days Feature</h3>
@@ -178,22 +173,21 @@ shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbo
 <p>My strategy was to cycle through each day that would be displayed on the event page and check if the day had a shift.
 Fortunately, this check was relatively simple after looking into different SQL queries.</p>
 
-<div class="language-php highlighter-rouge"><pre class="highlight"><code><span class="cp">&lt;?php</span>
+<div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">&lt;?php</span>
 <span class="c1">// Pluck all of the shift IDs for this event and check the if any in the schedule start today
 </span><span class="k">if</span><span class="p">(</span><span class="nx">Schedule</span><span class="o">::</span><span class="na">whereIn</span><span class="p">(</span><span class="s1">'shift_id'</span><span class="p">,</span> <span class="nv">$shifts</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">where</span><span class="p">(</span><span class="s1">'dates'</span><span class="p">,</span> <span class="s1">'LIKE'</span><span class="p">,</span> <span class="s2">"%"</span><span class="o">.</span><span class="nv">$date</span><span class="o">-&gt;</span><span class="na">format</span><span class="p">(</span><span class="s1">'Y-m-d'</span><span class="p">)</span><span class="o">.</span><span class="s2">"%"</span><span class="p">)</span><span class="o">-&gt;</span><span class="na">get</span><span class="p">()</span><span class="o">-&gt;</span><span class="na">isEmpty</span><span class="p">())</span>
 <span class="p">{</span>
 <span class="c1">// Continue onto the next day
 </span><span class="nv">$date</span><span class="o">-&gt;</span><span class="na">addDay</span><span class="p">();</span>
 <span class="k">continue</span><span class="p">;</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <p><br /></p>
 
 <h3 id="filter-by-week">Filter by week</h3>
 
 <p>Fortunately, I’ve had previous experience with Javascript in University so working out the logic for this feature was trivial.</p>
 
-<div class="language-javascript highlighter-rouge"><pre class="highlight"><code><span class="c1">// Hide all the days</span>
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Hide all the days</span>
 <span class="nx">$</span><span class="p">(</span><span class="s1">'.days .day'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'hidden'</span><span class="p">);</span>
 
 <span class="c1">// Convert date to Moment format</span>
@@ -210,14 +204,12 @@ Fortunately, this check was relatively simple after looking into different SQL q
     <span class="nx">$</span><span class="p">(</span><span class="nb">window</span><span class="p">).</span><span class="nx">trigger</span><span class="p">(</span><span class="s1">'resize'</span><span class="p">);</span>
     <span class="nx">m</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">'days'</span><span class="p">);</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 <p>The most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
 Since the server ran Ubuntu, the package wouldn’t install. After some Googling, one line of code in the header.blade.php solved all my problems.</p>
 
-<div class="language-html highlighter-rouge"><pre class="highlight"><code> <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
-</code></pre>
-</div>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+</code></pre></div></div>
 <p><br /></p>
 
 <h3 id="change-to-reminder-timing-through-env-laravel-doc">Change to Reminder timing through .ENV laravel doc</h3>

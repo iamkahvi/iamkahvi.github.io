@@ -5,7 +5,7 @@ description: Overview of Implemented Features
 date: 2018-09-12
 ---
 
-Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The [README ](https://github.com/iamkahvi/volunteers) I created builds on the [forked repositories README](https://github.com/playasoft/volunteers) and describes usage, features and installation of the application.
+Over the course of summer 2018, I forked and developed a volunteer scheduling database application. The [README ](https://github.com/iamkahvi/volunteers) I created builds on the [forked repository's README](https://github.com/playasoft/volunteers) and describes usage, features and installation of the application.
 
 This post exists to specify which features I developed alone.
 

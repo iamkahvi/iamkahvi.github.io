@@ -14,8 +14,19 @@
   text-indent: 30px;
 }
 
-.c-page {
+a.booklist {
+	margin-bottom: 30px;
 
+    &::after {
+	  background-color: $c-accent__green;
+	}
+
+	&:hover {
+		&::after {
+			height: 65%;
+			margin-left: 5%;
+		}
+	}
 }
 
 .profile {
