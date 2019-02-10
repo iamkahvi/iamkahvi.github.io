@@ -6,9 +6,34 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Feb 2019 10:10:44 -0800</pubDate>
-    <lastBuildDate>Thu, 07 Feb 2019 10:10:44 -0800</lastBuildDate>
-    <generator>Jekyll v3.4.3</generator>
+    <pubDate>Sat, 09 Feb 2019 23:50:06 -0800</pubDate>
+    <lastBuildDate>Sat, 09 Feb 2019 23:50:06 -0800</lastBuildDate>
+    <generator>Jekyll v3.6.3</generator>
+    
+      <item>
+        <title>subscription vs attention</title>
+        <description>&lt;p&gt;This idea was first introduced to me in Jaron Lanier’s book “The Dawn of the New Everything”. It’s a book about Virtual Reality.&lt;/p&gt;
+
+&lt;p&gt;Jarons explains that there were two fundamental motivations  that led to the creation of the Internet.&lt;/p&gt;
+
+&lt;p&gt;The first saw it as something wholly democratic. In fact, it was &lt;em&gt;socialist&lt;/em&gt;. All resources should be publicly available and free.&lt;/p&gt;
+
+&lt;p&gt;The other motivation was entrepreneurship.&lt;/p&gt;
+
+&lt;p&gt;“How to you celebrate entrepreneurship if everything is free?”&lt;/p&gt;
+
+&lt;p&gt;The advertising business model.&lt;/p&gt;
+
+&lt;p&gt;As Jaron says, the business model of a company is what motivates decisions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/qQ-PUXPVlos?t=268&quot;&gt;Jaron’s Talk&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Fri, 08 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2019/02/subscription-vs-attention</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/02/subscription-vs-attention</guid>
+        
+        
+      </item>
     
       <item>
         <title>2019</title>
@@ -202,7 +227,7 @@ I changed the date format to make the page more legible.&lt;/p&gt;
 &lt;p&gt;To work through the logic of when to send reminders, I create variables for when the shift starts and when to remind the user for that specific
 shift. I do this by creating two &lt;a href=&quot;https://carbon.nesbot.com/docs/&quot;&gt;Carbon&lt;/a&gt; dates and add a user-designated amount of hours to the second variable.&lt;/p&gt;
 
-&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// Cycle through all the slots
 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shifts&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
@@ -215,46 +240,41 @@ shift. I do this by creating two &lt;a href=&quot;https://carbon.nesbot.com/docs
 
 	&lt;span class=&quot;nv&quot;&gt;$remindDate&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;subHours&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'REMIND_HOURS'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;I find the shift starting within the given reminder period using the variables.&lt;/p&gt;
 
-&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$remindDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$now&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$startDate&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$now&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Then, I cycle through all users to find who is registered for the shift in question.&lt;/p&gt;
 
-&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$users&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 		&lt;span class=&quot;c1&quot;&gt;// Find user that is registered for this shift
 &lt;/span&gt;		&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;user_id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Then I notify the user of the shift. I used the &lt;a href=&quot;https://www.mailgun.com/email-api&quot;&gt;MailGun api&lt;/a&gt; with &lt;a href=&quot;https://laravel.com/docs/5.2/mail&quot;&gt;Laravel&lt;/a&gt; to send the emails.&lt;/p&gt;
 
-&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;			
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;			
 &lt;span class=&quot;c1&quot;&gt;// Notify user of upcoming shift
 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isNotified&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'No'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 	&lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;notify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;shiftStarting&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$user&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;In order to prevent the user from getting continuously notified, I created a column in the shifts table to track notification status.&lt;/p&gt;
 
-&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// Update isNotified value in SQL database
 &lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;DB&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;table&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'slots'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 	&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shift&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 	&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;([&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'isNotified'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Yes'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]);&lt;/span&gt;
 
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;hide-empty-days-feature&quot;&gt;Hide Empty Days Feature&lt;/h3&gt;
@@ -262,22 +282,21 @@ shift. I do this by creating two &lt;a href=&quot;https://carbon.nesbot.com/docs
 &lt;p&gt;My strategy was to cycle through each day that would be displayed on the event page and check if the day had a shift.
 Fortunately, this check was relatively simple after looking into different SQL queries.&lt;/p&gt;
 
-&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;// Pluck all of the shift IDs for this event and check the if any in the schedule start today
 &lt;/span&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Schedule&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;whereIn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'shift_id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$shifts&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;where&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'dates'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'LIKE'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;%&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;format&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Y-m-d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;%&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;isEmpty&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;// Continue onto the next day
 &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$date&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;addDay&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;continue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;filter-by-week&quot;&gt;Filter by week&lt;/h3&gt;
 
 &lt;p&gt;Fortunately, I’ve had previous experience with Javascript in University so working out the logic for this feature was trivial.&lt;/p&gt;
 
-&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Hide all the days&lt;/span&gt;
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;// Hide all the days&lt;/span&gt;
 &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'.days .day'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'hidden'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// Convert date to Moment format&lt;/span&gt;
@@ -294,14 +313,12 @@ Fortunately, this check was relatively simple after looking into different SQL q
     &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;window&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;trigger&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'resize'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
     &lt;span class=&quot;nx&quot;&gt;m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;add&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'days'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;The most challenging part of implementing this feature was installing the Moment package on the active server. Without this package, I wasn’t able to manipulate date strings easily.
 Since the server ran Ubuntu, the package wouldn’t install. After some Googling, one line of code in the header.blade.php solved all my problems.&lt;/p&gt;
 
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
+&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;change-to-reminder-timing-through-env-laravel-doc&quot;&gt;Change to Reminder timing through .ENV laravel doc&lt;/h3&gt;
@@ -592,83 +609,8 @@ The book ends with the Count escaping the hotel after saying goodbye to all his 
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 22 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018/01/a-Gentleman-In-Moscow</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/a-Gentleman-In-Moscow</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>thoughts on 2017</title>
-        <description>&lt;p&gt;I don’t really know what to think about 2017.&lt;/p&gt;
-
-&lt;p&gt;These are a bunch of thoughts that have nothing to do with the new year.&lt;/p&gt;
-
-&lt;p&gt;I’ve been thinking about education and what the value of a degree is, and the following seems relevant.&lt;/p&gt;
-
-&lt;h3 id=&quot;from-david-foster-wallaces-kenyon-college-commencement-speech&quot;&gt;&lt;u&gt;From David Foster Wallace’s Kenyon College Commencement Speech&lt;/u&gt;&lt;/h3&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Here is the real, no bullshit value of your liberal arts education is supposed to be about: how to keep from going through your comfortable, prosperous, respectable adult life dead, unconscious, a slave to your head and to your natural default setting of being uniquely, completely, imperially alone day in and day out.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you worship money and things, if they are where you tap real meaning in life, then you will never have enough, never feel you have enough. It’s the truth. Worship your body and beauty and sexual allure and you will always feel ugly. And when time and age start showing, you will die a million deaths before they finally grieve you. On one level, we all know this stuff already. It’s been codified as myths, proverbs, clichés, epigrams, parables; the skeleton of every great story. The whole trick is keeping the truth up front in daily consciousness. Worship power, you will end up feeling weak and afraid, and you will need ever more power over others to numb you to your own fear. Worship your intellect, being seen as smart, you will end up feeling stupid, a fraud, always on the verge of being found out. But the insidious thing about these forms of worship is not that they’re evil or sinful, it’s that they’re unconscious. They are default settings.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Maybe that relates to my next point.&lt;/p&gt;
-
-&lt;h3 id=&quot;are-you-day-trading-from-seth-godins-blog&quot;&gt;&lt;u&gt;Are you day trading? (From Seth Godin’s Blog)&lt;/u&gt;&lt;/h3&gt;
-
-&lt;p&gt;The volatility of bitcoin turns the people who own it into addicts. At any given moment, it’s up $100 or down a thousand.&lt;br /&gt;
-When it’s up, you think you’re brilliant, that you somehow had something to do with it.
-And when it’s down, the world is about to implode.&lt;br /&gt;
-Most people don’t day trade bitcoin, but all of us day trade something. We’re hooked into something volatile, easily measured and emotional. We overdo our response to news, good or bad, and let it distract us from the long-term job of living a useful life.&lt;br /&gt;
-Your SEO results, your Facebook likes, the look on your boss’s face when she gets back from a meeting–all of these things are rife with opportunities for day trading.&lt;br /&gt;
-It’ll be volatile with or without your help. Better to set it aside and get back to the real work of making a difference instead. &lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt; This is a rant :&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
-
-&lt;p&gt;The goal of a business is to make a profit.&lt;/p&gt;
-
-&lt;p&gt;A business employs people because they do work and make the business profitable.&lt;/p&gt;
-
-&lt;p&gt;You work towards a University degree because you will do work better and will be more attractive to businesses.&lt;/p&gt;
-
-&lt;p&gt;At the end of the day, all that matters is &lt;i&gt;results&lt;/i&gt;.&lt;/p&gt;
-
-&lt;p&gt;That’s the point. Instead of proving your value through getting a degree, prove your value by getting results.&lt;/p&gt;
-
-&lt;p&gt;Get page views, get purchase orders, show your understanding of how consumers think and how to take advantage of it.&lt;/p&gt;
-
-&lt;p&gt;There are very few people who teach at Universities who have attained results. They have been taught about results, they talk about results, they think about results.&lt;/p&gt;
-
-&lt;p&gt;But they never get results.&lt;/p&gt;
-
-&lt;p&gt;At the end of the day, the only way to absolutely prove you get results, is to get results.&lt;/p&gt;
-
-&lt;p&gt;That is why I am so unsure of this University thing. No one can prove they know how to get results by teaching. Only by doing.&lt;/p&gt;
-
-&lt;p&gt;Summary: Success in University does not directly translate to success in the real world.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;Finally,&lt;/p&gt;
-
-&lt;h3 id=&quot;creative-people-have-a-weird-job&quot;&gt;&lt;u&gt;Creative people have a weird job&lt;/u&gt;&lt;/h3&gt;
-
-&lt;p&gt;Do you create things that &lt;em&gt;you&lt;/em&gt; think are cool, or do you create things that you think &lt;em&gt;other people&lt;/em&gt; will like. In more abstract terms, it’s the difference between staying true to yourself and selling out, right? But how do you define the line between your audience’s taste and your own. Presumably, a great creator would accumulate such a unique audience that there would be no difference between their two tastes.&lt;/p&gt;
-
-&lt;p&gt;Maybe it’s a matter of having a constant conversation with your audience. Each party challenging the other the create new and better things. The difference between that and losing your own say in the things you create is a blurry one.&lt;/p&gt;
-
-&lt;p&gt;I assume the only absolute solution is to create as if your audience is irrelevant.&lt;/p&gt;
-
-</description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018/01/thoughts-on-2017</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/01/thoughts-on-2017</guid>
+        <link>http://localhost:4000/2018/01/A-Gentleman-In-Moscow</link>
+        <guid isPermaLink="true">http://localhost:4000/2018/01/A-Gentleman-In-Moscow</guid>
         
         
       </item>
