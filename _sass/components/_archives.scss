@@ -46,8 +46,13 @@
                 align-items: center;
     }
 
+	b {
+		font-size: 1.2em;
+	}
+
     h3 {
         @include fs--body;
+		line-height: 1.2em;
     }
 
     p {
