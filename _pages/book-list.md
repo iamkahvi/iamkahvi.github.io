@@ -9,6 +9,14 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>Ghost Town</b> - <em>21/02/19</em>  
+I haven’t read science-fiction in a while so this was refreshing. The tone of this book is similar to the first season of True Detective; nihilistic, brutal crimes, midwestern America. The cool part was the time travel. It was well thought out and actually added to the story instead of distracting from it. Overall it’s gritty but smart and the ending is fantastic. 
+<br><br>
+
+- <b>Animal Farm</b> - <em>19/02/19</em>  
+A classic Orwell story that I should’ve read earlier. Apparently he meant to expose the “Soviet myth” with this one. It’s not long, only took a day to read. Illustrates a bunch of political realities really well. Made me more aware of the fragility we are living through.
+<br><br>
+
 - <b>Educated</b> - <em>13/02/19</em>  
 This story is astonishing. The realities the author (Tara Westover) lived through and managed to escape are unlike anything I’ve ever seen or read about. She was raised in a separate reality dictated by her father. Beyond that, the patterns of abuse within the family made parts of this book difficult to read. Yet, Tara managed to escape and get an education.  
 The book made me realize how terrifying it is that education is becoming a political  device. A broader perspective should be everyone’s right. Scary stuff in today’s world.
