@@ -4,10 +4,10 @@ title: Home
 ---
 
 <section class="c-archives">
-	  <a class="booklist" href="/book-list.html">
-		<img src="assets/booklist2.png" alt="Book List Logo">
-	  </a>
-  {% for post in site.posts  %}
+    <a href="/book-list" class="booklist">
+        <img src="assets/booklist2.png" alt="Book List Logo">
+    </a>
+    {% for post in site.posts  %}
 
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
