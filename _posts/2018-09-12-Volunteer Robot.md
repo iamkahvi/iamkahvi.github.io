@@ -16,10 +16,9 @@ This post exists to specify which features I developed alone.
 - [Backend Features](#backend-features)
 	- Email Notifications
 	- Hide Empty Days Feature
+	- Filtering Users by Role for admins
 	- Change to Reminder timing through .ENV laravel doc
 	- Filter by week
-	- CSV export for users
-	- Registering users
 
 <hr>
 
@@ -34,7 +33,7 @@ I changed the date format to make the page more legible.
 
 ### Dashboard
 
-Using bootstrap list items element, I made the dashboard more legible.
+Using the bootstrap list items element, I made the dashboard more legible.
 
 ![Compare Dashboard](/assets/DashboardCompare.png)
 
@@ -113,6 +112,8 @@ DB::table('slots')
 
 ### Hide Empty Days Feature
 
+The Volunteer Robot often displayed days on the event page which didn't contain any shifts. This meant a lot of unecessary scrolling for users.
+
 My strategy was to cycle through each day that would be displayed on the event page and check if the day had a shift.
 Fortunately, this check was relatively simple after looking into different SQL queries.
 
@@ -127,9 +128,59 @@ continue;
 ```
 <br>
 
+### Filtering Users by Role for admins 
+
+The admins of the Volunteer Robot regularly send out mass emails to volunteers according to their "Role". They wanted to filter the users by their Role in order to access email addresses more efficiently.   
+
+I wanted to work in plain javascript for this feature to familiarize myself. This feature was challenging because the Users, Roles, and User Roles are all located in seperate SQL tables. Thankfully, this issue was easy to deal with once I understood how to make SQL queries within blade.php files. I plucked each user's roles from the User Role table and put it in a class attribute.
+
+![Filer Users HTML](/assets/FilterUsersHTML.png)
+
+On the other end, my main concern was how to filter users with multiple roles. Since my query returned a string of text, there was no way to distinguish one role from another. I had to split the result of that query in javascript to make it an array of each role. Then it was much easier to find out if the specified user had that role in their respective array.  
+
+
+```javascript
+ $('.filter-user-roles').on('change', function () {
+       
+        // define the role
+        var role = $(".filter-user-roles").val();
+
+        // define all the spans of the users
+        var users = document.querySelectorAll('.email-block .user-block');
+
+        // hide all the users
+        users.forEach(function(element) {
+            element.style.display = "none";
+        });
+
+        if (role == "all") {
+            
+            // show all users
+            users.forEach(function(element) {
+                element.style.display = "inline";
+            });
+        
+        } else {
+
+            // show user if they have that role
+            users.forEach(function(user) {
+
+                var userRoles = user.getAttribute('data-role').slice(1,-1).split(",");
+
+                if (userRoles.includes(role)) {
+                    user.style.display = "inline";
+                }
+            })
+
+        }
+    });
+```
+
+<br>
+
 ### Filter by week
 
-Fortunately, I've had previous experience with Javascript in University so working out the logic for this feature was trivial.
+Fortunately, there existed an implementation of a feature similar to this one in the application. This made it much easier to work this one out.
 
 ```javascript
 // Hide all the days
@@ -157,7 +208,3 @@ Since the server ran Ubuntu, the package wouldn't install. After some Googling, 
  <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
 ```
 <br>
-
-### Change to Reminder timing through .ENV laravel doc
-### CSV export for users
-### Registering users

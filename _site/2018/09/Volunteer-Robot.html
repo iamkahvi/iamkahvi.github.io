@@ -74,10 +74,9 @@
     <ul>
       <li>Email Notifications</li>
       <li>Hide Empty Days Feature</li>
+      <li>Filtering Users by Role for admins</li>
       <li>Change to Reminder timing through .ENV laravel doc</li>
       <li>Filter by week</li>
-      <li>CSV export for users</li>
-      <li>Registering users</li>
     </ul>
   </li>
 </ul>
@@ -95,7 +94,7 @@ I changed the date format to make the page more legible.</p>
 
 <h3 id="dashboard">Dashboard</h3>
 
-<p>Using bootstrap list items element, I made the dashboard more legible.</p>
+<p>Using the bootstrap list items element, I made the dashboard more legible.</p>
 
 <p><img src="/assets/DashboardCompare.png" alt="Compare Dashboard" /></p>
 
@@ -171,6 +170,8 @@ shift. I do this by creating two <a href="https://carbon.nesbot.com/docs/">Carbo
 
 <h3 id="hide-empty-days-feature">Hide Empty Days Feature</h3>
 
+<p>The Volunteer Robot often displayed days on the event page which didn’t contain any shifts. This meant a lot of unecessary scrolling for users.</p>
+
 <p>My strategy was to cycle through each day that would be displayed on the event page and check if the day had a shift.
 Fortunately, this check was relatively simple after looking into different SQL queries.</p>
 
@@ -184,9 +185,57 @@ Fortunately, this check was relatively simple after looking into different SQL q
 </code></pre></div></div>
 <p><br /></p>
 
+<h3 id="filtering-users-by-role-for-admins">Filtering Users by Role for admins</h3>
+
+<p>The admins of the Volunteer Robot regularly send out mass emails to volunteers according to their “Role”. They wanted to filter the users by their Role in order to access email addresses more efficiently.</p>
+
+<p>I wanted to work in plain javascript for this feature to familiarize myself. This feature was challenging because the Users, Roles, and User Roles are all located in seperate SQL tables. Thankfully, this issue was easy to deal with once I understood how to make SQL queries within blade.php files. I plucked each user’s roles from the User Role table and put it in a class attribute.</p>
+
+<p><img src="/assets/FilterUsersHTML.png" alt="Filer Users HTML" /></p>
+
+<p>On the other end, my main concern was how to filter users with multiple roles. Since my query returned a string of text, there was no way to distinguish one role from another. I had to split the result of that query in javascript to make it an array of each role. Then it was much easier to find out if the specified user had that role in their respective array.</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nx">$</span><span class="p">(</span><span class="s1">'.filter-user-roles'</span><span class="p">).</span><span class="nx">on</span><span class="p">(</span><span class="s1">'change'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+       
+        <span class="c1">// define the role</span>
+        <span class="kd">var</span> <span class="nx">role</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s2">".filter-user-roles"</span><span class="p">).</span><span class="nx">val</span><span class="p">();</span>
+
+        <span class="c1">// define all the spans of the users</span>
+        <span class="kd">var</span> <span class="nx">users</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">querySelectorAll</span><span class="p">(</span><span class="s1">'.email-block .user-block'</span><span class="p">);</span>
+
+        <span class="c1">// hide all the users</span>
+        <span class="nx">users</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">element</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s2">"none"</span><span class="p">;</span>
+        <span class="p">});</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="nx">role</span> <span class="o">==</span> <span class="s2">"all"</span><span class="p">)</span> <span class="p">{</span>
+            
+            <span class="c1">// show all users</span>
+            <span class="nx">users</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">element</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">element</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s2">"inline"</span><span class="p">;</span>
+            <span class="p">});</span>
+        
+        <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+
+            <span class="c1">// show user if they have that role</span>
+            <span class="nx">users</span><span class="p">.</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">user</span><span class="p">)</span> <span class="p">{</span>
+
+                <span class="kd">var</span> <span class="nx">userRoles</span> <span class="o">=</span> <span class="nx">user</span><span class="p">.</span><span class="nx">getAttribute</span><span class="p">(</span><span class="s1">'data-role'</span><span class="p">).</span><span class="nx">slice</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">).</span><span class="nx">split</span><span class="p">(</span><span class="s2">","</span><span class="p">);</span>
+
+                <span class="k">if</span> <span class="p">(</span><span class="nx">userRoles</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="nx">role</span><span class="p">))</span> <span class="p">{</span>
+                    <span class="nx">user</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">display</span> <span class="o">=</span> <span class="s2">"inline"</span><span class="p">;</span>
+                <span class="p">}</span>
+            <span class="p">})</span>
+
+        <span class="p">}</span>
+    <span class="p">});</span>
+</code></pre></div></div>
+
+<p><br /></p>
+
 <h3 id="filter-by-week">Filter by week</h3>
 
-<p>Fortunately, I’ve had previous experience with Javascript in University so working out the logic for this feature was trivial.</p>
+<p>Fortunately, there existed an implementation of a feature similar to this one in the application. This made it much easier to work this one out.</p>
 
 <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Hide all the days</span>
 <span class="nx">$</span><span class="p">(</span><span class="s1">'.days .day'</span><span class="p">).</span><span class="nx">addClass</span><span class="p">(</span><span class="s1">'hidden'</span><span class="p">);</span>
@@ -212,10 +261,6 @@ Since the server ran Ubuntu, the package wouldn’t install. After some Googling
 <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
 </code></pre></div></div>
 <p><br /></p>
-
-<h3 id="change-to-reminder-timing-through-env-laravel-doc">Change to Reminder timing through .ENV laravel doc</h3>
-<h3 id="csv-export-for-users">CSV export for users</h3>
-<h3 id="registering-users">Registering users</h3>
 
     </div>
 
