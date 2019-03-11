@@ -45,6 +45,23 @@ a.booklist {
   }
 }
 
+input {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  border: none;
+  font-size: 2em;
+  border-bottom: 1px solid $c-base__1;
+  color: $c-accent__blue;
+  margin-bottom: 15px;
+  float: center;
+  width: 100%;
+  outline: none;
+}
+
+input::placeholder {
+  color: lightgrey;
+}
+
 .c-page__header {
     margin-bottom: 3rem; // 100px
 

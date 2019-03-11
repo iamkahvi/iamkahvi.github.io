@@ -13,11 +13,14 @@ myTitle.onmouseout = function() {
 
 var searchBar = document.querySelector('input');
 
-//searchBar.onclick = searchPosts;
+searchBar.onkeyup = searchPosts;
 
 function searchPosts() {
     const posts = document.querySelectorAll('.c-archives__item');
     const text = searchBar.value.toLowerCase();
+    document.querySelectorAll('.c-archives__year').forEach(function (element) {
+        element.style.display = "none";
+    });
     for (const post of posts) {
         var title = post.querySelector('b').innerText;
         if (title.toLowerCase().indexOf(text) > -1) {
@@ -25,6 +28,11 @@ function searchPosts() {
         } else {
             post.style.display = "none";
         }
+    }
+    if (text === "") {
+       document.querySelectorAll('.c-archives__year').forEach(function (element) {
+           element.style.display = "";
+       });
     }
 }
 
