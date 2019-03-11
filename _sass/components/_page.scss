@@ -46,16 +46,24 @@ a.booklist {
 }
 
 input {
+  -webkit-transition: font-size 0.05s;
+  /* For Safari 3.1 to 6.0 */
+  transition: font-size 0.05s;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   border: none;
   font-size: 2em;
-  border-bottom: 1px solid $c-base__1;
+  //border-bottom: 1px solid $c-base__02;
   color: $c-accent__blue;
   margin-bottom: 15px;
   float: center;
   width: 100%;
   outline: none;
+  height: 60px;
+}
+
+input:focus {
+  font-size: 5em;
 }
 
 input::placeholder {

@@ -18,6 +18,7 @@ searchBar.onkeyup = searchPosts;
 function searchPosts() {
     const posts = document.querySelectorAll('.c-archives__item');
     const text = searchBar.value.toLowerCase();
+
     document.querySelectorAll('.c-archives__year').forEach(function (element) {
         element.style.display = "none";
     });
