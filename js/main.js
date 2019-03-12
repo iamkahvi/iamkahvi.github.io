@@ -1,15 +1,13 @@
-var myImage = document.querySelector('.booklist > img');
-
 var myTitle = document.querySelector('.title > span');
 var theOriginal = myTitle.innerText;
 
-myTitle.onmouseover = function() {
-    myTitle.textContent = 'helloo!';
-}
-
-myTitle.onmouseout = function() {
-    myTitle.textContent = theOriginal;
-}
+//myTitle.onmouseover = function() {
+//    myTitle.textContent = 'helloo!';
+//}
+//
+//myTitle.onmouseout = function() {
+//    myTitle.textContent = theOriginal;
+//}
 
 
 searchBar.onkeyup = searchPosts;
