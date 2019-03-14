@@ -58,7 +58,7 @@ The classic example is a “hot-hand” in basketball. After a player makes a ce
 
 More often than not, a percentage is a better way to understand data than an absolute number.
 
-When looking at a storefront, I would rather know what *percentage* of the price is discounted than an absolute number. Saving $5 on a $10 item is awesome, but saving $5 on a $200 item is shitty.
+When looking at a storefront, I would rather know what *percentage* of the price is discounted than an absolute number. Saving $5 on a $10 item is awesome, but saving $5 on a $2000 item is almost irrelevant.
 
 When looking at a company, I would rather know a *percentage* for revenue growth rather than an absolute number. Growing yearly revenues from $20 billion to $20.1 billion is not a huge difference, but $100 million in additional revenue *sounds* great.
 

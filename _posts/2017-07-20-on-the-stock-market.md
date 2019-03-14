@@ -20,7 +20,7 @@ After spending 18 years of my life idolizing rich investment bankers on Wall Str
 
 
     - matthew counts as more evidence for this point
-    ![Small example image](http://kahvipatel.com/Media/nobody2.gif "nobody2")
+    ![Small example image](http://kahvipatel.com/archive/Media/nobody2.gif "nobody2")
 <br>
 <br>
 <br>
