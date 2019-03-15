@@ -1,2 +1,13 @@
-# A blog created using Jekyll and the Paper theme.
-### More detailed ReadMe coming soon.
+# Kahvi's Blog
+A blog created using Jekyll. More detailed ReadMe coming soon.
+
+## Installation
+[Jekyll installation](https://jekyllrb.com/docs/installation/)
+
+## Usage
+```bash
+jekyll s
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
