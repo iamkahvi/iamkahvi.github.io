@@ -9,6 +9,10 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>Less</b> - <em>24/03/19</em>  
+This was the first explicitly comedic book I've read in a while. I thought it was sharper than it was funny, but often those two go hand in hand. Witty and quick but emotional. I can honestly say I have a different perspective on relationships after reading it. Maybe I'll read it again when I turn 45.
+<br><br>
+
 - <b>Ghost Town</b> - <em>21/02/19</em>  
 I haven’t read science-fiction in a while so this was refreshing. The tone of this book is similar to the first season of True Detective; nihilistic, brutal crimes, midwestern America. The cool part was the time travel. It was well thought out and actually added to the story instead of distracting from it. Overall it’s gritty but smart and the ending is fantastic. 
 <br><br>
