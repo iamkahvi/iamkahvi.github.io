@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-python format_highlights.py Animal_Farm.txt 
+rm highlights.md
+sh format_highlights.sh Animal_Farm.txt highlights.md
+open -a Writer\ Pro highlights.md

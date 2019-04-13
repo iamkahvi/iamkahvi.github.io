@@ -1,7 +1,12 @@
 inputFile=$1
-author=$2
-authorFirst=${2:0:1}
+outputFile=$2
+DATE=`date +%Y-%m-%d`
 
-sed -E "s/(^$author.*$)/\\1\<hr>/g" $inputFile > highlights.md
-sed -E -i '' "s/(^[^$authorFirst^<hr>].*$)/> \1/g" highlights.md
-sed -E -i '' "s/(^$authorFirst[^h].*$)/> \1/g" highlights.md
+title=$(head -n 1 Animal_Farm.txt | sed -E 's/^(.*),.*$/\1/g')
+authorFull=$(head -n 1 Animal_Farm.txt | sed -E 's/^.*,(.*)$/\1/g')
+
+sed -E "s/(^$authorFull.*$)/\\1\<hr>/g" $inputFile > $outputFile
+sed -E -i '' "s/(^[^$authorFull^<hr>].*$)/> \1/g" $outputFile
+#sed -E -i '' "s/(^$authorFull[^h].*$)/> \1/g" $outputFile
+#sed -E -i '' "s/^>[^\w]*$//g" $outputFile
+sed -i '' "1s/.*/---"$'\r'"layout: post "$'\r'"title: $title Highlights "$'\r'"date: $DATE "$'\r'"--- "$'\r'"by $authorFull"$'\r'"/g" $outputFile
