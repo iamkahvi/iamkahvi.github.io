@@ -16,17 +16,18 @@ print(author)
 out = ""
 
 searchRe1 = '(^' + author + '.*$)'
-searchRe2 = '(^[^' + author[0] + '^<hr>].*$)'
+searchRe2 = "r'(^[^" + author[0] + "^<hr>].*$)'"
 searchRe3 = '(^' + author[0] + '[^' + author[1] + '].*$)'
 
+print(searchRe1)
 print(searchRe2)
 
 for line in doc:
     lineOut = re.sub(searchRe1, r'\r\1\r<hr>', line)
     out = out + lineOut
 
-out = re.sub(searchRe2, r'> \1', out)
-output.write(out)
+outFinal = re.sub(searchRe2, '', out)
+output.write(outFinal)
 
 doc.close()
 output.close()
