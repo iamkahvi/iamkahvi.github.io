@@ -9,6 +9,10 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>Interpreter of Maladies</b> - <em>16/04/2019</em>  
+A bunch of short stories centered around recent immigrants from India to the US. This one was especially effective since it hits closer to home. My mom’s side followed this immigrant experience vaguely. It paints a vivid picture of the sacrifices made and motivations, etc. Episode # of Master of None is in the same vein. Well written and personally relevant.
+<br><br>
+
 - <b>Less</b> - <em>24/03/19</em>  
 This was the first explicitly comedic book I've read in a while. I thought it was sharper than it was funny, but often those two go hand in hand. Witty and quick but emotional. I can honestly say I have a different perspective on relationships after reading it. Maybe I'll read it again when I turn 45.
 [Highlights here](/_pages/highlights/Less)
