@@ -10,7 +10,9 @@ This list will be updated continuously.
 ## <u> this year </u>
 
 - <b>Interpreter of Maladies</b> - <em>16/04/2019</em>  
-A bunch of short stories centered around recent immigrants from India to the US. This one was especially effective since it hits closer to home. My mom’s side followed this immigrant experience vaguely. It paints a vivid picture of the sacrifices made and motivations, etc. Episode # of Master of None is in the same vein. Well written and personally relevant.
+A bunch of short stories centered around recent immigrants from India to the US. I can empathize with this one more than usual. My mom’s side followed this immigrant experience pretty closely. It’s good at describing the sacrifices made and motivations, etc. 
+[S1E2](https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/12/aziz-ansaris-new-show-perfectly-captures-what-its-like-being-the-child-of-immigrants/?utm_term=.642150921c67){:target="blank"} 
+of Master of None is in the same vein. Well written and personally relevant.
 <br><br>
 
 - <b>Less</b> - <em>24/03/19</em>  
