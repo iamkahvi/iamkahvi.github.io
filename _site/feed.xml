@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 14 Apr 2019 23:26:42 -0700</pubDate>
-    <lastBuildDate>Sun, 14 Apr 2019 23:26:42 -0700</lastBuildDate>
+    <pubDate>Thu, 02 May 2019 18:02:31 -0400</pubDate>
+    <lastBuildDate>Thu, 02 May 2019 18:02:31 -0400</lastBuildDate>
     <generator>Jekyll v3.6.3</generator>
     
       <item>
@@ -39,7 +39,7 @@
 
 &lt;p&gt;&lt;strong&gt;Happy New Year!&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 02 Jan 2019 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 02 Jan 2019 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2019/01/2019</link>
         <guid isPermaLink="true">http://localhost:4000/2019/01/2019</guid>
         
@@ -132,7 +132,7 @@ Text
 - Navigate Words: ⌥ +  ← or →
 &lt;/code&gt;&lt;/pre&gt;
 </description>
-        <pubDate>Thu, 22 Nov 2018 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 22 Nov 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/11/shortcuts</link>
         <guid isPermaLink="true">http://localhost:4000/2018/11/shortcuts</guid>
         
@@ -345,7 +345,7 @@ Since the server ran Ubuntu, the package wouldn’t install. After some Googling
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 12 Sep 2018 00:00:00 -0700</pubDate>
+        <pubDate>Wed, 12 Sep 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/09/Volunteer-Robot</link>
         <guid isPermaLink="true">http://localhost:4000/2018/09/Volunteer-Robot</guid>
         
@@ -402,7 +402,7 @@ Works Cited&lt;/p&gt;
 &lt;/ul&gt;
 
 </description>
-        <pubDate>Mon, 10 Sep 2018 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 10 Sep 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/09/position-paper</link>
         <guid isPermaLink="true">http://localhost:4000/2018/09/position-paper</guid>
         
@@ -417,7 +417,7 @@ Works Cited&lt;/p&gt;
 
 &lt;p&gt;After that, I used data from a collection program I help implement in the summer of 2017 to give a helpful visualization of what kinds of food were donated most often and at what frequency. This &lt;a href=&quot;https://lovingspoonful.shinyapps.io/app2/&quot; target=&quot;blank&quot;&gt;app &lt;/a&gt; is here.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 09 Sep 2018 00:00:00 -0700</pubDate>
+        <pubDate>Sun, 09 Sep 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/09/R-for-Loving-Spoonful</link>
         <guid isPermaLink="true">http://localhost:4000/2018/09/R-for-Loving-Spoonful</guid>
         
@@ -436,7 +436,7 @@ Works Cited&lt;/p&gt;
 
 &lt;p&gt;One lesson learned: &lt;strong&gt;the edit is all that matters&lt;/strong&gt;. For me, 90% of the effort is put in during the edit.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 21 Jul 2018 00:00:00 -0700</pubDate>
+        <pubDate>Sat, 21 Jul 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/07/youtube</link>
         <guid isPermaLink="true">http://localhost:4000/2018/07/youtube</guid>
         
@@ -483,7 +483,7 @@ Works Cited&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 28 May 2018 00:00:00 -0700</pubDate>
+        <pubDate>Mon, 28 May 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/05/on-gladwell</link>
         <guid isPermaLink="true">http://localhost:4000/2018/05/on-gladwell</guid>
         
@@ -587,7 +587,7 @@ Works Cited&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;this post is incomplete&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 09 May 2018 00:00:00 -0700</pubDate>
+        <pubDate>Wed, 09 May 2018 00:00:00 -0400</pubDate>
         <link>http://localhost:4000/2018/05/on-statistics</link>
         <guid isPermaLink="true">http://localhost:4000/2018/05/on-statistics</guid>
         
@@ -628,7 +628,7 @@ The book ends with the Count escaping the hotel after saying goodbye to all his 
   &lt;p&gt;“ The first was that if one did not master one’s circumstances, one was bound to be mastered by them; and the second was Montaigne’s maxim that the surest sign of wisdom is constant cheerfulness. ”&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Mon, 22 Jan 2018 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 22 Jan 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/01/A-Gentleman-In-Moscow</link>
         <guid isPermaLink="true">http://localhost:4000/2018/01/A-Gentleman-In-Moscow</guid>
         
@@ -703,7 +703,7 @@ It’ll be volatile with or without your help. Better to set it aside and get b
 &lt;p&gt;I assume the only absolute solution is to create as if your audience is irrelevant.&lt;/p&gt;
 
 </description>
-        <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 01 Jan 2018 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/2018/01/thoughts-on-2017</link>
         <guid isPermaLink="true">http://localhost:4000/2018/01/thoughts-on-2017</guid>
         
