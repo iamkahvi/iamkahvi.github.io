@@ -9,8 +9,12 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>The Overstory</b> - <em>06/05/2019</em>  
+This book begins as separate stories that revolve around several motifs. In this case, trees, nature, resistance, activism. I love how the book starts, the characters are immediately so interesting to me. It’s an emotional book. I need to read it again. A lot about inner dialogue, relationships and the names of trees. 
+<br><br>
+
 - <b>Interpreter of Maladies</b> - <em>16/04/2019</em>  
-A bunch of short stories centered around recent immigrants from India to the US. I can empathize with this one more than usual. My mom’s side followed this immigrant experience pretty closely. It’s good at describing the sacrifices made and motivations, etc. 
+A collection of short stories centered around recent immigrants from India to the US. I can empathize with this one more than usual. My mom’s side followed this immigrant experience pretty closely. It’s good at describing the sacrifices made and motivations, etc. 
 [S1E2](https://www.washingtonpost.com/news/arts-and-entertainment/wp/2015/11/12/aziz-ansaris-new-show-perfectly-captures-what-its-like-being-the-child-of-immigrants/?utm_term=.642150921c67){:target="blank"} 
 of Master of None is in the same vein. Well written and personally relevant.
 <br><br>
