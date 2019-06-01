@@ -1,16 +1,13 @@
-<header class="c-page__header">
-  <p>
-      <a href="{{ "/" | prepend: site.baseurl }}">Home</a>
-	  <span class="u-separate"></span> 
-	  <a href="{{ "/book-list" prepend: site.baseurl }}">Book List</a>
-	  <span class="u-separate"></span> 
-	  <a href="{{ "/about" | prepend: site.baseurl }}">About</a>
-  </p>
+<header class="mv4">
+	<p class="helvetica mv0">
+		<a class="no-underline" href="{{ "/" | prepend: site.baseurl }}">Home</a>
+		<a class="no-underline" href="{{ "/book-list" prepend: site.baseurl }}">Book List</a>
+		<a class="no-underline" href="{{ "/about" | prepend: site.baseurl }}">About</a>
+	</p>
 
 
-    {% if page.title == 'Home' %}
-        <h1 class="title"><span style="display:block;width:300px">{{ site.title }}</span></h1>
-        <h2>{{ site.description }} </h2>
-    {% endif %}
-
+	  {% if page.title == 'Home' %}
+		  <h1 class="f1 helvetica underline orange mt3 mb0"><span style="display:block;width:300px">{{ site.title }}</span></h1>
+		  <p class="f5 helvetica pt0 ma0 dark-green">{{ site.description }} </p>
+	  {% endif %}
 </header>
