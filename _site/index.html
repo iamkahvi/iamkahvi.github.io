@@ -20,41 +20,75 @@
   <meta name="description" content="I create here sometimes. And rarely captalize.
 ">
 
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/css/main.css ">
+  <!--<link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:300,400,900,400italic' rel='stylesheet' type='text/css'>-->
+  <!--<link rel="stylesheet" href="/css/main.css ">-->
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   <link rel="canonical" href="http://localhost:4000/">
   <link rel="alternate" type="application/rss+xml" title="kahvi's blog" href="http://localhost:4000 /feed.xml ">
   <script src="/js/main.js" async></script>
 </head>
 
-    <body>
-        <main class="u-container">
+    <body class="flex justify-center bg-washed-green">
+        <main class="w-70-ns w-100 bg-washed-green">
 		<div class="c-page">
-	<header class="c-page__header">
-  <p>
-      <a href="/">Home</a>
-	  <span class="u-separate"></span> 
-	  <a href="/book-list">Book List</a>
-	  <span class="u-separate"></span> 
-	  <a href="/about">About</a>
-  </p>
+	<header class="mv4">
+	<p class="helvetica mv0">
+		<a class="no-underline" href="/">Home</a>
+		<a class="no-underline" href="/book-list">Book List</a>
+		<a class="no-underline" href="/about">About</a>
+	</p>
 
 
-    
-        <h1 class="title"><span style="display:block;width:300px">kahvi's blog</span></h1>
-        <h2>I create here sometimes. And rarely captalize.
- </h2>
-    
-
+	  
+		  <h1 class="f1 helvetica underline orange mt3 mb0"><span style="display:block;width:300px">kahvi's blog</span></h1>
+		  <p class="f5 helvetica pt0 ma0 dark-green">I create here sometimes. And rarely captalize.
+ </p>
+	  
 </header>
 
     <div class="c-page__main">
 	<section class="c-archives">
     <a href="/book-list" class="booklist">
-        <img src="assets/booklist2.png" alt="Book List Logo">
+        <img src="assets/booklist2.png" alt="Book List Logo" class="mb3">
     </a>
 
-<input type="text" onkeyup="search()" placeholder="search..." id="home" class="posts">
+	<style>
+	  input {
+		-webkit-transition: font-size 0.05s;
+		/* For Safari 3.1 to 6.0 */
+		transition: font-size 0.05s;
+		font-family: Helvetica, sans-serif;
+		font-weight: bold;
+		border: none;
+		font-size: 2em;
+		border-bottom: 1px solid $c-base__02;
+		color: $c-accent__blue;
+		&#home {
+		  font-size: 2em;
+		}
+		&#book-list {
+		  font-size: 1em;
+		}
+		margin-bottom: 15px;
+		width: 100%;
+		outline: none;
+	  }
+
+	  input:focus {
+		&#home {
+		  font-size: 5em;
+		}
+		&#book-list {
+		  font-size: 2em;
+		}
+	  }
+
+	  input::placeholder {
+		color: lightgrey;
+	  }
+	</style>
+
+<input type="text" onkeyup="search()" placeholder="search..." id="home" class="white bg-light-green posts">
 
     
 
@@ -63,21 +97,23 @@
 
     
 
-    <h2 class="c-archives__year" id="2019-ref">2019</h2>
-    <ul class="c-archives__list">
+    <h2 class="f4 helvetica normal dark-green items-center" id="2019-ref">2019</h2>
+    <ul class="">
         
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2019/01/2019"><b>2019</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2019/01/2019">
+				  2019
+				</a>
                 <br>
-                <small>some resolutions</small>
+                <small class="helvetica normal">some resolutions</small>
             </h3>
-            <p>January 2</p>
+            <p class="helvetica normal orange">January 2</p>
         </li>
         
     
     </ul>
-    <h2 class="c-archives__year" id="2018-ref">2018</h2>
+    <h2 class="f4 helvetica normal dark-green items-center" id="2018-ref">2018</h2>
     <ul class="c-archives__list">
         
         
@@ -87,13 +123,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/11/shortcuts"><b>shortcuts</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/11/shortcuts">
+				  shortcuts
+				</a>
                 <br>
-                <small>how I've gotten better at using my computer</small>
+                <small class="helvetica normal">how I've gotten better at using my computer</small>
             </h3>
-            <p>November 22</p>
+            <p class="helvetica normal orange">November 22</p>
         </li>
         
     
@@ -104,13 +142,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/09/Volunteer-Robot"><b>Volunteer Robot</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/09/Volunteer-Robot">
+				  Volunteer Robot
+				</a>
                 <br>
-                <small>Overview of Implemented Features</small>
+                <small class="helvetica normal">Overview of Implemented Features</small>
             </h3>
-            <p>September 12</p>
+            <p class="helvetica normal orange">September 12</p>
         </li>
         
     
@@ -121,13 +161,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/09/position-paper"><b>position paper</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/09/position-paper">
+				  position paper
+				</a>
                 <br>
-                <small>about Karl Popper</small>
+                <small class="helvetica normal">about Karl Popper</small>
             </h3>
-            <p>September 10</p>
+            <p class="helvetica normal orange">September 10</p>
         </li>
         
     
@@ -138,13 +180,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/09/R-for-Loving-Spoonful"><b>R for Loving Spoonful</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/09/R-for-Loving-Spoonful">
+				  R for Loving Spoonful
+				</a>
                 <br>
-                <small>How visualizations lead to insight</small>
+                <small class="helvetica normal">How visualizations lead to insight</small>
             </h3>
-            <p>September 9</p>
+            <p class="helvetica normal orange">September 9</p>
         </li>
         
     
@@ -155,13 +199,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/07/youtube"><b>my youtube channel</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/07/youtube">
+				  my youtube channel
+				</a>
                 <br>
-                <small>its all about the edit</small>
+                <small class="helvetica normal">its all about the edit</small>
             </h3>
-            <p>July 21</p>
+            <p class="helvetica normal orange">July 21</p>
         </li>
         
     
@@ -172,13 +218,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/05/on-gladwell"><b>on gladwell</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/05/on-gladwell">
+				  on gladwell
+				</a>
                 <br>
-                <small>an incomplete argument</small>
+                <small class="helvetica normal">an incomplete argument</small>
             </h3>
-            <p>May 28</p>
+            <p class="helvetica normal orange">May 28</p>
         </li>
         
     
@@ -189,13 +237,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/05/on-statistics"><b>on statistics</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/05/on-statistics">
+				  on statistics
+				</a>
                 <br>
-                <small>an effort to broaden my own understanding</small>
+                <small class="helvetica normal">an effort to broaden my own understanding</small>
             </h3>
-            <p>May 9</p>
+            <p class="helvetica normal orange">May 9</p>
         </li>
         
     
@@ -206,13 +256,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/01/A-Gentleman-In-Moscow"><b>A Gentleman In Moscow</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/01/A-Gentleman-In-Moscow">
+				  A Gentleman In Moscow
+				</a>
                 <br>
-                <small>book summary 2</small>
+                <small class="helvetica normal">book summary 2</small>
             </h3>
-            <p>January 22</p>
+            <p class="helvetica normal orange">January 22</p>
         </li>
         
     
@@ -223,18 +275,20 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2018/01/thoughts-on-2017"><b>thoughts on 2017</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2018/01/thoughts-on-2017">
+				  thoughts on 2017
+				</a>
                 <br>
-                <small>a bunch of thoughts that have nothing to do with the new year</small>
+                <small class="helvetica normal">a bunch of thoughts that have nothing to do with the new year</small>
             </h3>
-            <p>January 1</p>
+            <p class="helvetica normal orange">January 1</p>
         </li>
         
     
     </ul>
-    <h2 class="c-archives__year" id="2017-ref">2017</h2>
+    <h2 class="f4 helvetica normal dark-green items-center" id="2017-ref">2017</h2>
     <ul class="c-archives__list">
         
         
@@ -244,13 +298,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/12/breakfast-at-tiffany's"><b>Breakfast at Tiffany’s</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/12/breakfast-at-tiffany's">
+				  Breakfast at Tiffany’s
+				</a>
                 <br>
-                <small>reflections on audrey hepburn’s character</small>
+                <small class="helvetica normal">reflections on audrey hepburn’s character</small>
             </h3>
-            <p>December 27</p>
+            <p class="helvetica normal orange">December 27</p>
         </li>
         
     
@@ -261,13 +317,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/12/Age-of-Ambition"><b>Age of Ambition</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/12/Age-of-Ambition">
+				  Age of Ambition
+				</a>
                 <br>
-                <small>book summary 1</small>
+                <small class="helvetica normal">book summary 1</small>
             </h3>
-            <p>December 12</p>
+            <p class="helvetica normal orange">December 12</p>
         </li>
         
     
@@ -278,13 +336,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/11/on-flights"><b>on flights</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/11/on-flights">
+				  on flights
+				</a>
                 <br>
-                <small>toronto to vancouver</small>
+                <small class="helvetica normal">toronto to vancouver</small>
             </h3>
-            <p>November 15</p>
+            <p class="helvetica normal orange">November 15</p>
         </li>
         
     
@@ -295,13 +355,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/11/on-behavioural-economics"><b>on behavioural economics</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/11/on-behavioural-economics">
+				  on behavioural economics
+				</a>
                 <br>
-                <small>a very very very incomplete definition</small>
+                <small class="helvetica normal">a very very very incomplete definition</small>
             </h3>
-            <p>November 3</p>
+            <p class="helvetica normal orange">November 3</p>
         </li>
         
     
@@ -312,13 +374,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/10/on-the-timeless-beauty-of-skateboarding"><b>on the timelessness of skateboarding</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/10/on-the-timeless-beauty-of-skateboarding">
+				  on the timelessness of skateboarding
+				</a>
                 <br>
-                <small>i can’t ollie yet but I’m trying</small>
+                <small class="helvetica normal">i can’t ollie yet but I’m trying</small>
             </h3>
-            <p>October 13</p>
+            <p class="helvetica normal orange">October 13</p>
         </li>
         
     
@@ -329,13 +393,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/09/on-internet-dialogues"><b>on internet dialogues</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/09/on-internet-dialogues">
+				  on internet dialogues
+				</a>
                 <br>
-                <small></small>
+                <small class="helvetica normal"></small>
             </h3>
-            <p>September 3</p>
+            <p class="helvetica normal orange">September 3</p>
         </li>
         
     
@@ -346,13 +412,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/07/on-the-stock-market"><b>on the stock market</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/07/on-the-stock-market">
+				  on the stock market
+				</a>
                 <br>
-                <small>some recent revelations</small>
+                <small class="helvetica normal">some recent revelations</small>
             </h3>
-            <p>July 20</p>
+            <p class="helvetica normal orange">July 20</p>
         </li>
         
     
@@ -363,13 +431,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/05/the-hair-question"><b>the hair question</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/05/the-hair-question">
+				  the hair question
+				</a>
                 <br>
-                <small>a pros and cons analysis</small>
+                <small class="helvetica normal">a pros and cons analysis</small>
             </h3>
-            <p>May 10</p>
+            <p class="helvetica normal orange">May 10</p>
         </li>
         
     
@@ -380,13 +450,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/02/drafts"><b>drafts</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/02/drafts">
+				  drafts
+				</a>
                 <br>
-                <small>no trespassing</small>
+                <small class="helvetica normal">no trespassing</small>
             </h3>
-            <p>February 3</p>
+            <p class="helvetica normal orange">February 3</p>
         </li>
         
     
@@ -397,18 +469,20 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2017/01/on-my-career-pt.2"><b>on my career pt.2</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2017/01/on-my-career-pt.2">
+				  on my career pt.2
+				</a>
                 <br>
-                <small>some more thoughts on my future</small>
+                <small class="helvetica normal">some more thoughts on my future</small>
             </h3>
-            <p>January 8</p>
+            <p class="helvetica normal orange">January 8</p>
         </li>
         
     
     </ul>
-    <h2 class="c-archives__year" id="2016-ref">2016</h2>
+    <h2 class="f4 helvetica normal dark-green items-center" id="2016-ref">2016</h2>
     <ul class="c-archives__list">
         
         
@@ -418,13 +492,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2016/12/on-my-career"><b>on my career</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2016/12/on-my-career">
+				  on my career
+				</a>
                 <br>
-                <small>thoughts about my future</small>
+                <small class="helvetica normal">thoughts about my future</small>
             </h3>
-            <p>December 20</p>
+            <p class="helvetica normal orange">December 20</p>
         </li>
         
     
@@ -435,13 +511,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2016/12/scrambled-eggs"><b>scrambled eggs</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2016/12/scrambled-eggs">
+				  scrambled eggs
+				</a>
                 <br>
-                <small>what the title says</small>
+                <small class="helvetica normal">what the title says</small>
             </h3>
-            <p>December 18</p>
+            <p class="helvetica normal orange">December 18</p>
         </li>
         
     
@@ -452,18 +530,20 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2016/04/Avery-Gates"><b>Avery Gates</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2016/04/Avery-Gates">
+				  Avery Gates
+				</a>
                 <br>
-                <small>a short story</small>
+                <small class="helvetica normal">a short story</small>
             </h3>
-            <p>April 25</p>
+            <p class="helvetica normal orange">April 25</p>
         </li>
         
     
     </ul>
-    <h2 class="c-archives__year" id="2015-ref">2015</h2>
+    <h2 class="f4 helvetica normal dark-green items-center" id="2015-ref">2015</h2>
     <ul class="c-archives__list">
         
         
@@ -473,13 +553,15 @@
     
 
     
-        <li class="c-archives__item">
+        <li> 
             <h3>
-                <a href="/2015/03/NBPHS"><b>NPBHS</b></a>
+                <a class="f4 helvetica bold dark-blue no-underline" href="/2015/03/NBPHS">
+				  NPBHS
+				</a>
                 <br>
-                <small>my time in the New Zealand school system</small>
+                <small class="helvetica normal">my time in the New Zealand school system</small>
             </h3>
-            <p>March 5</p>
+            <p class="helvetica normal orange">March 5</p>
         </li>
         
     </ul>
