@@ -9,6 +9,10 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>Children of Time</b> - <em>07/07/2019</em>  
+Coming back to science fiction after a while. This book is about what happens to humanity thousands of years in the future. About the development of a society. It gets interesting early on, and the characters evolve wildly by the end. A bit unsettling at times, but a happy ending.
+<br><br>
+
 - <b>The Overstory</b> - <em>06/05/2019</em>  
 This book begins as separate stories that revolve around several motifs. In this case, trees, nature, resistance, activism. I love how the book starts, the characters are immediately so interesting to me. It’s an emotional book. I need to read it again. A lot about inner dialogue, relationships and the names of trees. 
 <br><br>
