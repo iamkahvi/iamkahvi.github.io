@@ -24,7 +24,9 @@ html {
 body {
     @include ff--sans-serif(400);
     -webkit-font-smoothing: antialiased;
-    color: $c-accent__blue;
+    // color: $c-accent__blue;
+    background: linear-gradient(307deg, #e0c5e8 36%, #EDE8F7 77%)
+
 }
 
 article,

@@ -31,7 +31,7 @@ a.booklist {
 .profile {
 	width: 23vh;
 	float: right;
-	margin-right: 0px;	
+	margin-right: 0px;
 	margin-left: 10px;
 }
 
@@ -63,9 +63,11 @@ input {
   border-bottom: 1px solid $c-base__02;
   color: $c-accent__blue;
   &#home {
+    background: rgba(76, 175, 80, 0);
     font-size: 2em;
   }
   &#book-list {
+    background: rgba(76, 175, 80, 0);
     font-size: 1em;
   }
   margin-bottom: 15px;
