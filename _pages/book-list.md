@@ -1,7 +1,7 @@
 ---
 title: My Book List
 layout: book-list 
-permalink: /book-list
+permalink: /book-list/
 ---
 
 <em>First</em>: Reading a book requires so much of my attention that I never finish books that do not interest me. Therefore, I would recommend all the books listed below. <br><br>
