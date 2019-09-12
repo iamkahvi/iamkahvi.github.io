@@ -9,6 +9,10 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>The Wind-Up Bird Chronicle</b> - <em>30/08/2019</em>  
+The first Japanese author I've read. Really interesting style. Focuses on relationships and sex and lust. It's all very mysterious but well put together. 
+<br><br>
+
 - <b>Children of Time</b> - <em>07/07/2019</em>  
 Coming back to science fiction after a while. This book is about what happens to humanity thousands of years in the future. About the development of a society. It gets interesting early on, and the characters evolve wildly by the end. A bit unsettling at times, but a happy ending.
 <br><br>

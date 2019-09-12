@@ -1,10 +1,15 @@
+# post files
 drafts/
-node_modules/
-.sass-cache/
+new_posts.txt
+
+# build files
 _site/
+
+# cache stuff
 .jekyll-cache/
 .jekyll-metadata
+.sass-cache/
+
+# lock files
 Gemfile.lock
 *.DS_Store
-
-new_posts.txt
