@@ -22,11 +22,15 @@ html {
 }
 
 body {
+    ::selection {
+      background-color: rgb(255, 134, 82);
+    }
     @include ff--sans-serif(400);
     -webkit-font-smoothing: antialiased;
-    // color: $c-accent__blue;
-    background: linear-gradient(307deg, #e0c5e8 36%, #EDE8F7 77%)
-
+    color: $c-accent__blue;
+    background: linear-gradient(307deg, #e0c5e8 55%, #EDE8F7 72%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 article,
