@@ -11,7 +11,7 @@ This list will be updated continuously.
 
 - <b>Alex's Adventures in Numberland</b> - <em>04/10/2019</em>  
 One of the most interesting non-fiction books I've read in a while. I will say it's put me sleep more than once, but only while I'm reading before bed. A book that certainly made me more interested in numbers. The symmetry and poetry math is astonishing. It's funny how a book about numbers has made me more interested in math than ~7 years of math classes. Really cool stuff.   
-[Highlights here](_pages/highlights/Numberland)
+[Highlights here](/_pages/highlights/Numberland.html)
 <br><br>
 
 - <b>The Wind-Up Bird Chronicle</b> - <em>30/08/2019</em>  
@@ -34,7 +34,7 @@ of Master of None is in the same vein. Well written and personally relevant.
 
 - <b>Less</b> - <em>24/03/19</em>  
 This was the first explicitly comedic book I've read in a while. I thought it was sharper than it was funny, but often those two go hand in hand. Witty and quick but emotional. I can honestly say I have a different perspective on relationships after reading it. Maybe I'll read it again when I turn 45.
-[Highlights here](/_pages/highlights/Less)
+[Highlights here](/_pages/highlights/Less.html)
 <br><br>
 
 - <b>Ghost Town</b> - <em>21/02/19</em>  

@@ -16,6 +16,7 @@ google_analytics_id: UA-1111111111-1
 disqus_id:
 
 # Build settings
+destination: ../site-build
 include: [_pages]
 markdown: kramdown
 permalink: /:year/:month/:title:output_ext
