@@ -9,6 +9,11 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>Alex's Adventures in Numberland</b> - <em>04/10/2019</em>  
+One of the most interesting non-fiction books I've read in a while. I will say it's put me sleep more than once, but only while I'm reading before bed. A book that certainly made me more interested in numbers. The symmetry and poetry math is astonishing. It's funny how a book about numbers has made me more interested in math than ~7 years of math classes. Really cool stuff.   
+[Highlights here](_pages/highlights/Numberland)
+<br><br>
+
 - <b>The Wind-Up Bird Chronicle</b> - <em>30/08/2019</em>  
 The first Japanese author I've read. Really interesting style. Focuses on relationships and sex and lust. It's all very mysterious but well put together. 
 <br><br>
