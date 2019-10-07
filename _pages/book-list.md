@@ -43,7 +43,7 @@ I haven’t read science-fiction in a while so this was refreshing. The tone of 
 
 - <b>Animal Farm</b> - <em>19/02/19</em>  
 A classic Orwell story that I should’ve read earlier. Apparently he meant to expose the “Soviet myth” with this one. It’s not long, only took a day to read. Illustrates a bunch of political realities really well. Made me more aware of the fragility we are living through.
-[Highlights here](/_pages/highlights/Animal-Farm)
+[Highlights here](/_pages/highlights/Animal-Farm.html)
 <br><br>
 
 - <b>Educated</b> - <em>13/02/19</em>  
@@ -60,7 +60,7 @@ I didn't realize this book was part of a trilogy until I finished it which I gue
 
 - <b>Priestdaddy</b>   
 I read this one last year but never wrote about it. This book is hilarious. Focuses on the struggles of masculinity, church, religion, family. Manages to find humour in every one of those topics. I really liked it.
-[Highlights here](/_pages/highlights/Priestdaddy)
+[Highlights here](/_pages/highlights/Priestdaddy.html)
 <br><br>
 
 - <b>Shoe Dog</b>- <em>07/01/19</em>   
@@ -85,12 +85,12 @@ I love the Greek Gods. Their combination of vanity and absolute power always mak
 
 - <b>Naked Economics</b>    
 I haven't finished this book yet. Mostly because it has a tendency to put me to sleep which is convenient since I read it right before bed. Despite that, I enjoy every second I'm awake! Hopefully it will be done by Christmas. (Update: Just finished it)   
-[Highlights here](/_pages/highlights/Naked-Economics)
+[Highlights here](/_pages/highlights/Naked-Economics.html)
 <br><br>
 
 - <b>Orchid and the Wasp</b>    
 This book reminds me of The Goldfinch. Despite the unusual situations Gael (the protagonist) finds herself in, I *believe* in the logic of why she got there. In fact, I feel like that's where I would be in her shoes despite her facetious, ruthless, manipulative personality. Yet at her core, Gael is motivated by her caring for her family. I guess the ends justify the means. 
-[Highlights here](/_pages/highlights/Orchid-and-the-Wasp)
+[Highlights here](/_pages/highlights/Orchid-and-the-Wasp.html)
 <br><br>
 
 - <b>The Looming Tower</b>    
@@ -106,7 +106,7 @@ Fun book to read. It goes by fast mostly due to the narrator’s hilarious tone.
 <br><br>
 
 - <b>The Idiot</b>  
-This book is dense. It took me a while to finish. I haven't encountered this type of writing style before. It's abrupt and unique. I identify with the main character and her setting deeply. [Highlights here](/_pages/highlights/The-Idiot).
+This book is dense. It took me a while to finish. I haven't encountered this type of writing style before. It's abrupt and unique. I identify with the main character and her setting deeply. [Highlights here](/_pages/highlights/The-Idiot.html).
 <br><br>
 
 - <b>La Belle Sauvage</b>  
