@@ -9,6 +9,11 @@ This list will be updated continuously.
 
 ## <u> this year </u>
 
+- <b>Fleishman Is in Trouble</b> - <em>25/11/2019</em>  
+A story about a couple. Their divorce, their children, the origins of their conflict. Told from the perspective of the husband’s close friend. It gives an interesting perspective from both sides. The husband, Toby, gets closer to the kids while the wife, Rachel, is determined to work more. Made me think about the idea that there’s not always a culprit for bad shit that happens. Sometimes you can’t blame anyone.  
+Even though it’s full of these bleak realizations, I still enjoyed it.
+<br><br>
+
 - <b>Alex's Adventures in Numberland</b> - <em>04/10/2019</em>  
 One of the most interesting non-fiction books I've read in a while. I will say it's put me sleep more than once, but only while I'm reading before bed. A book that certainly made me more interested in numbers. The symmetry and poetry math is astonishing. It's funny how a book about numbers has made me more interested in math than ~7 years of math classes. Really cool stuff.   
 [Highlights here](/_pages/highlights/Numberland.html)
