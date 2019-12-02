@@ -10,8 +10,8 @@ This list will be updated continuously.
 ## <u> this year </u>
 
 - <b>Fleishman Is in Trouble</b> - <em>25/11/2019</em>  
-A story about a couple. Their divorce, their children, the origins of their conflict. Told from the perspective of the husband’s close friend. It gives an interesting perspective from both sides. The husband, Toby, gets closer to the kids while the wife, Rachel, is determined to work more. Made me think about the idea that there’s not always a culprit for bad shit that happens. Sometimes you can’t blame anyone.  
-Even though it’s full of these bleak realizations, I still enjoyed it.
+A story about a couple. Their divorce, their children, the origins of their conflict. Told from the perspective of the husband’s close friends. The narrative explores both sides of the conflict. The husband, Toby, is more responsible for the kids while the wife, Rachel, is determined to work more. Made me think about the idea that there’s not always a culprit for bad shit that happens. Sometimes you can’t blame anyone.  
+Despite that bleak realization, it's still a funny book and I enjoyed it.
 <br><br>
 
 - <b>Alex's Adventures in Numberland</b> - <em>04/10/2019</em>  
