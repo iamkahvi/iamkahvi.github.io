@@ -1,7 +1,6 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
-import styled from 'styled-components'
-
+import { graphql } from "gatsby"
+import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -10,59 +9,30 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
-    const { previous, next } = this.props.pageContext
-
-    const Body = styled.div`
-      font-family: 'Roboto';
-      margin-bottom: 3rem;
-      line-height: 1.5;
-      color: #297373;
-    `
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-      <SEO
-        title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
-      />
-
-        <h1 className="f1 roboto">{post.frontmatter.title}</h1>
-        <p className="f5 roboto pt0">
-          {post.frontmatter.date}
-        </p>
-        <Body 
-          dangerouslySetInnerHTML={{ __html: post.html }} 
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+        />
+        <header className="flex justify-between items-center pb3 mb4 bb b--faded-blue">
+          <h1 className="f3 faded-blue ma0 pb0 fw4 roboto">
+            {post.frontmatter.title}
+          </h1>
+          <p className="f4 fw2 roboto pa0 ma0 faded-blue">
+            {post.frontmatter.date}
+          </p>
+        </header>
+        <div
+          className="textBody"
+          dangerouslySetInnerHTML={{ __html: post.html }}
         />
         <hr
           style={{
             marginBottom: rhythm(1),
           }}
         />
-
-        <ul
-          style={{
-            display: `flex`,
-            flexWrap: `wrap`,
-            justifyContent: `space-between`,
-            listStyle: `none`,
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
       </Layout>
     )
   }
